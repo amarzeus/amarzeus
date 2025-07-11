@@ -1,61 +1,32 @@
 <div align="center">
-  <!-- Enhanced 3D Header with Gradient -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=200&section=header&text=AMAR%20ZEUS&fontSize=50&fontColor=fff&animation=twinkling" />
   
-  <div style="margin: -50px 0 30px 0;">
-    <a href="https://github.com/amarzeus">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=32&duration=2500&pause=800&color=6366F1&center=true&vCenter=true&width=700&lines=🚀+FULL-STACK+ARCHITECT;☁️+CLOUD+NATIVE+SPECIALIST;🔥+OPEN-SOURCE+INNOVATOR;💡+AI/ML+ENTHUSIAST;🌟+TECH+VISIONARY" alt="Animated Header">
-    </a>
-  </div>
+  <a href="https://github.com/amarzeus">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=32&duration=2500&pause=800&color=6366F1&center=true&vCenter=true&width=700&lines=🚀+FULL-STACK+ARCHITECT;☁️+CLOUD+NATIVE+SPECIALIST;🔥+OPEN-SOURCE+INNOVATOR;💡+AI/ML+ENTHUSIAST;🌟+TECH+VISIONARY" alt="Animated Header">
+  </a>
 
-  <!-- Enhanced Stats Badges -->
-  <div style="margin-bottom: 25px;">
-    <img src="https://komarev.com/ghpvc/?username=amarzeus&style=for-the-badge&color=6366F1&label=PROFILE+VIEWS" alt="Profile Views">
-    <img src="https://img.shields.io/github/followers/amarzeus?style=for-the-badge&logo=github&logoColor=white&color=6366F1" alt="Followers">
-    <img src="https://img.shields.io/github/stars/amarzeus?style=for-the-badge&logo=starship&logoColor=white&color=EC4899" alt="Stars">
-  </div>
+  <img src="https://komarev.com/ghpvc/?username=amarzeus&style=for-the-badge&color=6366F1&label=PROFILE+VIEWS" alt="Profile Views">
+  <img src="https://img.shields.io/github/followers/amarzeus?style=for-the-badge&logo=github&logoColor=white&color=6366F1" alt="Followers">
+  <img src="https://img.shields.io/github/stars/amarzeus?style=for-the-badge&logo=starship&logoColor=white&color=EC4899" alt="Stars">
   
-  <div style="margin-bottom: 30px;">
-    <img src="https://img.shields.io/badge/OPEN%20SOURCE-CONTRIBUTOR-22D3EE?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="Open Source">
-    <img src="https://img.shields.io/badge/AVAILABLE-FOR%20HIRE-00D4AA?style=for-the-badge&logo=handshake&logoColor=white" alt="Available for Hire">
-    <img src="https://img.shields.io/badge/MENTOR-DEVELOPER-FF6B6B?style=for-the-badge&logo=graduation-cap&logoColor=white" alt="Mentor">
-  </div>
+  <br><br>
+  
+  <img src="https://img.shields.io/badge/OPEN%20SOURCE-CONTRIBUTOR-22D3EE?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="Open Source">
+  <img src="https://img.shields.io/badge/AVAILABLE-FOR%20HIRE-00D4AA?style=for-the-badge&logo=handshake&logoColor=white" alt="Available for Hire">
+  <img src="https://img.shields.io/badge/MENTOR-DEVELOPER-FF6B6B?style=for-the-badge&logo=graduation-cap&logoColor=white" alt="Mentor">
 </div>
 
 ---
 
 ## 🚀 Real-Time Developer Dashboard
 
-<!-- Animated Stats Grid -->
 <div align="center">
-  <table>
-    <tr>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=amarzeus&show_icons=true&theme=radical&count_private=true&include_all_commits=true&border_color=6366F1&ring_color=EC4899&hide_border=true&bg_color=0F172A" alt="Stats" />
-      </td>
-      <td>
-        <img src="https://streak-stats.demolab.com?user=amarzeus&theme=radical&border=6366F1&background=0F172A&ring=EC4899&fire=EC4899&currStreakLabel=EC4899&hide_border=true" alt="Streak" />
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amarzeus&theme=radical&bg_color=0F172A&border_color=6366F1&title_color=EC4899&text_color=FFFFFF&hide_border=true&layout=compact" alt="Languages" />
-      </td>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api/wakatime?username=amarzeus&theme=radical&bg_color=0F172A&border_color=6366F1&title_color=EC4899&text_color=FFFFFF&hide_border=true" alt="Coding Time" />
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2">
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=amarzeus&theme=react-dark&bg_color=0F172A&color=6366F1&line=EC4899&point=FFFFFF&area=true&area_color=6366F1&hide_border=true" alt="Activity Graph" />
-      </td>
-    </tr>
-  </table>
+  <img src="https://github-readme-stats.vercel.app/api?username=amarzeus&show_icons=true&theme=radical&count_private=true&include_all_commits=true" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=amarzeus&theme=radical" alt="GitHub Streak" />
 </div>
 
-<!-- Coding Stats -->
-<div align="center" style="margin: 30px 0;">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=amarzeus&theme=radical" alt="Profile Summary" />
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amarzeus&theme=radical&layout=compact" alt="Top Languages" />
 </div>
 
 ---
@@ -87,63 +58,38 @@
 ## 🏆 Featured Projects
 
 <div align="center">
-  <table>
-    <tr>
-      <td width="50%">
-        <h3 align="center">🚀 Latest Repositories</h3>
-        <div align="center">
-          <a href="https://github.com/amarzeus?tab=repositories&sort=updated">
-            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amarzeus&theme=radical&bg_color=0F172A&border_color=6366F1&title_color=EC4899&text_color=FFFFFF&hide_border=true&layout=compact&langs_count=8" alt="Top Languages" />
-          </a>
-        </div>
-      </td>
-      <td width="50%">
-        <h3 align="center">💡 Project Highlights</h3>
-        <div align="center">
-          <!-- Add your actual repos here -->
-          <a href="https://github.com/amarzeus">
-            <img src="https://github-readme-stats.vercel.app/api/pin/?username=amarzeus&repo=amarzeus&theme=radical&bg_color=0F172A&border_color=6366F1&title_color=EC4899&text_color=FFFFFF&hide_border=true" alt="Profile Repo" />
-          </a>
-        </div>
-      </td>
-    </tr>
-  </table>
+  <a href="https://github.com/amarzeus/amarzeus">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=amarzeus&repo=amarzeus&theme=radical" alt="Profile Repo" />
+  </a>
 </div>
 
 <!-- Achievement Trophies -->
-<div align="center" style="margin: 30px 0;">
+<div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=amarzeus&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=7" alt="GitHub Trophies" />
 </div>
 
----
 
-## 🌟 GitHub Metrics
-
-<div align="center">
-  <img src="https://metrics.lecoq.io/amarzeus?template=classic&base.header=0&base.activity=0&base.community=0&base.repositories=0&base.metadata=0&achievements=1&achievements.threshold=C&achievements.secrets=true&achievements.display=detailed&achievements.limit=0&config.timezone=UTC" alt="Metrics" />
-</div>
 
 ---
 
-## 📊 Coding Activity
+
+
+---
+
+## 📊 Activity Graph
 
 <div align="center">
-  <table>
-    <tr>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api/wakatime?username=amarzeus&theme=radical&bg_color=0F172A&border_color=6366F1&title_color=EC4899&text_color=FFFFFF&hide_border=true" alt="Coding Time" />
-      </td>
-      <td>
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=amarzeus&theme=radical&background=0F172A&border=6366F1&ring=EC4899&fire=EC4899&currStreakLabel=EC4899&hide_border=true" alt="Streak Stats" />
-      </td>
-    </tr>
-  </table>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=amarzeus&theme=react-dark" alt="Activity Graph" />
 </div>
 
 ## 🐍 Contribution Snake
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/amarzeus/amarzeus/output/snake.svg" alt="Snake animation" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake.svg">
+  </picture>
 </div>
 
 ---
@@ -151,8 +97,6 @@
 ## 🤝 Let's Connect & Collaborate
 
 <div align="center">
-  <h3>📫 Reach Out</h3>
-  
   <a href="https://www.linkedin.com/in/amarmahakal/">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
@@ -172,9 +116,9 @@
   
   <br>
   
-  > 💡 **Open to collaborating on innovative projects!**  
-  > 🚀 **Available for freelance & consulting**  
-  > 🌟 **Always learning, always building**
+  💡 **Open to collaborating on innovative projects!**  
+  🚀 **Available for freelance & consulting**  
+  🌟 **Always learning, always building**
 </div>
 
 ---
@@ -186,14 +130,13 @@
 ---
 
 <div align="center">
-  <h3>⚡ Quick Stats</h3>
-  <p>
-    <img src="https://img.shields.io/badge/Focus-Full%20Stack%20Development-brightgreen" />
-    <img src="https://img.shields.io/badge/Lives-India-success" />
-    <img src="https://img.shields.io/badge/Languages-English%20%26%20Hindi-brightgreen" />
-  </p>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=6366F1&height=100&section=footer" alt="Footer" />
   
-  <p><i>"Building the future, one commit at a time."</i></p>
+  <img src="https://img.shields.io/badge/Focus-Full%20Stack%20Development-brightgreen" />
+  <img src="https://img.shields.io/badge/Lives-India-success" />
+  <img src="https://img.shields.io/badge/Languages-English%20%26%20Hindi-brightgreen" />
   
-  <img src="https://github.com/amarzeus/amarzeus/blob/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <br><br>
+  
+  <i>"Building the future, one commit at a time."</i>
 </div>

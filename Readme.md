@@ -74,20 +74,10 @@
     </tr>
     <tr>
       <td width="50%">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amarzeus&theme=tokyonight&layout=compact&hide_border=true&bg_color=0D1117&title_color=F85D7F&text_color=73C0F4" alt="Top Languages" />
-      </td>
-      <td width="50%">
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=amarzeus&theme=tokyonight&utc_offset=8" alt="Productive Time" />
       </td>
-    </tr>
-    <tr>
-      <td colspan="2">
+      <td width="50%">
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=amarzeus&theme=tokyonight" alt="Repos per Language" />
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=amarzeus&repo=amarzeus&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4" alt="Featured Repo" />
       </td>
     </tr>
   </table>
@@ -201,25 +191,8 @@
 
 
   
-  <!-- Matrix Rain Effect -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="Wave" width="100%">
-  
-  <!-- Metrics -->
-  <!-- GitHub 3D Contributions -->
-  <img src="https://github-readme-stats.vercel.app/api?username=amarzeus&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4" alt="GitHub Stats" width="100%" />
-  
-  <!-- Animated Separator -->
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-  <!-- 3D Contribution Calendar -->
   <!-- 3D Contribution Calendar -->
   <img src="https://ghchart.rshah.org/6366F1/amarzeus" alt="GitHub Contribution Chart" width="80%" />
-  
-  <!-- GitHub Skyline -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=amarzeus&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="80%" />
-  
-  <!-- Animated Code Background -->
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=40&section=header" alt="Gradient Line" width="100%">
 </div>
 
 ---
@@ -290,9 +263,6 @@
   </p>
   
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" />
-  
-  <!-- GitHub Profile Views Counter -->
-  <img src="https://komarev.com/ghpvc/?username=amarzeus&color=blueviolet" alt="Profile Views" />
 </div>
 
 ---

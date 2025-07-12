@@ -70,7 +70,7 @@
         <img src="https://github-readme-stats.vercel.app/api?username=amarzeus&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4&custom_title=Amar's%20GitHub%20Stats&disable_animations=false" alt="GitHub Stats" />
       </td>
       <td width="50%">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=amarzeus&theme=tokyonight&hide_border=true&background=0D1117&stroke=F85D7F&ring=F8D866&fire=F85D7F&currStreakLabel=73C0F4&sideLabels=73C0F4&dates=73C0F4" alt="GitHub Streak" />
+        <img src="https://streak-stats.demolab.com/?user=amarzeus&theme=tokyonight&hide_border=true&background=0D1117&stroke=F85D7F&ring=F8D866&fire=F85D7F&currStreakLabel=73C0F4&sideLabels=73C0F4&dates=73C0F4" alt="GitHub Streak" />
       </td>
     </tr>
     <tr>
@@ -370,14 +370,14 @@
   <!-- Real-time Metrics -->
   <table>
     <tr>
-      <td><img src="https://img.shields.io/github/commit-activity/y/amarzeus/amarzeus?style=for-the-badge&color=orange" /></td>
-      <td><img src="https://img.shields.io/github/last-commit/amarzeus/amarzeus?style=for-the-badge&color=blue" /></td>
-      <td><img src="https://img.shields.io/github/stars/amarzeus?style=for-the-badge&color=yellow" /></td>
+      <td><img src="https://img.shields.io/github/commit-activity/y/amarzeus/amarzeus?style=for-the-badge&logo=github&color=orange" /></td>
+      <td><img src="https://img.shields.io/github/last-commit/amarzeus/amarzeus?style=for-the-badge&logo=github&color=blue" /></td>
+      <td><img src="https://img.shields.io/github/stars/amarzeus?style=for-the-badge&logo=github&color=yellow" /></td>
     </tr>
     <tr>
-      <td><img src="https://img.shields.io/github/followers/amarzeus?style=for-the-badge&color=green" /></td>
-      <td><img src="https://img.shields.io/github/repo-size/amarzeus/amarzeus?style=for-the-badge&color=purple" /></td>
-      <td><img src="https://img.shields.io/github/languages/count/amarzeus/amarzeus?style=for-the-badge&color=red" /></td>
+      <td><img src="https://img.shields.io/github/followers/amarzeus?style=for-the-badge&logo=github&color=green" /></td>
+      <td><img src="https://img.shields.io/github/repo-size/amarzeus/amarzeus?style=for-the-badge&logo=github&color=purple" /></td>
+      <td><img src="https://img.shields.io/github/languages/count/amarzeus/amarzeus?style=for-the-badge&logo=github&color=red" /></td>
     </tr>
   </table>
   

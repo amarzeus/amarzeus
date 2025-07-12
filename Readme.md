@@ -13,7 +13,7 @@
   
   <!-- Subtitle: Typing Animation -->
   <a href="https://github.com/amarzeus">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=Full-Stack+Architect+and+Cloud+Innovator;AI%2FML+Engineer+and+Data+Scientist;Open-Source+Contributor+and+Mentor;Building+the+Future+One+Commit+at+a+Time&font=Fira+Code&center=true&width=800&height=45&color=6366F1&vCenter=true&pause=1000&size=32" alt="Animated Typing Subtitle">
+    <img src="https://readme-typing-svg.demolab.com/?lines=Full-Stack+Developer+%26+Cloud+Architect;AI%2FML+Engineer+%26+Data+Scientist;Open-Source+Contributor+%26+Mentor;Building+the+Future+One+Commit+at+a+Time;Passionate+Problem+Solver+%26+Innovator&font=Fira+Code&center=true&width=800&height=45&color=6366F1&vCenter=true&pause=1000&size=32" alt="Animated Typing Subtitle">
   </a>
 
   <!-- Social & Stats Badges -->
@@ -34,7 +34,7 @@
 
   <!-- Spotify Now Playing -->
   <div>
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=amarzeus" alt="Spotify Now Playing" width="400">
+    <img src="https://spotify-github-profile.vercel.app/api/view.svg?uid=amarzeus&cover_image=true&theme=novatorem&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false" alt="Spotify Now Playing" width="400">
   </div>
   
   <!-- Music Visualizer Animation -->
@@ -76,6 +76,11 @@
       </td>
       <td width="50%">
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=amarzeus&theme=tokyonight&utc_offset=8" alt="Productive Time" />
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=amarzeus&theme=tokyonight" alt="Repos per Language" />
       </td>
     </tr>
   </table>
@@ -180,21 +185,34 @@
 
 <!-- Animated Coding GIF -->
 <div align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500" alt="Coding Animation">
+  <img src="https://camo.githubusercontent.com/61491d59e71fec5c794945fed916a4a682b6c0404fc31f30b08a0d919c558404/68747470733a2f2f696d616765732e73717561726573706163652d63646e2e636f6d2f636f6e74656e742f76312f3537363966633430316236333162616231616464623261622f313534313538303631313632342d5445363451474b524a4738535741495553374e532f6b6531375a77644742546f6464493870446d34386b506f73776c7a6a53564d4d2d53784f703743563539425a772d7a505067646e346a557756634a45315a7657515578776b6d794578676c4e714770304976544a5a616d574c49327a76595748384b332d735f3479737a63703272795449304871544f6161556f68724938504936465879386339505774426c7141566c555335697a7064634958445a71445976707252715a32395077306f2f636f64696e672d667265616b2e676966" width="500" alt="Coding Animation">
 </div>
 
 <div align="center">
   <!-- Activity Graph -->
-  <img src="https://github-readme-activity-graph.cyclic.app/graph?username=amarzeus&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=F85D7F&line=F8D866&point=73C0F4" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=amarzeus&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=F85D7F&line=F8D866&point=73C0F4" alt="Activity Graph" />
 
   <!-- Contribution Snake Animation -->
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake-dark.svg">
+  </picture>
   
   <!-- Matrix Rain Effect -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="Wave" width="100%">
+  
+  <!-- Metrics -->
+  <img src="https://metrics.lecoq.io/amarzeus?template=classic&base.header=0&base.activity=0&base.community=0&base.repositories=0&base.metadata=0&achievements=1&achievements.threshold=C&achievements.secrets=true&achievements.display=detailed&achievements.limit=0&config.timezone=Asia%2FKolkata" alt="Metrics" width="100%" />
 
   <!-- 3D Contribution Calendar -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=amarzeus&theme=dark&hide_border=true" alt="GitHub Streak" width="80%" />
+  <!-- 3D Contribution Calendar -->
+  <img src="https://ghchart.rshah.org/6366F1/amarzeus" alt="GitHub Contribution Chart" width="80%" />
+  
+  <!-- GitHub Skyline -->
+  <a href="https://skyline.github.com/amarzeus/2024">
+    <img src="https://skyline.github.com/amarzeus/2024" alt="GitHub Skyline 2024" width="80%">
+  </a>
   
   <!-- Animated Code Background -->
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=40&section=header" alt="Gradient Line" width="100%">
@@ -209,7 +227,7 @@
 
 <!-- Animated Writing GIF -->
 <div align="center">
-  <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="400" alt="Writing Animation">
+  <img src="https://camo.githubusercontent.com/683e2187241c641430216c864ce93fc5a0e0dfb232c5a01d1c54b54d63aa8cb2/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f313136323037372f73637265656e73686f74732f333834383931342f70726f6772616d6d65722e676966" width="400" alt="Writing Animation">
 </div>
 
 <!-- BLOG-POST-LIST:START -->
@@ -267,7 +285,10 @@
     <a href="https://ko-fi.com/amarkumar"><img src="https://img.shields.io/badge/Ko--fi-Buy%20me%20a%20coffee-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" /></a>
   </p>
   
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Dev Quote" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" />
+  
+  <!-- GitHub Profile Views Counter -->
+  <img src="https://count.getloli.com/get/@amarzeus?theme=rule34" alt="Profile Views" />
 </div>
 
 ---

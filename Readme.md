@@ -34,12 +34,14 @@
 
   <!-- Spotify Now Playing -->
   <div>
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=amarzeus&count=1&unique=true" alt="Spotify Now Playing" width="400">
+    <a href="https://open.spotify.com/user/amarzeus">
+      <img src="https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify" width="200">
+    </a>
   </div>
   
   <!-- Music Visualizer Animation -->
   <div>
-    <img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" alt="Music Wave" width="100%">
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:EEFF00,100:a82da8&height=100" alt="Music Wave" width="100%">
   </div>
 </div>
 
@@ -72,7 +74,7 @@
     </tr>
     <tr>
       <td width="50%">
-        <img src="https://github-readme-stats.vercel.app/api/wakatime?username=@amarzeus&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&text_color=73C0F4" alt="Coding Time" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amarzeus&theme=tokyonight&layout=compact&hide_border=true&bg_color=0D1117&title_color=F85D7F&text_color=73C0F4" alt="Top Languages" />
       </td>
       <td width="50%">
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=amarzeus&theme=tokyonight&utc_offset=8" alt="Productive Time" />
@@ -174,10 +176,7 @@
   
   <!-- Animated Achievement Badges -->
   <div>
-    <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/raw/master/Emojis/Objects/Trophy.png" alt="Trophy" width="35" height="35" />
-    <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/raw/master/Emojis/Objects/Fire.png" alt="Fire" width="35" height="35" />
-    <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/raw/master/Emojis/Objects/Star.png" alt="Star" width="35" height="35" />
-    <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/raw/master/Emojis/Objects/Rocket.png" alt="Rocket" width="35" height="35" />
+    🏆 🔥 ⭐ 🚀
   </div>
 </div>
 
@@ -190,7 +189,7 @@
 
 <!-- Animated Coding GIF -->
 <div align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500" alt="Coding Animation">
+  <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="500" alt="Coding Animation">
 </div>
 
 <div align="center">
@@ -198,11 +197,7 @@
   <img src="https://github-readme-activity-graph.cyclic.app/graph?username=amarzeus&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=F85D7F&line=F8D866&point=73C0F4" alt="Activity Graph" />
 
   <!-- Contribution Snake Animation -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake-dark.svg">
-  </picture>
+  <img src="https://raw.githubusercontent.com/amarzeus/amarzeus/output/snake.svg" alt="Snake animation" />
   
   <!-- Matrix Rain Effect -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="Wave" width="100%">
@@ -234,7 +229,7 @@
 
 <!-- Animated Writing GIF -->
 <div align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400" alt="Coding Animation">
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="400" alt="Coding Animation">
 </div>
 
 <!-- BLOG-POST-LIST:START -->
@@ -273,7 +268,7 @@
 
 <!-- Animated Handshake -->
 <div align="center">
-  <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/raw/master/Emojis/Hand%20gestures/Handshake.png" alt="Handshake" width="100" height="100" />
+  <img src="https://user-images.githubusercontent.com/74038190/216644497-1951db19-8f3d-4e44-ac08-8e9d7e0d94a7.gif" alt="Handshake" width="100" height="100" />
 </div>
 
 <div align="center">
@@ -295,7 +290,7 @@
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" />
   
   <!-- GitHub Profile Views Counter -->
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=amarzeus.amarzeus" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=amarzeus&color=blueviolet" alt="Profile Views" />
 </div>
 
 ---

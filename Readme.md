@@ -11,17 +11,21 @@
   <!-- Header: Waving Animation and Title -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=9&height=300&section=header&text=Hey,%20I'm%20Amar%20Kumar!&fontSize=70&fontColor=fff&animation=twinkling&fontAlignY=38" alt="Header" />
   
-  <!-- Subtitle: Typing Animation -->
+  <!-- Subtitle: Enhanced Typing Animation -->
   <a href="https://github.com/amarzeus">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=Full-Stack+Developer+and+Cloud+Architect;AI%2FML+Engineer+and+Data+Scientist;Open-Source+Contributor+and+Mentor;Building+the+Future+One+Commit+at+a+Time;Passionate+Problem+Solver+and+Innovator&font=Fira+Code&center=true&width=800&height=45&color=6366F1&vCenter=true&pause=1000&size=32" alt="Animated Typing Subtitle">
+    <img src="https://readme-typing-svg.herokuapp.com/?lines=🚀+Full-Stack+Developer+%26+Cloud+Architect;🤖+AI%2FML+Engineer+%26+Data+Scientist;🌟+Open-Source+Contributor+%26+Mentor;⚡+Building+the+Future+One+Commit+at+a+Time;💡+Passionate+Problem+Solver+%26+Innovator;🔥+Available+for+Exciting+Projects&font=Fira+Code&center=true&width=900&height=50&color=6366F1&vCenter=true&pause=800&size=28&repeat=true&duration=4000" alt="Animated Typing Subtitle">
   </a>
 
-  <!-- Social & Stats Badges -->
+  <!-- Enhanced Social & Stats Badges -->
   <p>
-    <a href="https://www.linkedin.com/in/amarmahakal/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-    <a href="https://twitter.com/amarzeus"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"></a>
-    <a href="https://github.com/sponsors/amarzeus"><img src="https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="GitHub Sponsors"></a>
-    <a href="https://ko-fi.com/amarkumar"><img src="https://img.shields.io/badge/Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-fi"></a>
+    <a href="https://www.linkedin.com/in/amarmahakal/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="LinkedIn"></a>
+    <a href="https://twitter.com/amarzeus"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=1DA1F2" alt="Twitter"></a>
+    <a href="https://github.com/sponsors/amarzeus"><img src="https://img.shields.io/badge/Sponsor-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white&labelColor=EA4AAA&message=Support%20My%20Work" alt="GitHub Sponsors"></a>
+    <a href="https://ko-fi.com/amarkumar"><img src="https://img.shields.io/badge/Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white&labelColor=FF5E5B&message=Buy%20Me%20Coffee" alt="Ko-fi"></a>
+  </p>
+  <p>
+    <a href="mailto:contact@amarzeus.dev"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335&message=Let's%20Talk" alt="Email"></a>
+    <a href="https://amarzeus.dev"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000&message=Visit%20Site" alt="Portfolio"></a>
   </p>
   <p>
     <img src="https://komarev.com/ghpvc/?username=amarzeus&style=for-the-badge&color=6366F1&label=PROFILE+VIEWS" alt="Profile Views">
@@ -50,16 +54,23 @@
 <!-- Animated Section Header -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 🚀 My Developer Dashboard
+## 🚀 Developer Analytics Dashboard
 
 <div align="center">
+  <!-- Quick Stats Overview -->
+  <p>
+    <img src="https://img.shields.io/github/stars/amarzeus?style=for-the-badge&logo=github&logoColor=white&color=F8D866&labelColor=0D1117" alt="Total Stars">
+    <img src="https://img.shields.io/github/commit-activity/m/amarzeus/amarzeus?style=for-the-badge&logo=github&logoColor=white&color=73C0F4&labelColor=0D1117" alt="Monthly Commits">
+    <img src="https://img.shields.io/badge/Focus-Full%20Stack%20%26%20AI-F85D7F?style=for-the-badge&logoColor=white&labelColor=0D1117" alt="Current Focus">
+  </p>
+  
   <table>
     <tr>
       <td width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=amarzeus&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4" alt="GitHub Stats" />
+        <img src="https://github-readme-stats.vercel.app/api?username=amarzeus&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4&custom_title=Amar's%20GitHub%20Stats&disable_animations=false" alt="GitHub Stats" />
       </td>
       <td width="50%">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=amarzeus&theme=tokyonight&hide_border=true&background=0D1117&stroke=F85D7F&ring=F8D866&fire=F85D7F&currStreakLabel=73C0F4" alt="GitHub Streak" />
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=amarzeus&theme=tokyonight&hide_border=true&background=0D1117&stroke=F85D7F&ring=F8D866&fire=F85D7F&currStreakLabel=73C0F4&sideLabels=73C0F4&dates=73C0F4" alt="GitHub Streak" />
       </td>
     </tr>
     <tr>
@@ -139,24 +150,43 @@
   <!-- Animated Project Showcase -->
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
   
+  <!-- Real Project Pins - Replace with your actual repositories -->
   <table>
     <tr>
       <td width="50%">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=amarzeus&repo=amarzeus&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4" alt="Profile Repo" />
+        <a href="https://github.com/amarzeus/amarzeus">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=amarzeus&repo=amarzeus&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4&show_owner=true" alt="Profile Repo" />
+        </a>
       </td>
       <td width="50%">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=torvalds&repo=linux&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4" alt="Linux Kernel" />
-      </td>
-    </tr>
-    <tr>
-      <td width="50%">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=nodejs&repo=node&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4" alt="Node.js" />
-      </td>
-      <td width="50%">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4" alt="Python" />
+        <!-- Add your second most important project here -->
+        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 10px; padding: 20px; color: white; text-align: center;">
+          <h3>🚀 Your Next Project</h3>
+          <p>Coming Soon...</p>
+        </div>
       </td>
     </tr>
   </table>
+  
+  <!-- Interactive Project Cards -->
+  <details>
+    <summary>🔍 <strong>View More Projects</strong></summary>
+    <br>
+    <table>
+      <tr>
+        <td>🌐 <strong>Web Development</strong></td>
+        <td>⚡ React, Next.js, Vue.js applications</td>
+      </tr>
+      <tr>
+        <td>🤖 <strong>AI/ML Projects</strong></td>
+        <td>🧠 TensorFlow, PyTorch implementations</td>
+      </tr>
+      <tr>
+        <td>☁️ <strong>Cloud Solutions</strong></td>
+        <td>🏗️ AWS, Docker, Kubernetes deployments</td>
+      </tr>
+    </table>
+  </details>
   
   <!-- Animated Separator -->
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
@@ -187,12 +217,23 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=amarzeus&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=F85D7F&line=F8D866&point=73C0F4" alt="Activity Graph" />
 
   <!-- Snake Animation -->
-  <img src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake.svg">
+  </picture>
 
 
   
-  <!-- 3D Contribution Calendar -->
+  <!-- Enhanced Contribution Visualizations -->
   <img src="https://ghchart.rshah.org/6366F1/amarzeus" alt="GitHub Contribution Chart" width="80%" />
+  
+  <!-- Wakatime Stats (if you use Wakatime) -->
+  <details>
+    <summary>🕰️ <strong>Weekly Development Breakdown</strong></summary>
+    <br>
+    <img src="https://github-readme-stats.vercel.app/api/wakatime?username=amarzeus&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4&layout=compact" alt="Wakatime Stats" />
+  </details>
 </div>
 
 ---

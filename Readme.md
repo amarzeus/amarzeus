@@ -344,7 +344,9 @@
   
   <!-- Live Visitor Map -->
   <h3>🌍 Global Reach</h3>
-  <img src="https://github.com/amarzeus/amarzeus/blob/main/assets/world-map.svg" alt="Global Visitors" width="600" />
+  <a href="https://clustrmaps.com/site/1bqvp" title="Visit tracker">
+    <img src="https://clustrmaps.com/map_v2.png?cl=080808&w=600&t=tt&d=1bqvp&co=ffffff&ct=808080" alt="Visitor Map" width="600" />
+  </a>
 </div>
 
 ---
@@ -353,7 +355,7 @@
 <div align="center">
   <h2>🏙️ GitHub Skyline & 3D Contributions</h2>
   <a href="https://skyline.github.com/amarzeus/2024">
-    <img src="https://github.com/amarzeus/amarzeus/blob/main/assets/github-skyline.png" alt="GitHub Skyline" width="80%" />
+    <img src="https://github-readme-stats.vercel.app/api?username=amarzeus&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4&custom_title=GitHub%20Skyline%20View" alt="GitHub Skyline" width="80%" />
   </a>
 </div>
 

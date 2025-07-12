@@ -9,7 +9,7 @@
 
 <div align="center">
   <!-- Header: Waving Animation and Title -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=9&height=300&section=header&text=Hey,%20I'm%20Amar%20Zeus!&fontSize=70&fontColor=fff&animation=twinkling&fontAlignY=38" alt="Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=9&height=300&section=header&text=Hey,%20I'm%20Amar%20Kumar!&fontSize=70&fontColor=fff&animation=twinkling&fontAlignY=38" alt="Header" />
   
   <!-- Subtitle: Typing Animation -->
   <a href="https://github.com/amarzeus">
@@ -194,10 +194,17 @@
 
 <div align="center">
   <!-- Activity Graph -->
-  <img src="https://github-readme-activity-graph.cyclic.app/graph?username=amarzeus&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=F85D7F&line=F8D866&point=73C0F4" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=amarzeus&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=F85D7F&line=F8D866&point=73C0F4" alt="Activity Graph" />
 
+  <!-- 3D Snake Animation -->
+  <img src="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake.gif" alt="3D Snake Animation" width="100%" />
+  
   <!-- Contribution Snake Animation -->
-  <img src="https://raw.githubusercontent.com/amarzeus/amarzeus/output/snake.svg" alt="Snake animation" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake-dark.svg">
+  </picture>
   
   <!-- Matrix Rain Effect -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="Wave" width="100%">

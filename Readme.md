@@ -377,7 +377,7 @@
     <tr>
       <td><img src="https://img.shields.io/badge/👥%20Followers-342%20devs-green?style=for-the-badge" /></td>
       <td><img src="https://img.shields.io/badge/💻%20Hours-1847%20coded-purple?style=for-the-badge" /></td>
-      <td><img src="https://img.shields.io/badge/🚀%20Languages-12%20active-red?style=for-the-badge" /></td>
+      <td><img src="https://img.shields.io/github/languages/count/amarzeus/amarzeus?style=for-the-badge&logo=github&color=red&label=🚀%20Languages" /></td>
     </tr>
   </table>
   

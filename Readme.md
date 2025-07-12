@@ -42,10 +42,7 @@
   <!-- Animated Rainbow Divider -->
   <img src="https://capsule-render.vercel.app/api?type=rect&color=timeGradient&height=2" width="100%">
 
-  <!-- Spotify Now Playing -->
-  <div>
-    <img src="https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify" width="200">
-  </div>
+
 </div>
 
 ---
@@ -53,7 +50,11 @@
 <!-- Animated Section Header -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
+<div align="center">
+
 ## 🚀 Developer Analytics Dashboard
+
+</div>
 
 <div align="center">
   <!-- Quick Stats Overview -->
@@ -74,12 +75,12 @@
     </tr>
     <tr>
       <td colspan="2">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amarzeus&theme=tokyonight&layout=compact&hide_border=true&bg_color=0D1117&title_color=F85D7F&text_color=73C0F4&langs_count=12&card_width=800" alt="Top Languages" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amarzeus&theme=tokyonight&layout=compact&hide_border=true&bg_color=0D1117&title_color=F85D7F&text_color=73C0F4&langs_count=12&card_width=900" alt="Top Languages" />
       </td>
     </tr>
     <tr>
       <td colspan="2">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=amarzeus&theme=tokyonight" alt="Profile Summary" />
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=amarzeus&theme=tokyonight" alt="Profile Summary" width="100%" />
       </td>
     </tr>
     <tr>
@@ -98,7 +99,11 @@
 <!-- Animated Tech Stack Header -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
+<div align="center">
+
 ## 🛠️ My Tech Stack & Expertise
+
+</div>
 
 <!-- Rotating Tech Icons -->
 <div align="center">
@@ -146,7 +151,11 @@
     </table>
   </details>
   
+  <div align="center">
+  
   ### Specializations
+  
+  </div>
   <p>
     <img src="https://img.shields.io/badge/Microservices-Architecture-FF6B6B?style=for-the-badge&logo=microgenetics&logoColor=white" />
     <img src="https://img.shields.io/badge/Event--Driven-Systems-4ECDC4?style=for-the-badge&logo=apache-kafka&logoColor=white" />
@@ -157,7 +166,11 @@
 
 ---
 
+<div align="center">
+
 ## 🏆 Featured Projects & Achievements
+
+</div>
 
 <div align="center">
   <!-- Animated Project Showcase -->
@@ -204,7 +217,11 @@
   <!-- Animated Separator -->
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
   
+  <div align="center">
+  
   ### 🏅 GitHub Trophies & Achievements
+  
+  </div>
   <img src="https://github-profile-trophy.vercel.app/?username=amarzeus&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=8&rank=SECRET,SSS,SS,S,AAA,AA,A,B" alt="GitHub Trophies" />
   
   <!-- Animated Achievement Badges -->
@@ -218,7 +235,11 @@
 <!-- Animated Section Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
+<div align="center">
+
 ## 📈 Contribution Graph & Activity
+
+</div>
 
 <!-- Animated Coding GIF -->
 <div align="center">
@@ -256,7 +277,11 @@
 <!-- Blog Section Header -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
+<div align="center">
+
 ## ✍️ Recent Blog Posts
+
+</div>
 
 <!-- Animated Writing GIF -->
 <div align="center">
@@ -278,7 +303,11 @@
 <!-- Connect Section Header -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
+<div align="center">
+
 ## 🌐 Let's Connect & Collaborate
+
+</div>
 
 <!-- Animated Handshake -->
 <div align="center">
@@ -294,7 +323,11 @@
     <a href="https://x.com/its_meAmar"><img src="https://img.shields.io/badge/X-Follow%20Me-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
   </p>
 
-  <h3>☕ Support My Open-Source Work</h3>
+  <div align="center">
+  
+  ### ☕ Support My Open-Source Work
+  
+  </div>
   <p>If you like what I do, consider supporting me. It helps me dedicate more time to open-source projects.</p>
   <p>
     <a href="https://github.com/sponsors/amarzeus"><img src="https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white" /></a>
@@ -324,7 +357,11 @@
 
 <!-- Advanced Analytics Dashboard -->
 <div align="center">
-  <h2>📊 Advanced Analytics Dashboard</h2>
+  <div align="center">
+  
+  ## 📊 Advanced Analytics Dashboard
+  
+  </div>
   
   <!-- Real-time Metrics -->
   <table>
@@ -341,9 +378,13 @@
   </table>
   
   <!-- Live Visitor Map -->
-  <h3>🌍 Global Reach</h3>
+  <div align="center">
+  
+  ### 🌍 Global Reach
+  
+  </div>
   <a href="https://clustrmaps.com/site/1o4lqs77qHtJhHsozhz0hLQWzRhlhFSI2_nIYUCS7X4" title="Visit tracker">
-    <img src="//clustrmaps.com/map_v2.png?d=1o4lqs77qHtJhHsozhz0hLQWzRhlhFSI2_nIYUCS7X4&cl=ffffff&w=a" alt="Visitor Map" width="600" />
+    <img src="//clustrmaps.com/map_v2.png?d=1o4lqs77qHtJhHsozhz0hLQWzRhlhFSI2_nIYUCS7X4&cl=080808&w=600&t=tt&co=ffffff&ct=808080" alt="Visitor Map" />
   </a>
 </div>
 
@@ -351,7 +392,11 @@
 
 <!-- GitHub Skyline & 3D Contributions -->
 <div align="center">
-  <h2>🏙️ GitHub Skyline & 3D Contributions</h2>
+  <div align="center">
+  
+  ## 🏙️ GitHub Skyline & 3D Contributions
+  
+  </div>
   <a href="https://skyline.github.com/amarzeus/2024">
     <img src="https://github-readme-stats.vercel.app/api?username=amarzeus&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4&custom_title=GitHub%20Skyline%20View" alt="GitHub Skyline" width="80%" />
   </a>
@@ -361,7 +406,11 @@
 
 <!-- Interactive Terminal -->
 <div align="center">
-  <h2>💻 Interactive Terminal</h2>
+  <div align="center">
+  
+  ## 💻 Interactive Terminal
+  
+  </div>
   <img src="https://github-readme-stats.vercel.app/api?username=amarzeus&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4&custom_title=Live%20Terminal%20Stats" alt="Terminal Stats" />
 </div>
 

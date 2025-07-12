@@ -13,7 +13,7 @@
   
   <!-- Subtitle: Typing Animation -->
   <a href="https://github.com/amarzeus">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=32&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=800&lines=🚀+Full-Stack+Architect+%26+Cloud+Innovator;💡+AI%2FML+Engineer+%26+Data+Scientist;🔥+Open-Source+Contributor+%26+Mentor;⚡+Building+the+Future,+One+Commit+at+a+Time." alt="Animated Typing Subtitle">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=32&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=800&lines=🚀+Full-Stack+Architect+%26+Cloud+Innovator;💡+AI%2FML+Engineer+%26+Data+Scientist;🔥+Open-Source+Contributor+%26+Mentor;⚡+Building+the+Future%2C+One+Commit+at+a+Time;🌟+Turning+Ideas+into+Digital+Reality;🎯+Passionate+Problem+Solver" alt="Animated Typing Subtitle">
   </a>
 
   <!-- Social & Stats Badges -->
@@ -28,14 +28,25 @@
     <img src="https://img.shields.io/github/followers/amarzeus?style=for-the-badge&logo=github&logoColor=white&color=EC4899" alt="Followers">
     <img src="https://img.shields.io/badge/AVAILABLE-FOR%20HIRE-00D4AA?style=for-the-badge&logo=handshake&logoColor=white" alt="Available for Hire">
   </p>
+  
+  <!-- Animated Rainbow Divider -->
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
 
   <!-- Spotify Now Playing -->
-  <a href="https://spotify-recently-played-readme.vercel.app/api?user=amarzeus">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=amarzeus&count=1&unique=true&cache=1200" alt="Spotify Now Playing" width="500">
-  </a>
+  <div>
+    <img src="https://spotify-github-profile.vercel.app/api/view?uid=31l26ykbxuv47kyxjzaajxo5a4aq&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false" alt="Spotify Now Playing" width="400">
+  </div>
+  
+  <!-- Music Visualizer Animation -->
+  <div>
+    <img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" alt="Music Visualizer" width="100%">
+  </div>
 </div>
 
 ---
+
+<!-- Animated Section Header -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 🚀 My Developer Dashboard
 
@@ -43,20 +54,28 @@
   <table>
     <tr>
       <td width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=amarzeus&show_icons=true&theme=radical&count_private=true&include_all_commits=true&hide_border=true&bg_color=0d1117" alt="GitHub Stats" />
+        <img src="https://github-readme-stats.vercel.app/api?username=amarzeus&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4" alt="GitHub Stats" />
       </td>
       <td width="50%">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=amarzeus&theme=radical&hide_border=true&background=0d1117" alt="GitHub Streak" />
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=amarzeus&theme=tokyonight&hide_border=true&background=0D1117&stroke=F85D7F&ring=F8D866&fire=F85D7F&currStreakLabel=73C0F4" alt="GitHub Streak" />
       </td>
     </tr>
     <tr>
       <td colspan="2">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amarzeus&theme=radical&layout=compact&hide_border=true&bg_color=0d1117&langs_count=12" alt="Top Languages" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amarzeus&theme=tokyonight&layout=compact&hide_border=true&bg_color=0D1117&title_color=F85D7F&text_color=73C0F4&langs_count=12" alt="Top Languages" />
       </td>
     </tr>
-     <tr>
+    <tr>
       <td colspan="2">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=amarzeus&theme=radical" alt="Profile Summary" />
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=amarzeus&theme=tokyonight" alt="Profile Summary" />
+      </td>
+    </tr>
+    <tr>
+      <td width="50%">
+        <img src="https://github-readme-stats.vercel.app/api/wakatime?username=amarzeus&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&text_color=73C0F4" alt="Coding Time" />
+      </td>
+      <td width="50%">
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=amarzeus&theme=tokyonight&utc_offset=8" alt="Productive Time" />
       </td>
     </tr>
   </table>
@@ -64,7 +83,25 @@
 
 ---
 
+<!-- Animated Tech Stack Header -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
 ## 🛠️ My Tech Stack & Expertise
+
+<!-- Rotating Tech Icons -->
+<div align="center">
+  <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="65" height="65" />
+  <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="65" height="65" />
+  <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="TypeScript" width="65" height="65" />
+  <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="65" height="65" />
+  <img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="AWS" width="65" height="65" />
+  <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="65" height="65" />
+  <img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" alt="Kubernetes" width="65" height="65" />
+  <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="65" height="65" />
+</div>
+
+<!-- Fire Animation -->
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png" width="100%">
 
 <div align="center">
   <p>
@@ -97,61 +134,97 @@
 ## 🏆 Featured Projects & Achievements
 
 <div align="center">
+  <!-- Animated Project Showcase -->
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+  
   <table>
     <tr>
       <td width="50%">
-        <a href="https://github.com/amarzeus/ultimate-resume">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=amarzeus&repo=ultimate-resume&theme=radical&hide_border=true&bg_color=0d1117" alt="Ultimate Resume Project" />
-        </a>
+        <div style="position: relative; overflow: hidden; border-radius: 10px;">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=amarzeus&repo=amarzeus&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4" alt="Profile Repo" />
+        </div>
       </td>
       <td width="50%">
-        <a href="https://github.com/amarzeus/focus-flow">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=amarzeus&repo=focus-flow&theme=radical&hide_border=true&bg_color=0d1117" alt="Focus Flow Project" />
-        </a>
+        <div style="position: relative; overflow: hidden; border-radius: 10px;">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=microsoft&repo=vscode&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4" alt="Contributing to VSCode" />
+        </div>
       </td>
     </tr>
     <tr>
       <td width="50%">
-        <a href="https://github.com/amarzeus/ai-code-reviewer">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=amarzeus&repo=ai-code-reviewer&theme=radical&hide_border=true&bg_color=0d1117" alt="AI Code Reviewer Project" />
-        </a>
+        <div style="position: relative; overflow: hidden; border-radius: 10px;">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=facebook&repo=react&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4" alt="React Contributions" />
+        </div>
       </td>
       <td width="50%">
-        <a href="https://github.com/amarzeus/amarzeus">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=amarzeus&repo=amarzeus&theme=radical&hide_border=true&bg_color=0d1117" alt="This very profile repo!" />
-        </a>
+        <div style="position: relative; overflow: hidden; border-radius: 10px;">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=vercel&repo=next.js&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4" alt="Next.js Contributions" />
+        </div>
       </td>
     </tr>
   </table>
   
+  <!-- Animated Separator -->
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+  
   ### 🏅 GitHub Trophies & Achievements
-  <img src="https://github-profile-trophy.vercel.app/?username=amarzeus&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=8&rank=SECRET,SSS,SS,S,AAA,AA,A,B" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=amarzeus&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=8&rank=SECRET,SSS,SS,S,AAA,AA,A,B" alt="GitHub Trophies" />
+  
+  <!-- Animated Achievement Badges -->
+  <div>
+    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Trophy.png" alt="Trophy" width="35" height="35" />
+    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Fire.png" alt="Fire" width="35" height="35" />
+    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Star.png" alt="Star" width="35" height="35" />
+    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" alt="Rocket" width="35" height="35" />
+  </div>
 </div>
 
 ---
+
+<!-- Animated Section Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 📈 Contribution Graph & Activity
 
+<!-- Animated Coding GIF -->
+<div align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500" alt="Coding Animation">
+</div>
+
 <div align="center">
   <!-- Activity Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=amarzeus&theme=react-dark&hide_border=true&bg_color=0d1117" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=amarzeus&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=F85D7F&line=F8D866&point=73C0F4" alt="Activity Graph" />
 
-  <!-- Contribution Snake -->
+  <!-- Contribution Snake Animation -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
   </picture>
+  
+  <!-- Matrix Rain Effect -->
+  <img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" alt="Matrix Rain" width="100%">
 
-  <!-- GitHub Skyline -->
-  <a href="https://skyline.github.com/amarzeus/2023">
-    <img src="https://skyline.github.com/amarzeus/2023.png" alt="GitHub Skyline 2023" width="80%">
+  <!-- 3D GitHub Skyline -->
+  <a href="https://skyline.github.com/amarzeus/2024">
+    <img src="https://skyline.github.com/amarzeus/2024.png" alt="GitHub Skyline 2024" width="80%">
   </a>
+  
+  <!-- Animated Code Background -->
+  <img src="https://raw.githubusercontent.com/rodrigograca31/rodrigograca31/master/matrix.svg" alt="Animated Code" width="100%">
 </div>
 
 ---
 
+<!-- Blog Section Header -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
 ## ✍️ Recent Blog Posts
+
+<!-- Animated Writing GIF -->
+<div align="center">
+  <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="400" alt="Writing Animation">
+</div>
 
 <!-- BLOG-POST-LIST:START -->
 <!-- 
@@ -182,7 +255,15 @@
 
 ---
 
+<!-- Connect Section Header -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
 ## 🌐 Let's Connect & Collaborate
+
+<!-- Animated Handshake -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" alt="Handshake" width="100" height="100" />
+</div>
 
 <div align="center">
   <p>I'm always open to connecting with fellow developers, creators, and innovators. <br/> Whether you want to talk tech, discuss a project, or just say hi, feel free to reach out!</p>

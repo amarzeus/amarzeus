@@ -13,7 +13,7 @@
   
   <!-- Subtitle: Typing Animation -->
   <a href="https://github.com/amarzeus">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=32&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=800&lines=🚀+Full-Stack+Architect+%26+Cloud+Innovator;💡+AI%2FML+Engineer+%26+Data+Scientist;🔥+Open-Source+Contributor+%26+Mentor;⚡+Building+the+Future%2C+One+Commit+at+a+Time;🌟+Turning+Ideas+into+Digital+Reality;🎯+Passionate+Problem+Solver" alt="Animated Typing Subtitle">
+    <img src="https://readme-typing-svg.demolab.com/?lines=Full-Stack+Architect+and+Cloud+Innovator;AI/ML+Engineer+and+Data+Scientist;Open-Source+Contributor+and+Mentor;Building+the+Future+One+Commit+at+a+Time&font=Fira+Code&center=true&width=800&height=45&color=6366F1&vCenter=true&pause=1000&size=32" alt="Animated Typing Subtitle">
   </a>
 
   <!-- Social & Stats Badges -->
@@ -34,7 +34,7 @@
 
   <!-- Spotify Now Playing -->
   <div>
-    <img src="https://spotify-github-profile.vercel.app/api/view?uid=31l26ykbxuv47kyxjzaajxo5a4aq&cover_image=true&theme=default&show_offline=false&background_color=121212&interchange=false&bar_color=53b14f&bar_color_cover=false" alt="Spotify Now Playing" width="400">
+    <img src="https://novatorem.vercel.app/api/spotify" alt="Spotify Now Playing" width="400">
   </div>
   
   <!-- Music Visualizer Animation -->
@@ -140,26 +140,18 @@
   <table>
     <tr>
       <td width="50%">
-        <div style="position: relative; overflow: hidden; border-radius: 10px;">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=amarzeus&repo=amarzeus&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4" alt="Profile Repo" />
-        </div>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=amarzeus&repo=amarzeus&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4" alt="Profile Repo" />
       </td>
       <td width="50%">
-        <div style="position: relative; overflow: hidden; border-radius: 10px;">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=microsoft&repo=vscode&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4" alt="Contributing to VSCode" />
-        </div>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=torvalds&repo=linux&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4" alt="Linux Kernel" />
       </td>
     </tr>
     <tr>
       <td width="50%">
-        <div style="position: relative; overflow: hidden; border-radius: 10px;">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=facebook&repo=react&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4" alt="React Contributions" />
-        </div>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=nodejs&repo=node&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4" alt="Node.js" />
       </td>
       <td width="50%">
-        <div style="position: relative; overflow: hidden; border-radius: 10px;">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=vercel&repo=next.js&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4" alt="Next.js Contributions" />
-        </div>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=python&repo=cpython&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4" alt="Python" />
       </td>
     </tr>
   </table>
@@ -196,19 +188,13 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=amarzeus&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=F85D7F&line=F8D866&point=73C0F4" alt="Activity Graph" />
 
   <!-- Contribution Snake Animation -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
-  </picture>
+  <img src="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake.svg" alt="Snake animation" />
   
   <!-- Matrix Rain Effect -->
   <img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" alt="Matrix Rain" width="100%">
 
-  <!-- 3D GitHub Skyline -->
-  <a href="https://skyline.github.com/amarzeus/2024">
-    <img src="https://skyline.github.com/amarzeus/2024.png" alt="GitHub Skyline 2024" width="80%">
-  </a>
+  <!-- 3D Contribution Calendar -->
+  <img src="https://ghchart.rshah.org/amarzeus" alt="GitHub Contribution Chart" width="80%" />
   
   <!-- Animated Code Background -->
   <img src="https://raw.githubusercontent.com/rodrigograca31/rodrigograca31/master/matrix.svg" alt="Animated Code" width="100%">

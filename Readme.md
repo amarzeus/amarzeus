@@ -13,7 +13,7 @@
   
   <!-- Subtitle: Typing Animation -->
   <a href="https://github.com/amarzeus">
-    <img src="https://readme-typing-svg.demolab.com/?lines=Full-Stack+Architect+and+Cloud+Innovator;AI/ML+Engineer+and+Data+Scientist;Open-Source+Contributor+and+Mentor;Building+the+Future+One+Commit+at+a+Time&font=Fira+Code&center=true&width=800&height=45&color=6366F1&vCenter=true&pause=1000&size=32" alt="Animated Typing Subtitle">
+    <img src="https://readme-typing-svg.herokuapp.com/?lines=Full-Stack+Architect+and+Cloud+Innovator;AI%2FML+Engineer+and+Data+Scientist;Open-Source+Contributor+and+Mentor;Building+the+Future+One+Commit+at+a+Time&font=Fira+Code&center=true&width=800&height=45&color=6366F1&vCenter=true&pause=1000&size=32" alt="Animated Typing Subtitle">
   </a>
 
   <!-- Social & Stats Badges -->
@@ -30,16 +30,16 @@
   </p>
   
   <!-- Animated Rainbow Divider -->
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=timeGradient&height=2" width="100%">
 
   <!-- Spotify Now Playing -->
   <div>
-    <img src="https://novatorem.vercel.app/api/spotify" alt="Spotify Now Playing" width="400">
+    <img src="https://spotify-recently-played-readme.vercel.app/api?user=amarzeus" alt="Spotify Now Playing" width="400">
   </div>
   
   <!-- Music Visualizer Animation -->
   <div>
-    <img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" alt="Music Visualizer" width="100%">
+    <img src="https://capsule-render.vercel.app/api?type=wave&color=gradient&height=60" alt="Music Wave" width="100%">
   </div>
 </div>
 
@@ -101,7 +101,7 @@
 </div>
 
 <!-- Fire Animation -->
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/fire.png" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=auto&height=2" width="100%">
 
 <div align="center">
   <p>
@@ -185,19 +185,19 @@
 
 <div align="center">
   <!-- Activity Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=amarzeus&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=F85D7F&line=F8D866&point=73C0F4" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.cyclic.app/graph?username=amarzeus&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=F85D7F&line=F8D866&point=73C0F4" alt="Activity Graph" />
 
   <!-- Contribution Snake Animation -->
-  <img src="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" alt="Snake animation" />
   
   <!-- Matrix Rain Effect -->
-  <img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" alt="Matrix Rain" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="Wave" width="100%">
 
   <!-- 3D Contribution Calendar -->
-  <img src="https://ghchart.rshah.org/amarzeus" alt="GitHub Contribution Chart" width="80%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=amarzeus&theme=dark&hide_border=true" alt="GitHub Streak" width="80%" />
   
   <!-- Animated Code Background -->
-  <img src="https://raw.githubusercontent.com/rodrigograca31/rodrigograca31/master/matrix.svg" alt="Animated Code" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=40&section=header" alt="Gradient Line" width="100%">
 </div>
 
 ---

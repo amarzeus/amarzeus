@@ -370,14 +370,14 @@
   <!-- Real-time Metrics -->
   <table>
     <tr>
-      <td><img src="https://img.shields.io/github/commit-activity/y/amarzeus/amarzeus?style=for-the-badge&logo=github&color=orange&label=🔥%20Commits" /></td>
-      <td><img src="https://img.shields.io/github/last-commit/amarzeus/amarzeus?style=for-the-badge&logo=github&color=blue&label=⚡%20Last%20Commit" /></td>
-      <td><img src="https://img.shields.io/github/stars/amarzeus?style=for-the-badge&logo=github&color=yellow&label=🌟%20Stars" /></td>
+      <td><img src="https://img.shields.io/github/commit-activity/y/amarzeus/amarzeus?style=for-the-badge&color=orange" /></td>
+      <td><img src="https://img.shields.io/github/last-commit/amarzeus/amarzeus?style=for-the-badge&color=blue" /></td>
+      <td><img src="https://img.shields.io/github/stars/amarzeus?style=for-the-badge&color=yellow" /></td>
     </tr>
     <tr>
-      <td><img src="https://img.shields.io/github/followers/amarzeus?style=for-the-badge&logo=github&color=green&label=👥%20Followers" /></td>
-      <td><img src="https://img.shields.io/github/repo-size/amarzeus/amarzeus?style=for-the-badge&logo=github&color=purple&label=💻%20Size" /></td>
-      <td><img src="https://img.shields.io/github/languages/count/amarzeus/amarzeus?style=for-the-badge&logo=github&color=red&label=🚀%20Languages" /></td>
+      <td><img src="https://img.shields.io/github/followers/amarzeus?style=for-the-badge&color=green" /></td>
+      <td><img src="https://img.shields.io/github/repo-size/amarzeus/amarzeus?style=for-the-badge&color=purple" /></td>
+      <td><img src="https://img.shields.io/github/languages/count/amarzeus/amarzeus?style=for-the-badge&color=red" /></td>
     </tr>
   </table>
   

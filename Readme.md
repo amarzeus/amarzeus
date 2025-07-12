@@ -342,8 +342,8 @@
   
   <!-- Live Visitor Map -->
   <h3>🌍 Global Reach</h3>
-  <a href="https://clustrmaps.com/site/1bqvp" title="Visit tracker">
-    <img src="https://clustrmaps.com/map_v2.png?cl=080808&w=600&t=tt&d=1bqvp&co=ffffff&ct=808080" alt="Visitor Map" width="600" />
+  <a href="https://clustrmaps.com/site/1o4lqs77qHtJhHsozhz0hLQWzRhlhFSI2_nIYUCS7X4" title="Visit tracker">
+    <img src="//clustrmaps.com/map_v2.png?d=1o4lqs77qHtJhHsozhz0hLQWzRhlhFSI2_nIYUCS7X4&cl=ffffff&w=a" alt="Visitor Map" width="600" />
   </a>
 </div>
 

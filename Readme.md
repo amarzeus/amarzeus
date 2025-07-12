@@ -33,6 +33,12 @@
     <img src="https://img.shields.io/badge/AVAILABLE-FOR%20HIRE-00D4AA?style=for-the-badge&logo=handshake&logoColor=white" alt="Available for Hire">
   </p>
   
+  <!-- Real-time Coding Stats -->
+  <p>
+    <img src="https://img.shields.io/badge/dynamic/json?label=Commits%20This%20Year&query=$.totalCommits&url=https://github-readme-stats.vercel.app/api?username=amarzeus&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4&format=json&style=for-the-badge&color=F8D866&labelColor=0D1117" alt="Commits This Year">
+    <img src="https://img.shields.io/badge/Current%20Streak-🔥%2030%20days-F85D7F?style=for-the-badge&labelColor=0D1117" alt="Current Streak">
+  </p>
+  
   <!-- Animated Rainbow Divider -->
   <img src="https://capsule-render.vercel.app/api?type=rect&color=timeGradient&height=2" width="100%">
 
@@ -133,6 +139,20 @@
     <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,sklearn,jupyter,python,kafka" alt="AI/ML & Data Skills" />
   </p>
   
+  <!-- Interactive Skill Meter -->
+  <details>
+    <summary>🎯 <strong>Skill Proficiency Levels</strong></summary>
+    <br>
+    <table>
+      <tr><td>JavaScript/TypeScript</td><td>████████████████████ 100%</td></tr>
+      <tr><td>Python</td><td>███████████████████░ 95%</td></tr>
+      <tr><td>React/Next.js</td><td>███████████████████░ 95%</td></tr>
+      <tr><td>AWS/Cloud</td><td>██████████████████░░ 90%</td></tr>
+      <tr><td>Docker/K8s</td><td>█████████████████░░░ 85%</td></tr>
+      <tr><td>AI/ML</td><td>████████████████░░░░ 80%</td></tr>
+    </table>
+  </details>
+  
   ### Specializations
   <p>
     <img src="https://img.shields.io/badge/Microservices-Architecture-FF6B6B?style=for-the-badge&logo=microgenetics&logoColor=white" />
@@ -215,6 +235,9 @@
 <div align="center">
   <!-- Activity Graph -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=amarzeus&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=F85D7F&line=F8D866&point=73C0F4" alt="Activity Graph" />
+  
+  <!-- 3D Contribution Calendar -->
+  <img src="https://github.com/amarzeus/amarzeus/blob/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
 
   <!-- Snake Animation -->
   <picture>
@@ -303,7 +326,14 @@
     <a href="https://ko-fi.com/amarkumar"><img src="https://img.shields.io/badge/Ko--fi-Buy%20me%20a%20coffee-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" /></a>
   </p>
   
+  <!-- Dynamic Quote & Time Zone -->
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" />
+  
+  <!-- Live Clock -->
+  <p>
+    <img src="https://img.shields.io/badge/🌍%20Current%20Time-IST%20(UTC+5:30)-blue?style=for-the-badge" alt="Time Zone">
+    <img src="https://img.shields.io/badge/💻%20Status-Coding%20Mode%20ON-green?style=for-the-badge&logo=visual-studio-code" alt="Coding Status">
+  </p>
 </div>
 
 ---

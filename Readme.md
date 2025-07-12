@@ -19,12 +19,12 @@
   <!-- Enhanced Social & Stats Badges -->
   <p>
     <a href="https://www.linkedin.com/in/amarmahakal/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="LinkedIn"></a>
-    <a href="https://twitter.com/amarzeus"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=1DA1F2" alt="Twitter"></a>
+    <a href="https://x.com/its_meAmar"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=000000" alt="X (Twitter)"></a>
     <a href="https://github.com/sponsors/amarzeus"><img src="https://img.shields.io/badge/Sponsor-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white&labelColor=EA4AAA&message=Support%20My%20Work" alt="GitHub Sponsors"></a>
     <a href="https://ko-fi.com/amarkumar"><img src="https://img.shields.io/badge/Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white&labelColor=FF5E5B&message=Buy%20Me%20Coffee" alt="Ko-fi"></a>
   </p>
   <p>
-    <a href="mailto:contact@amarzeus.dev"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335&message=Let's%20Talk" alt="Email"></a>
+    <a href="mailto:amarmahakal92@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335&message=Let's%20Talk" alt="Email"></a>
     <a href="https://amarzeus.dev"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000&message=Visit%20Site" alt="Portfolio"></a>
   </p>
   <p>
@@ -44,9 +44,7 @@
 
   <!-- Spotify Now Playing -->
   <div>
-    <a href="https://open.spotify.com/user/amarzeus">
-      <img src="https://spotify-github-profile.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff" alt="Spotify Now Playing" width="350">
-    </a>
+    <img src="https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify" width="200">
   </div>
 </div>
 
@@ -292,8 +290,8 @@
   
   <p>
     <a href="https://www.linkedin.com/in/amarmahakal/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-    <a href="mailto:contact@amarzeus.dev"><img src="https://img.shields.io/badge/Email-Say%20Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-    <a href="https://twitter.com/amarzeus"><img src="https://img.shields.io/badge/Twitter-Follow%20Me-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /></a>
+    <a href="mailto:amarmahakal92@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+    <a href="https://x.com/its_meAmar"><img src="https://img.shields.io/badge/X-Follow%20Me-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
   </p>
 
   <h3>☕ Support My Open-Source Work</h3>

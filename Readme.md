@@ -34,12 +34,12 @@
 
   <!-- Spotify Now Playing -->
   <div>
-    <img src="https://novatorem-amarzeus.vercel.app/api/spotify" alt="Spotify Now Playing" width="400">
+    <img src="https://spotify-recently-played-readme.vercel.app/api?user=amarzeus&count=1&unique=true" alt="Spotify Now Playing" width="400">
   </div>
   
   <!-- Music Visualizer Animation -->
   <div>
-    <img src="https://capsule-render.vercel.app/api?type=wave&color=gradient&height=60" alt="Music Wave" width="100%">
+    <img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" alt="Music Wave" width="100%">
   </div>
 </div>
 
@@ -72,7 +72,7 @@
     </tr>
     <tr>
       <td width="50%">
-        <img src="https://github-readme-stats.vercel.app/api/wakatime?username=amarzeus&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&text_color=73C0F4" alt="Coding Time" />
+        <img src="https://github-readme-stats.vercel.app/api/wakatime?username=@amarzeus&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&text_color=73C0F4" alt="Coding Time" />
       </td>
       <td width="50%">
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=amarzeus&theme=tokyonight&utc_offset=8" alt="Productive Time" />
@@ -81,6 +81,11 @@
     <tr>
       <td colspan="2">
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=amarzeus&theme=tokyonight" alt="Repos per Language" />
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=amarzeus&repo=amarzeus&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4" alt="Featured Repo" />
       </td>
     </tr>
   </table>
@@ -169,10 +174,10 @@
   
   <!-- Animated Achievement Badges -->
   <div>
-    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Trophy.png" alt="Trophy" width="35" height="35" />
-    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Fire.png" alt="Fire" width="35" height="35" />
-    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Star.png" alt="Star" width="35" height="35" />
-    <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" alt="Rocket" width="35" height="35" />
+    <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/raw/master/Emojis/Objects/Trophy.png" alt="Trophy" width="35" height="35" />
+    <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/raw/master/Emojis/Objects/Fire.png" alt="Fire" width="35" height="35" />
+    <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/raw/master/Emojis/Objects/Star.png" alt="Star" width="35" height="35" />
+    <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/raw/master/Emojis/Objects/Rocket.png" alt="Rocket" width="35" height="35" />
   </div>
 </div>
 
@@ -193,13 +198,21 @@
   <img src="https://github-readme-activity-graph.cyclic.app/graph?username=amarzeus&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=F85D7F&line=F8D866&point=73C0F4" alt="Activity Graph" />
 
   <!-- Contribution Snake Animation -->
-  <img src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake-dark.svg">
+  </picture>
   
   <!-- Matrix Rain Effect -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="Wave" width="100%">
   
   <!-- Metrics -->
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=amarzeus&theme=tokyonight" alt="Most Used Language" width="100%" />
+  <!-- GitHub 3D Contributions -->
+  <img src="https://github-readme-stats.vercel.app/api?username=amarzeus&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4" alt="GitHub Stats" width="100%" />
+  
+  <!-- Animated Separator -->
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
   <!-- 3D Contribution Calendar -->
   <!-- 3D Contribution Calendar -->
@@ -221,7 +234,7 @@
 
 <!-- Animated Writing GIF -->
 <div align="center">
-  <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="400" alt="Writing Animation">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400" alt="Coding Animation">
 </div>
 
 <!-- BLOG-POST-LIST:START -->
@@ -260,7 +273,7 @@
 
 <!-- Animated Handshake -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" alt="Handshake" width="100" height="100" />
+  <img src="https://github.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/raw/master/Emojis/Hand%20gestures/Handshake.png" alt="Handshake" width="100" height="100" />
 </div>
 
 <div align="center">

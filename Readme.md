@@ -74,7 +74,7 @@
     </tr>
     <tr>
       <td colspan="2">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amarzeus&theme=tokyonight&layout=compact&hide_border=true&bg_color=0D1117&title_color=F85D7F&text_color=73C0F4&langs_count=12" alt="Top Languages" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amarzeus&theme=tokyonight&layout=compact&hide_border=true&bg_color=0D1117&title_color=F85D7F&text_color=73C0F4&langs_count=12&card_width=800" alt="Top Languages" />
       </td>
     </tr>
     <tr>

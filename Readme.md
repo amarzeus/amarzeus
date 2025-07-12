@@ -196,18 +196,8 @@
   <!-- Activity Graph -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=amarzeus&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=F85D7F&line=F8D866&point=73C0F4" alt="Activity Graph" />
 
-  <!-- 3D Snake Animation Collection -->
+  <!-- 3D Snake Animation -->
   <img src="https://raw.githubusercontent.com/amarzeus/amarzeus/output/rainbow.gif" alt="Rainbow Snake" width="100%" />
-  
-  <img src="https://raw.githubusercontent.com/amarzeus/amarzeus/output/ocean.gif" alt="Ocean Snake" width="100%" />
-  
-  <img src="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github.gif" alt="GitHub Snake" width="100%" />
-  
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake-dark.svg">
-  </picture>
   
   <!-- Matrix Rain Effect -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="Wave" width="100%">

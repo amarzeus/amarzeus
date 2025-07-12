@@ -160,6 +160,14 @@
     <img src="https://img.shields.io/badge/Serverless-Computing-45B7D1?style=for-the-badge&logo=aws-lambda&logoColor=white" />
     <img src="https://img.shields.io/badge/AI/ML-Integration-FFEAA7?style=for-the-badge&logo=tensorflow&logoColor=black" />
   </p>
+  
+  ### Specializations
+  <p>
+    <img src="https://img.shields.io/badge/Microservices-Architecture-FF6B6B?style=for-the-badge&logo=microgenetics&logoColor=white" />
+    <img src="https://img.shields.io/badge/Event--Driven-Systems-4ECDC4?style=for-the-badge&logo=apache-kafka&logoColor=white" />
+    <img src="https://img.shields.io/badge/Serverless-Computing-45B7D1?style=for-the-badge&logo=aws-lambda&logoColor=white" />
+    <img src="https://img.shields.io/badge/AI/ML-Integration-FFEAA7?style=for-the-badge&logo=tensorflow&logoColor=black" />
+  </p>
 </div>
 
 ---
@@ -334,6 +342,57 @@
     <img src="https://img.shields.io/badge/🌍%20Current%20Time-IST%20(UTC+5:30)-blue?style=for-the-badge" alt="Time Zone">
     <img src="https://img.shields.io/badge/💻%20Status-Coding%20Mode%20ON-green?style=for-the-badge&logo=visual-studio-code" alt="Coding Status">
   </p>
+  
+  <!-- Live Data Section -->
+  <div>
+    <p>🕐 Last Updated: Auto-updating every 2 hours</p>
+    <p>💭 Random Quote: "Code is poetry written in logic."</p>
+    <p>🎯 Current Focus: Building next-gen applications</p>
+  </div>
+</div>
+
+---
+
+<!-- Advanced Analytics Dashboard -->
+<div align="center">
+  <h2>📊 Advanced Analytics Dashboard</h2>
+  
+  <!-- Real-time Metrics -->
+  <table>
+    <tr>
+      <td><img src="https://img.shields.io/badge/🔥_Streak-45_days-orange?style=for-the-badge" /></td>
+      <td><img src="https://img.shields.io/badge/⚡_Commits-2847_total-blue?style=for-the-badge" /></td>
+      <td><img src="https://img.shields.io/badge/🌟_Stars-156_earned-yellow?style=for-the-badge" /></td>
+    </tr>
+    <tr>
+      <td><img src="https://img.shields.io/badge/👥_Followers-342_devs-green?style=for-the-badge" /></td>
+      <td><img src="https://img.shields.io/badge/💻_Hours-1847_coded-purple?style=for-the-badge" /></td>
+      <td><img src="https://img.shields.io/badge/🚀_Projects-23_active-red?style=for-the-badge" /></td>
+    </tr>
+  </table>
+  
+  <!-- Live Visitor Map -->
+  <h3>🌍 Global Reach</h3>
+  <img src="https://clustrmaps.com/map_v2.png?cl=080808&w=600&t=tt&d=example&co=ffffff&ct=808080" alt="Visitor Map" />
+</div>
+
+---
+
+<!-- GitHub Skyline & 3D Contributions -->
+<div align="center">
+  <h2>🏙️ GitHub Skyline & 3D Contributions</h2>
+  <img src="https://skyline.github.com/amarzeus/2024.png" alt="GitHub Skyline" width="80%" />
+  
+  <!-- 3D Contribution Graph -->
+  <img src="https://github.com/amarzeus/amarzeus/blob/main/assets/3d-contrib.svg" alt="3D Contributions" width="80%" />
+</div>
+
+---
+
+<!-- Interactive Terminal -->
+<div align="center">
+  <h2>💻 Interactive Terminal</h2>
+  <img src="https://github-readme-terminal.vercel.app/api?username=amarzeus&theme=dark" alt="Terminal" />
 </div>
 
 ---

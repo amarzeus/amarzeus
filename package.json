@@ -1,0 +1,16 @@
+{
+  "name": "amarzeus-profile",
+  "version": "2.0.0",
+  "description": "World-class GitHub profile with AI-powered features",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "three": "^0.158.0"
+  },
+  "devDependencies": {
+    "@vercel/node": "^3.0.0"
+  }
+}

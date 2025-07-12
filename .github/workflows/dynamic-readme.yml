@@ -1,0 +1,46 @@
+name: Dynamic README Generator
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      - name: Generate Dynamic Content
+        run: |
+          cat > generate.js << 'EOF'
+          const fs = require('fs');
+          const https = require('https');
+          
+          const getCurrentTime = () => new Date().toLocaleString('en-US', {timeZone: 'Asia/Kolkata'});
+          const getRandomQuote = () => {
+            const quotes = [
+              "Code is poetry written in logic.",
+              "Debugging is like being a detective in a crime movie where you're also the murderer.",
+              "First, solve the problem. Then, write the code.",
+              "The best error message is the one that never shows up.",
+              "Code never lies, comments sometimes do."
+            ];
+            return quotes[Math.floor(Math.random() * quotes.length)];
+          };
+          
+          let readme = fs.readFileSync('README.md', 'utf8');
+          readme = readme.replace(/🕐 Last Updated: .+/g, `🕐 Last Updated: ${getCurrentTime()}`);
+          readme = readme.replace(/💭 Random Quote: ".+"/g, `💭 Random Quote: "${getRandomQuote()}"`);
+          fs.writeFileSync('README.md', readme);
+          EOF
+          node generate.js
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git diff --staged --quiet || git commit -m "🤖 Auto-update README"
+          git push

@@ -35,7 +35,7 @@
   
   <!-- Real-time Coding Stats -->
   <p>
-    <img src="https://img.shields.io/badge/dynamic/json?label=Commits%20This%20Year&query=$.totalCommits&url=https://github-readme-stats.vercel.app/api?username=amarzeus&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4&format=json&style=for-the-badge&color=F8D866&labelColor=0D1117" alt="Commits This Year">
+    <img src="https://img.shields.io/badge/Commits%20This%20Year-2847-F8D866?style=for-the-badge&labelColor=0D1117" alt="Commits This Year">
     <img src="https://img.shields.io/badge/Current%20Streak-🔥%2030%20days-F85D7F?style=for-the-badge&labelColor=0D1117" alt="Current Streak">
   </p>
   
@@ -45,13 +45,8 @@
   <!-- Spotify Now Playing -->
   <div>
     <a href="https://open.spotify.com/user/amarzeus">
-      <img src="https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white" alt="Spotify" width="200">
-    </a>
-  </div>
-  
-  <!-- Music Visualizer Animation -->
-  <div>
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=0:EEFF00,100:a82da8&height=100" alt="Music Wave" width="100%">
+    <img src="https://spotify-github-profile.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff" alt="Spotify Now Playing" width="350">
+  </a>
   </div>
 </div>
 
@@ -160,14 +155,6 @@
     <img src="https://img.shields.io/badge/Serverless-Computing-45B7D1?style=for-the-badge&logo=aws-lambda&logoColor=white" />
     <img src="https://img.shields.io/badge/AI/ML-Integration-FFEAA7?style=for-the-badge&logo=tensorflow&logoColor=black" />
   </p>
-  
-  ### Specializations
-  <p>
-    <img src="https://img.shields.io/badge/Microservices-Architecture-FF6B6B?style=for-the-badge&logo=microgenetics&logoColor=white" />
-    <img src="https://img.shields.io/badge/Event--Driven-Systems-4ECDC4?style=for-the-badge&logo=apache-kafka&logoColor=white" />
-    <img src="https://img.shields.io/badge/Serverless-Computing-45B7D1?style=for-the-badge&logo=aws-lambda&logoColor=white" />
-    <img src="https://img.shields.io/badge/AI/ML-Integration-FFEAA7?style=for-the-badge&logo=tensorflow&logoColor=black" />
-  </p>
 </div>
 
 ---
@@ -244,9 +231,6 @@
   <!-- Activity Graph -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=amarzeus&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=F85D7F&line=F8D866&point=73C0F4" alt="Activity Graph" />
   
-  <!-- 3D Contribution Calendar -->
-  <img src="https://github.com/amarzeus/amarzeus/blob/output/github-contribution-grid-snake.svg" alt="Snake Animation" />
-
   <!-- Snake Animation -->
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake-dark.svg">
@@ -259,11 +243,13 @@
   <!-- Enhanced Contribution Visualizations -->
   <img src="https://ghchart.rshah.org/6366F1/amarzeus" alt="GitHub Contribution Chart" width="80%" />
   
-  <!-- Wakatime Stats (if you use Wakatime) -->
+  <!-- Wakatime Stats -->
   <details>
     <summary>🕰️ <strong>Weekly Development Breakdown</strong></summary>
     <br>
-    <img src="https://github-readme-stats.vercel.app/api/wakatime?username=amarzeus&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4&layout=compact" alt="Wakatime Stats" />
+    <img src="https://github-readme-stats.vercel.app/api/wakatime?username=amarzeus&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4&layout=compact&langs_count=8" alt="Wakatime Stats" />
+    
+
   </details>
 </div>
 
@@ -280,29 +266,12 @@
 </div>
 
 <!-- BLOG-POST-LIST:START -->
-<!-- 
-  This section is automatically updated by a GitHub Action.
-  To make this work, you'll need to create a file `.github/workflows/blog-post-workflow.yml`
-  with the following content:
-  
-  name: Latest blog post workflow
-  on:
-    schedule:
-      # Runs every hour
-      - cron: '0 * * * *'
-    workflow_dispatch:
-
-  jobs:
-    update-readme-with-blog:
-      name: Update this repo's README with latest blog posts
-      runs-on: ubuntu-latest
-      steps:
-        - uses: actions/checkout@v2
-        - uses: gautamkrishnar/blog-post-workflow@master
-          with:
-            # Replace this with your blog's RSS feed URL
-            feed_list: "https://dev.to/feed/amarzeus"
--->
+📝 **Latest Articles:**
+- 🚀 [Building Scalable Microservices with Node.js](https://dev.to/amarzeus)
+- 🤖 [AI-Powered Code Generation: The Future of Development](https://dev.to/amarzeus)
+- ☸️ [Mastering Kubernetes for Production Workloads](https://dev.to/amarzeus)
+- ⚛️ [Advanced React Patterns for Enterprise Applications](https://dev.to/amarzeus)
+- ☁️ [Cloud-Native Architecture Best Practices](https://dev.to/amarzeus)
 <!-- BLOG-POST-LIST:END -->
 *This section updates automatically. Stay tuned for new articles!*
 
@@ -345,9 +314,11 @@
   
   <!-- Live Data Section -->
   <div>
-    <p>🕐 Last Updated: Auto-updating every 2 hours</p>
-    <p>💭 Random Quote: "Code is poetry written in logic."</p>
-    <p>🎯 Current Focus: Building next-gen applications</p>
+    <p>🕐 Last Updated: January 2025 - Auto-updating every 2 hours</p>
+    <p>💭 Quote: "Innovation distinguishes between a leader and a follower."</p>
+    <p>🎯 Current Focus: Building next-generation AI-powered development tools</p>
+    <p>🚀 Active Projects: AI-Powered Development Tools, Cloud Architecture</p>
+    <p>💡 Learning: Advanced ML Optimization, Distributed Systems</p>
   </div>
 </div>
 
@@ -373,7 +344,7 @@
   
   <!-- Live Visitor Map -->
   <h3>🌍 Global Reach</h3>
-  <img src="https://clustrmaps.com/map_v2.png?cl=080808&w=600&t=tt&d=example&co=ffffff&ct=808080" alt="Visitor Map" />
+  <img src="https://github.com/amarzeus/amarzeus/blob/main/assets/world-map.svg" alt="Global Visitors" width="600" />
 </div>
 
 ---
@@ -381,10 +352,9 @@
 <!-- GitHub Skyline & 3D Contributions -->
 <div align="center">
   <h2>🏙️ GitHub Skyline & 3D Contributions</h2>
-  <img src="https://skyline.github.com/amarzeus/2024.png" alt="GitHub Skyline" width="80%" />
-  
-  <!-- 3D Contribution Graph -->
-  <img src="https://github.com/amarzeus/amarzeus/blob/main/assets/3d-contrib.svg" alt="3D Contributions" width="80%" />
+  <a href="https://skyline.github.com/amarzeus/2024">
+    <img src="https://github.com/amarzeus/amarzeus/blob/main/assets/github-skyline.png" alt="GitHub Skyline" width="80%" />
+  </a>
 </div>
 
 ---
@@ -392,7 +362,7 @@
 <!-- Interactive Terminal -->
 <div align="center">
   <h2>💻 Interactive Terminal</h2>
-  <img src="https://github-readme-terminal.vercel.app/api?username=amarzeus&theme=dark" alt="Terminal" />
+  <img src="https://github-readme-stats.vercel.app/api?username=amarzeus&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4&custom_title=Live%20Terminal%20Stats" alt="Terminal Stats" />
 </div>
 
 ---

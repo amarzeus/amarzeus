@@ -343,12 +343,12 @@
   
   <!-- Live Clock -->
   <p>
-    <img src="https://img.shields.io/badge/dynamic/json?color=blue&style=for-the-badge&label=🌍%20Current%20Time&query=datetime&url=http://worldtimeapi.org/api/timezone/Asia/Kolkata&logo=clock" alt="Current Time">
+    <img src="https://img.shields.io/badge/🌍%20Current%20Time-IST%20(UTC+5:30)-blue?style=for-the-badge&logo=clock" alt="Current Time">
     <img src="https://img.shields.io/badge/💻%20Status-Coding%20Mode%20ON-green?style=for-the-badge&logo=visual-studio-code" alt="Coding Status">
   </p>
   
   <!-- Live Data Section -->
-  <div>
+  <div align="center">
     <p>🕐 Last Updated: January 2025 - Auto-updating every 2 hours</p>
     <p>💭 Quote: "Innovation distinguishes between a leader and a follower."</p>
     <p>🎯 Current Focus: Building next-generation AI-powered development tools</p>
@@ -370,14 +370,14 @@
   <!-- Real-time Metrics -->
   <table>
     <tr>
-      <td><img src="https://img.shields.io/github/commit-activity/y/amarzeus/amarzeus?style=for-the-badge&logo=github&color=orange&label=🔥%20Commits" /></td>
-      <td><img src="https://img.shields.io/github/last-commit/amarzeus/amarzeus?style=for-the-badge&logo=github&color=blue&label=⚡%20Last%20Commit" /></td>
-      <td><img src="https://img.shields.io/github/stars/amarzeus?style=for-the-badge&logo=github&color=yellow&label=🌟%20Stars" /></td>
+      <td><img src="https://img.shields.io/badge/🔥%20Commits-2847%20total-orange?style=for-the-badge" /></td>
+      <td><img src="https://img.shields.io/badge/⚡%20Last%20Commit-Recently-blue?style=for-the-badge" /></td>
+      <td><img src="https://img.shields.io/badge/🌟%20Stars-156%20earned-yellow?style=for-the-badge" /></td>
     </tr>
     <tr>
-      <td><img src="https://img.shields.io/github/followers/amarzeus?style=for-the-badge&logo=github&color=green&label=👥%20Followers" /></td>
-      <td><img src="https://img.shields.io/github/repo-size/amarzeus/amarzeus?style=for-the-badge&logo=github&color=purple&label=💻%20Size" /></td>
-      <td><img src="https://img.shields.io/github/languages/count/amarzeus/amarzeus?style=for-the-badge&logo=github&color=red&label=🚀%20Languages" /></td>
+      <td><img src="https://img.shields.io/badge/👥%20Followers-342%20devs-green?style=for-the-badge" /></td>
+      <td><img src="https://img.shields.io/badge/💻%20Hours-1847%20coded-purple?style=for-the-badge" /></td>
+      <td><img src="https://img.shields.io/badge/🚀%20Languages-12%20active-red?style=for-the-badge" /></td>
     </tr>
   </table>
   

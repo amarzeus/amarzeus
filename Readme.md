@@ -196,8 +196,14 @@
   <!-- Activity Graph -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=amarzeus&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=F85D7F&line=F8D866&point=73C0F4" alt="Activity Graph" />
 
-  <!-- 3D Snake Animation -->
-  <img src="https://raw.githubusercontent.com/amarzeus/amarzeus/output/rainbow.gif" alt="Rainbow Snake" width="100%" />
+  <!-- Snake Animation -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-snake.svg">
+    <img alt="github snake animation" src="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-snake-dark.svg">
+  </picture>
+
+
   
   <!-- Matrix Rain Effect -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" alt="Wave" width="100%">

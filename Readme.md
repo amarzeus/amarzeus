@@ -288,6 +288,8 @@
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="400" alt="Coding Animation">
 </div>
 
+<div align="center">
+
 <!-- BLOG-POST-LIST:START -->
 📝 **Latest Articles:**
 - 🚀 [Building Scalable Microservices with Node.js](https://dev.to/amarzeus)
@@ -297,6 +299,8 @@
 - ☁️ [Cloud-Native Architecture Best Practices](https://dev.to/amarzeus)
 <!-- BLOG-POST-LIST:END -->
 *This section updates automatically. Stay tuned for new articles!*
+
+</div>
 
 ---
 
@@ -339,7 +343,7 @@
   
   <!-- Live Clock -->
   <p>
-    <img src="https://img.shields.io/badge/🌍%20Current%20Time-IST%20(UTC+5:30)-blue?style=for-the-badge" alt="Time Zone">
+    <img src="https://img.shields.io/badge/dynamic/json?color=blue&style=for-the-badge&label=🌍%20Current%20Time&query=datetime&url=http://worldtimeapi.org/api/timezone/Asia/Kolkata&logo=clock" alt="Current Time">
     <img src="https://img.shields.io/badge/💻%20Status-Coding%20Mode%20ON-green?style=for-the-badge&logo=visual-studio-code" alt="Coding Status">
   </p>
   
@@ -366,14 +370,14 @@
   <!-- Real-time Metrics -->
   <table>
     <tr>
-      <td><img src="https://img.shields.io/badge/🔥_Streak-45_days-orange?style=for-the-badge" /></td>
-      <td><img src="https://img.shields.io/badge/⚡_Commits-2847_total-blue?style=for-the-badge" /></td>
-      <td><img src="https://img.shields.io/badge/🌟_Stars-156_earned-yellow?style=for-the-badge" /></td>
+      <td><img src="https://img.shields.io/github/commit-activity/y/amarzeus/amarzeus?style=for-the-badge&logo=github&color=orange&label=🔥%20Commits" /></td>
+      <td><img src="https://img.shields.io/github/last-commit/amarzeus/amarzeus?style=for-the-badge&logo=github&color=blue&label=⚡%20Last%20Commit" /></td>
+      <td><img src="https://img.shields.io/github/stars/amarzeus?style=for-the-badge&logo=github&color=yellow&label=🌟%20Stars" /></td>
     </tr>
     <tr>
-      <td><img src="https://img.shields.io/badge/👥_Followers-342_devs-green?style=for-the-badge" /></td>
-      <td><img src="https://img.shields.io/badge/💻_Hours-1847_coded-purple?style=for-the-badge" /></td>
-      <td><img src="https://img.shields.io/badge/🚀_Projects-23_active-red?style=for-the-badge" /></td>
+      <td><img src="https://img.shields.io/github/followers/amarzeus?style=for-the-badge&logo=github&color=green&label=👥%20Followers" /></td>
+      <td><img src="https://img.shields.io/github/repo-size/amarzeus/amarzeus?style=for-the-badge&logo=github&color=purple&label=💻%20Size" /></td>
+      <td><img src="https://img.shields.io/github/languages/count/amarzeus/amarzeus?style=for-the-badge&logo=github&color=red&label=🚀%20Languages" /></td>
     </tr>
   </table>
   
@@ -384,7 +388,7 @@
   
   </div>
   <a href="https://clustrmaps.com/site/1o4lqs77qHtJhHsozhz0hLQWzRhlhFSI2_nIYUCS7X4" title="Visit tracker">
-    <img src="//clustrmaps.com/map_v2.png?d=1o4lqs77qHtJhHsozhz0hLQWzRhlhFSI2_nIYUCS7X4&cl=080808&w=600&t=tt&co=ffffff&ct=808080" alt="Visitor Map" />
+    <img src="https://clustrmaps.com/map_v2.png?d=1o4lqs77qHtJhHsozhz0hLQWzRhlhFSI2_nIYUCS7X4&cl=080808&w=a&t=tt&co=ffffff&ct=808080" alt="Visitor Map" />
   </a>
 </div>
 
@@ -404,17 +408,7 @@
 
 ---
 
-<!-- Interactive Terminal -->
-<div align="center">
-  <div align="center">
-  
-  ## 💻 Interactive Terminal
-  
-  </div>
-  <img src="https://github-readme-stats.vercel.app/api?username=amarzeus&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4&custom_title=Live%20Terminal%20Stats" alt="Terminal Stats" />
-</div>
 
----
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=9&height=150&section=footer" alt="Footer" />

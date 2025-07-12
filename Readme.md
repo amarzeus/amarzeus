@@ -25,7 +25,7 @@
   </p>
   <p>
     <a href="mailto:amarmahakal92@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335&message=Let's%20Talk" alt="Email"></a>
-    <a href="https://amarzeus.dev"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000&message=Visit%20Site" alt="Portfolio"></a>
+    <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000&message=Visit%20Site" alt="Portfolio"></a>
   </p>
   <p>
     <img src="https://komarev.com/ghpvc/?username=amarzeus&style=for-the-badge&color=6366F1&label=PROFILE+VIEWS" alt="Profile Views">
@@ -35,8 +35,8 @@
   
   <!-- Real-time Coding Stats -->
   <p>
-    <img src="https://img.shields.io/badge/Commits%20This%20Year-2847-F8D866?style=for-the-badge&labelColor=0D1117" alt="Commits This Year">
-    <img src="https://img.shields.io/badge/Current%20Streak-🔥%2030%20days-F85D7F?style=for-the-badge&labelColor=0D1117" alt="Current Streak">
+    <img src="https://img.shields.io/github/commit-activity/y/amarzeus/amarzeus?style=for-the-badge&color=F8D866&labelColor=0D1117&label=Commits%20This%20Year" alt="Commits This Year">
+    <img src="https://img.shields.io/badge/Current%20Streak-🔥%20Active-F85D7F?style=for-the-badge&labelColor=0D1117" alt="Current Streak">
   </p>
   
   <!-- Animated Rainbow Divider -->

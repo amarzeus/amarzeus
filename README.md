@@ -66,10 +66,10 @@
   <table>
     <tr>
       <td width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=amarzeus&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4&custom_title=Amar's%20GitHub%20Stats&disable_animations=false" alt="GitHub Stats" />
+        <img src="https://github-readme-stats.vercel.app/api?username=amarzeus&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true" alt="GitHub Stats" />
       </td>
       <td width="50%">
-        <img src="https://streak-stats.demolab.com/?user=amarzeus&theme=tokyonight&hide_border=true&background=0D1117&stroke=F85D7F&ring=F8D866&fire=F85D7F&currStreakLabel=73C0F4&sideLabels=73C0F4&dates=73C0F4" alt="GitHub Streak" />
+        <img src="https://streak-stats.demolab.com/?user=amarzeus&theme=tokyonight" alt="GitHub Streak" />
       </td>
     </tr>
     <tr>
@@ -104,16 +104,9 @@
 
 </div>
 
-<!-- Rotating Tech Icons -->
+<!-- Modern Tech Stack Icons -->
 <div align="center">
-  <img src="https://techstack-generator.vercel.app/react-icon.svg" alt="React" width="65" height="65" />
-  <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="Python" width="65" height="65" />
-  <img src="https://techstack-generator.vercel.app/ts-icon.svg" alt="TypeScript" width="65" height="65" />
-  <img src="https://techstack-generator.vercel.app/js-icon.svg" alt="JavaScript" width="65" height="65" />
-  <img src="https://techstack-generator.vercel.app/aws-icon.svg" alt="AWS" width="65" height="65" />
-  <img src="https://techstack-generator.vercel.app/docker-icon.svg" alt="Docker" width="65" height="65" />
-  <img src="https://techstack-generator.vercel.app/kubernetes-icon.svg" alt="Kubernetes" width="65" height="65" />
-  <img src="https://techstack-generator.vercel.app/github-icon.svg" alt="GitHub" width="65" height="65" />
+  <img src="https://skillicons.dev/icons?i=react,python,typescript,javascript,aws,docker,kubernetes,github" alt="Core Stack" />
 </div>
 
 <!-- Fire Animation -->
@@ -121,10 +114,10 @@
 
 <div align="center">
   <p>
-    <img src="https://skillicons.dev/icons?i=react,nextjs,vue,angular,svelte,ts,js,tailwind,sass" alt="Frontend Skills" />
+    <img src="https://skillicons.dev/icons?i=react,nextjs,vue,angular,svelte,typescript,javascript,tailwind,sass" alt="Frontend Skills" />
   </p>
   <p>
-    <img src="https://skillicons.dev/icons?i=nodejs,py,go,java,rust,php,express,django,fastapi" alt="Backend Skills" />
+    <img src="https://skillicons.dev/icons?i=nodejs,python,go,java,rust,php,express,django,fastapi" alt="Backend Skills" />
   </p>
   <p>
     <img src="https://skillicons.dev/icons?i=aws,gcp,azure,docker,kubernetes,terraform,jenkins,githubactions" alt="Cloud & DevOps Skills" />
@@ -180,7 +173,7 @@
     <tr>
       <td width="50%">
         <a href="https://github.com/amarzeus/amarzeus">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=amarzeus&repo=amarzeus&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4&show_owner=true" alt="Profile Repo" />
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=amarzeus&repo=amarzeus&theme=tokyonight&show_owner=true" alt="Profile Repo" />
         </a>
       </td>
       <td width="50%">
@@ -221,7 +214,7 @@
   ### 🏅 GitHub Trophies & Achievements
   
   </div>
-  <img src="https://github-profile-trophy.vercel.app/?username=amarzeus&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=8&rank=SECRET,SSS,SS,S,AAA,AA,A,B" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=amarzeus&theme=tokyonight&no-frame=false&no-bg=true&margin-w=4" alt="GitHub Trophies" />
   
   <!-- Animated Achievement Badges -->
   <div>
@@ -251,9 +244,9 @@
   
   <!-- Snake Animation -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/amarzeus/amarzeus/output/dist/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/amarzeus/amarzeus/output/dist/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/amarzeus/amarzeus/output/dist/github-contribution-grid-snake.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake.svg">
   </picture>
 
   <!-- Enhanced Contribution Visualizations -->
@@ -385,21 +378,21 @@
   ### 🌍 Global Reach
   
   </div>
-  <a href="https://clustrmaps.com/site/1b2b3" title="Visit tracker">
+  <a href="https://clustrmaps.com/site/1o4lqs77qHtJhHsozhz0hLQWzRhlhFSI2_nIYUCS7X4" title="Visit tracker">
     <img src="https://clustrmaps.com/map_v2.png?d=1o4lqs77qHtJhHsozhz0hLQWzRhlhFSI2_nIYUCS7X4&cl=080808&w=a&t=tt&co=ffffff&ct=808080" alt="Visitor Map" />
   </a>
 </div>
 
 ---
 
-<!-- GitHub Skyline & 3D Contributions -->
+<!-- GitHub 3D Contributions -->
 <div align="center">
   <div align="center">
   
   ## 🏙️ 3D Contributions City
   
   </div>
-  <img src="https://raw.githubusercontent.com/amarzeus/amarzeus/main/profile-3d-contrib/profile-night-rainbow.svg" alt="GitHub 3D City" width="100%" onerror="this.src='https://raw.githubusercontent.com/yoshi389111/github-profile-3d-contrib/main/images/profile-night-view.svg'" />
+  <img src="https://raw.githubusercontent.com/amarzeus/amarzeus/main/profile-3d-contrib/profile-night-rainbow.svg" alt="GitHub 3D City" width="100%" />
 </div>
 
 ---

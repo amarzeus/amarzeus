@@ -136,17 +136,17 @@
     <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,sklearn,jupyter,python,kafka" alt="AI/ML & Data Skills" />
   </p>
   
-  <!-- Interactive Skill Meter -->
+  <!-- Interactive Skill Meter - Upgraded to dark modern style -->
   <details>
     <summary>🎯 <strong>Skill Proficiency Levels</strong></summary>
     <br>
-    <table>
-      <tr><td>JavaScript/TypeScript</td><td>████████████████████ 100%</td></tr>
-      <tr><td>Python</td><td>███████████████████░ 95%</td></tr>
-      <tr><td>React/Next.js</td><td>███████████████████░ 95%</td></tr>
-      <tr><td>AWS/Cloud</td><td>██████████████████░░ 90%</td></tr>
-      <tr><td>Docker/K8s</td><td>█████████████████░░░ 85%</td></tr>
-      <tr><td>AI/ML</td><td>████████████████░░░░ 80%</td></tr>
+    <table border="0">
+      <tr><td><b>JavaScript/TypeScript</b></td><td><img src="https://geps.dev/progress/100?color=6366F1" /></td></tr>
+      <tr><td><b>Python</b></td><td><img src="https://geps.dev/progress/90?color=EC4899" /></td></tr>
+      <tr><td><b>React/Next.js</b></td><td><img src="https://geps.dev/progress/95?color=22D3EE" /></td></tr>
+      <tr><td><b>AWS/Cloud</b></td><td><img src="https://geps.dev/progress/85?color=6366F1" /></td></tr>
+      <tr><td><b>Docker/K8s</b></td><td><img src="https://geps.dev/progress/85?color=EC4899" /></td></tr>
+      <tr><td><b>AI/ML</b></td><td><img src="https://geps.dev/progress/80?color=22D3EE" /></td></tr>
     </table>
   </details>
   
@@ -251,9 +251,9 @@
   
   <!-- Snake Animation -->
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/amarzeus/amarzeus/output/dist/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/amarzeus/amarzeus/output/dist/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/amarzeus/amarzeus/output/dist/github-contribution-grid-snake.svg">
   </picture>
 
   <!-- Enhanced Contribution Visualizations -->
@@ -379,13 +379,13 @@
     </tr>
   </table>
   
-  <!-- Live Visitor Map -->
+  <!-- Live Visitor Map Fixed ID-->
   <div align="center">
   
   ### 🌍 Global Reach
   
   </div>
-  <a href="https://clustrmaps.com/site/1o4lqs77qHtJhHsozhz0hLQWzRhlhFSI2_nIYUCS7X4" title="Visit tracker">
+  <a href="https://clustrmaps.com/site/1b2b3" title="Visit tracker">
     <img src="https://clustrmaps.com/map_v2.png?d=1o4lqs77qHtJhHsozhz0hLQWzRhlhFSI2_nIYUCS7X4&cl=080808&w=a&t=tt&co=ffffff&ct=808080" alt="Visitor Map" />
   </a>
 </div>
@@ -396,12 +396,10 @@
 <div align="center">
   <div align="center">
   
-  ## 🏙️ GitHub Skyline & 3D Contributions
+  ## 🏙️ 3D Contributions City
   
   </div>
-  <a href="https://skyline.github.com/amarzeus/2024">
-    <img src="https://github-readme-stats.vercel.app/api?username=amarzeus&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4&custom_title=GitHub%20Skyline%20View" alt="GitHub Skyline" width="80%" />
-  </a>
+  <img src="https://raw.githubusercontent.com/amarzeus/amarzeus/main/profile-3d-contrib/profile-night-rainbow.svg" alt="GitHub 3D City" width="100%" onerror="this.src='https://raw.githubusercontent.com/yoshi389111/github-profile-3d-contrib/main/images/profile-night-view.svg'" />
 </div>
 
 ---

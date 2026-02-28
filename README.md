@@ -58,9 +58,9 @@
 <div align="center">
   <!-- QUICK-STATS:START -->
   <p>
-    <img src="https://img.shields.io/badge/Total%20Stars-6-F8D866?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Total Stars">
-    <img src="https://img.shields.io/badge/Yearly%20Commits-1388-73C0F4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Yearly Commits">
-    <img src="https://img.shields.io/badge/Focus-Building%20next-generation%20AI-powered%20development%20tools-F85D7F?style=for-the-badge&logoColor=white&labelColor=0D1117" alt="Current Focus">
+    <img src="https://img.shields.io/badge/Total%20Stars-12-F8D866?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Total Stars">
+    <img src="https://img.shields.io/badge/Yearly%20Commits-1389-73C0F4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Yearly Commits">
+    <img src="https://img.shields.io/badge/Focus-Building%20next--generation%20AI--powered%20development%20tools-F85D7F?style=for-the-badge&logoColor=white&labelColor=0D1117" alt="Current Focus">
   </p>
   <!-- QUICK-STATS:END -->
   
@@ -70,7 +70,7 @@
         <img src="https://raw.githubusercontent.com/amarzeus/amarzeus/main/github-metrics-base.svg" alt="GitHub Stats" />
       </td>
       <td width="50%">
-        <img src="https://streak-stats.demolab.com/?user=amarzeus&theme=tokyonight" alt="GitHub Streak" />
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=amarzeus&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
       </td>
     </tr>
     <tr>
@@ -135,12 +135,12 @@
     <summary>🎯 <strong>Skill Proficiency Levels</strong></summary>
     <br>
     <table border="0">
-      <tr><td><b>TypeScript</b></td><td><img src="https://geps.dev/progress/72?color=6366F1" /></td></tr>
-      <tr><td><b>Python</b></td><td><img src="https://geps.dev/progress/22?color=EC4899" /></td></tr>
-      <tr><td><b>CSS</b></td><td><img src="https://geps.dev/progress/1?color=22D3EE" /></td></tr>
-      <tr><td><b>JavaScript</b></td><td><img src="https://geps.dev/progress/1?color=F8D866" /></td></tr>
-      <tr><td><b>PHP</b></td><td><img src="https://geps.dev/progress/0?color=F85D7F" /></td></tr>
-      <tr><td><b>HTML</b></td><td><img src="https://geps.dev/progress/0?color=00D4AA" /></td></tr>
+      <tr><td><b>TypeScript</b></td><td><img src="https://geps.dev/progress/70?color=6366F1" /></td></tr>
+      <tr><td><b>Python</b></td><td><img src="https://geps.dev/progress/19?color=EC4899" /></td></tr>
+      <tr><td><b>HTML</b></td><td><img src="https://geps.dev/progress/3?color=22D3EE" /></td></tr>
+      <tr><td><b>JavaScript</b></td><td><img src="https://geps.dev/progress/2?color=F8D866" /></td></tr>
+      <tr><td><b>Kotlin</b></td><td><img src="https://geps.dev/progress/1?color=F85D7F" /></td></tr>
+      <tr><td><b>CSS</b></td><td><img src="https://geps.dev/progress/1?color=00D4AA" /></td></tr>
     </table>
   </details>
   <!-- SKILL-METER:END -->
@@ -225,8 +225,8 @@
   ### 🏅 GitHub Trophies & Achievements
   
   </div>
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=amarzeus&theme=tokyonight&no-bg=true&margin-w=15" alt="GitHub Trophies" width="100%" />
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img src="https://github-readme-stats.vercel.app/api?username=amarzeus&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" width="80%" />
   </a>
   
   <!-- Animated Achievement Badges -->
@@ -289,15 +289,8 @@
 <div align="center">
 
 <!-- BLOG-POST-LIST:START -->
-
-📝 **Latest Articles:**
-
-- 🚀 [Building Scalable Microservices with Node.js](https://dev.to/amarzeus)
-- 🤖 [AI-Powered Code Generation: The Future of Development](https://dev.to/amarzeus)
-- ☸️ [Mastering Kubernetes for Production Workloads](https://dev.to/amarzeus)
-- ⚛️ [Advanced React Patterns for Enterprise Applications](https://dev.to/amarzeus)
-- ☁️ [Cloud-Native Architecture Best Practices](https://dev.to/amarzeus)
-  <!-- BLOG-POST-LIST:END -->
+_No recent articles found. Stay tuned for upcoming posts!_
+<!-- BLOG-POST-LIST:END -->
   _This section updates automatically. Stay tuned for new articles!_
 
 </div>
@@ -349,7 +342,7 @@
   
   <!-- LIVE-DATA:START -->
   <div align="center">
-    <p>🕐 Last Updated: 2/28/2026, 6:16:52 PM
+    <p>🕐 Last Updated: 2/28/2026, 7:10:59 PM</p>
     <p>💭 Quote: "First, solve the problem. Then, write the code."</p>
     <p>🎯 Current Focus: Building next-generation AI-powered development tools</p>
     <p>🚀 Active Projects: careops-app, gemini-skills</p>
@@ -371,14 +364,14 @@
   <!-- ADV-STATS:START -->
   <table>
     <tr>
-      <td><img src="https://img.shields.io/badge/Total%20Commits%20(Year)-1388-orange?style=for-the-badge&logo=github" alt="Commits" /></td>
-      <td><img src="https://img.shields.io/badge/Total%20Public%20Repos-23-blue?style=for-the-badge&logo=github" alt="Repos" /></td>
-      <td><img src="https://img.shields.io/badge/Total%20Stars%20Earned-6-yellow?style=for-the-badge&logo=github" alt="Stars" /></td>
+      <td><img src="https://img.shields.io/badge/Total%20Commits%20(Year)-1389-orange?style=for-the-badge&logo=github" alt="Commits" /></td>
+      <td><img src="https://img.shields.io/badge/Total%20Public%20Repos-42-blue?style=for-the-badge&logo=github" alt="Repos" /></td>
+      <td><img src="https://img.shields.io/badge/Total%20Stars%20Earned-12-yellow?style=for-the-badge&logo=github" alt="Stars" /></td>
     </tr>
     <tr>
       <td><img src="https://img.shields.io/badge/GitHub%20Followers-1-green?style=for-the-badge&logo=github" alt="Followers" /></td>
       <td><img src="https://img.shields.io/badge/Main%20Language-TypeScript-red?style=for-the-badge&logo=code" alt="Top Lang" /></td>
-      <td><img src="https://img.shields.io/badge/Top%20Project-careops-app-purple?style=for-the-badge&logo=github" alt="Top Project" /></td>
+      <td><img src="https://img.shields.io/badge/Top%20Project-careops--app-purple?style=for-the-badge&logo=github" alt="Top Project" /></td>
     </tr>
   </table>
   <!-- ADV-STATS:END -->
@@ -411,7 +404,7 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=9&height=150&section=footer" alt="Footer" />
   <p><i>"Innovation distinguishes between a leader and a follower. Building the future, one commit at a time."</i></p>
-  <img src="https://img.shields.io/badge/Made%20with-❤️%20and%20☕-red?style=for-the-badge" />
+  <p><b>Made with ❤️ and ☕</b></p>
   <br><br>
   <sub>⭐ Star my repositories if you find them useful! ⭐</sub>
 </div>

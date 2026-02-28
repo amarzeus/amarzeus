@@ -4,6 +4,7 @@ import re
 import subprocess
 from datetime import datetime
 import urllib.parse
+import urllib.request
 
 GITHUB_USERNAME = "amarzeus"
 README_PATH = "README.md"
@@ -18,7 +19,6 @@ def run_command(command):
     return result.stdout
 
 def get_live_data():
-    # GraphQL Query for languages, recent repos, followers, and total stars
     query = """
     query {
       user(login: "%s") {
@@ -66,13 +66,11 @@ def get_live_data():
     user_data = data['data']['user']
     repos = user_data['repositories']['nodes']
     
-    # Calculate totals
     total_stars = sum([repo['stargazerCount'] for repo in repos])
     total_commits_yr = user_data['contributionsCollection']['contributionCalendar']['totalContributions']
     total_followers = user_data['followers']['totalCount']
     total_repos = user_data['repositories']['totalCount']
     
-    # Process Languages
     language_stats = {}
     for repo in repos:
         for edge in repo['languages']['edges']:
@@ -88,10 +86,8 @@ def get_live_data():
         percentage = (size / total_size) * 100
         top_langs.append((lang, int(percentage)))
         
-    # Process Active Projects (Top 2 recently pushed, excluding profile repo)
     active_projects = [r for r in repos if r['name'].lower() != GITHUB_USERNAME.lower()][:2]
     
-    # If less than 2, pad it out
     while len(active_projects) < 2:
         active_projects.append({"name": "More Coming Soon", "description": "Working on new projects...", "url": f"https://github.com/{GITHUB_USERNAME}", "stargazerCount": 0, "forkCount": 0, "primaryLanguage": None})
         
@@ -132,8 +128,26 @@ def generate_project_cards(projects):
     html += "    </tr>\n  </table>"
     return html
 
+def safe_shield_text(text):
+    return text.replace('-', '--').replace('_', '__')
+
+def download_svg(url, filename):
+    print(f"Downloading {filename}...")
+    try:
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req, timeout=15) as response:
+            if response.status == 200:
+                content = response.read().decode('utf-8')
+                if "<svg" in content:
+                    with open(filename, 'w') as f:
+                        f.write(content)
+                    print(f"Success: {filename}")
+                else:
+                    print(f"Warning: Response is not valid SVG for {filename}")
+    except Exception as e:
+        print(f"Failed to download {filename}: {e}")
+
 def update_readme(live_data):
-    # Load config
     try:
         with open(CONFIG_PATH, 'r') as f:
             config = json.load(f)
@@ -152,7 +166,6 @@ def update_readme(live_data):
     skill_meter_end = "<!-- SKILL-METER:END -->"
     
     colors = ["6366F1", "EC4899", "22D3EE", "F8D866", "F85D7F", "00D4AA"]
-    
     skill_table = '<details>\n    <summary>🎯 <strong>Skill Proficiency Levels</strong></summary>\n    <br>\n    <table border="0">\n'
     for i, (lang, percentage) in enumerate(live_data["top_langs"]):
         color = colors[i % len(colors)]
@@ -185,9 +198,7 @@ def update_readme(live_data):
     # 3. Update Featured Projects
     projects_start = "<!-- PROJECTS:START -->"
     projects_end = "<!-- PROJECTS:END -->"
-    
     project_cards_html = generate_project_cards(live_data["active_projects_list"])
-    
     if projects_start in content:
         content = re.sub(f'{projects_start}.*?{projects_end}', 
                         f'{projects_start}\n{project_cards_html}\n  {projects_end}', 
@@ -198,10 +209,11 @@ def update_readme(live_data):
     quick_stats_start = "<!-- QUICK-STATS:START -->"
     quick_stats_end = "<!-- QUICK-STATS:END -->"
     
+    encoded_focus = urllib.parse.quote(safe_shield_text(config['focus']))
     quick_stats = f"""  <p>
     <img src="https://img.shields.io/badge/Total%20Stars-{stats['stars']}-F8D866?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Total Stars">
     <img src="https://img.shields.io/badge/Yearly%20Commits-{stats['commits']}-73C0F4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Yearly Commits">
-    <img src="https://img.shields.io/badge/Focus-{urllib.parse.quote(config['focus'])}-F85D7F?style=for-the-badge&logoColor=white&labelColor=0D1117" alt="Current Focus">
+    <img src="https://img.shields.io/badge/Focus-{encoded_focus}-F85D7F?style=for-the-badge&logoColor=white&labelColor=0D1117" alt="Current Focus">
   </p>"""
 
     if quick_stats_start in content:
@@ -212,7 +224,9 @@ def update_readme(live_data):
     # 5. Update Advanced Analytics Badges
     adv_stats_start = "<!-- ADV-STATS:START -->"
     adv_stats_end = "<!-- ADV-STATS:END -->"
-    
+    best_lang = safe_shield_text(live_data['top_langs'][0][0]) if live_data['top_langs'] else 'None'
+    top_project = safe_shield_text(active_names.split(', ')[0]) if active_names else 'None'
+
     adv_stats = f"""  <table>
     <tr>
       <td><img src="https://img.shields.io/badge/Total%20Commits%20(Year)-{stats['commits']}-orange?style=for-the-badge&logo=github" alt="Commits" /></td>
@@ -221,8 +235,8 @@ def update_readme(live_data):
     </tr>
     <tr>
       <td><img src="https://img.shields.io/badge/GitHub%20Followers-{stats['followers']}-green?style=for-the-badge&logo=github" alt="Followers" /></td>
-      <td><img src="https://img.shields.io/badge/Main%20Language-{live_data['top_langs'][0][0] if live_data['top_langs'] else 'None'}-red?style=for-the-badge&logo=code" alt="Top Lang" /></td>
-      <td><img src="https://img.shields.io/badge/Top%20Project-{urllib.parse.quote(active_names.split(', ')[0]) if active_names else 'None'}-purple?style=for-the-badge&logo=github" alt="Top Project" /></td>
+      <td><img src="https://img.shields.io/badge/Main%20Language-{urllib.parse.quote(best_lang)}-red?style=for-the-badge&logo=code" alt="Top Lang" /></td>
+      <td><img src="https://img.shields.io/badge/Top%20Project-{urllib.parse.quote(top_project)}-purple?style=for-the-badge&logo=github" alt="Top Project" /></td>
     </tr>
   </table>"""
 
@@ -236,6 +250,7 @@ def update_readme(live_data):
 
 if __name__ == "__main__":
     data = get_live_data()
+    
     if data:
         update_readme(data)
         print("Successfully updated README.md with dynamically injected live data stats and badges!")

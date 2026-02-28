@@ -13,13 +13,8 @@
   
   <!-- Subtitle: Enhanced Typing Animation -->
   <a href="https://github.com/amarzeus">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=🌌+Explore+My+Interactive+3D+Galaxy+Profile!;🚀+Full-Stack+Developer+%26+Cloud+Architect;🤖+AI%2FML+Engineer+%26+Data+Scientist;🌟+Open-Source+Contributor+%26+Mentor;⚡+Building+the+Future+One+Commit+at+a+Time;💡+Passionate+Problem+Solver+%26+Innovator;🔥+Available+for+Exciting+Projects&font=Fira+Code&center=true&width=900&height=50&color=6366F1&vCenter=true&pause=800&size=28&repeat=true&duration=4000" alt="Animated Typing Subtitle">
+    <img src="https://readme-typing-svg.herokuapp.com/?lines=🚀+Full-Stack+Developer+%26+Cloud+Architect;🤖+AI%2FML+Engineer+%26+Data+Scientist;🌟+Open-Source+Contributor+%26+Mentor;⚡+Building+the+Future+One+Commit+at+a+Time;💡+Passionate+Problem+Solver+%26+Innovator;🔥+Available+for+Exciting+Projects&font=Fira+Code&center=true&width=900&height=50&color=6366F1&vCenter=true&pause=800&size=28&repeat=true&duration=4000" alt="Animated Typing Subtitle">
   </a>
-  <br/>
-  <a href="https://amarzeus.vercel.app/profile-3d">
-    <img src="https://img.shields.io/badge/🌌_Experience_My_3D_Galaxy_Profile-Click_Here!-6366F1?style=for-the-badge&logoColor=white" alt="3D Profile Experience">
-  </a>
-  <br/>
 
   <!-- Enhanced Social & Stats Badges -->
   <p>
@@ -188,10 +183,12 @@
           <img src="https://github-readme-stats.vercel.app/api/pin/?username=amarzeus&repo=amarzeus&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4&show_owner=true" alt="Profile Repo" />
         </a>
       </td>
-      <td width="50%" align="center">
-        <a href="https://amarzeus.vercel.app/profile-3d">
-          <img src="https://readme-typing-svg.herokuapp.com/?lines=🌌+Interactive+3D+Profile;WebGL-Powered+Dashboard;Click+to+Experience!&font=Fira+Code&center=true&width=400&height=130&color=22D3EE&background=0D1117&vCenter=true&size=22" alt="3D Profile Link">
-        </a>
+      <td width="50%">
+        <!-- Add your second most important project here -->
+        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 10px; padding: 20px; color: white; text-align: center;">
+          <h3>🚀 Your Next Project</h3>
+          <p>Coming Soon...</p>
+        </div>
       </td>
     </tr>
   </table>

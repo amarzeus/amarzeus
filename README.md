@@ -66,7 +66,7 @@
   <table>
     <tr>
       <td width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=amarzeus&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true" alt="GitHub Stats" />
+        <img src="https://raw.githubusercontent.com/amarzeus/amarzeus/main/github-metrics-base.svg" alt="GitHub Stats" />
       </td>
       <td width="50%">
         <img src="https://streak-stats.demolab.com/?user=amarzeus&theme=tokyonight" alt="GitHub Streak" />
@@ -74,7 +74,7 @@
     </tr>
     <tr>
       <td colspan="2">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amarzeus&theme=tokyonight&layout=compact&hide_border=true&bg_color=0D1117&title_color=F85D7F&text_color=73C0F4&langs_count=12&card_width=900" alt="Top Languages" />
+        <img src="https://raw.githubusercontent.com/amarzeus/amarzeus/main/github-metrics-langs.svg" alt="Top Languages" width="100%" />
       </td>
     </tr>
     <tr>
@@ -173,11 +173,10 @@
     <tr>
       <td width="50%">
         <a href="https://github.com/amarzeus/amarzeus">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=amarzeus&repo=amarzeus&theme=tokyonight&show_owner=true" alt="Profile Repo" />
+          <img src="https://img.shields.io/badge/AmarZeus-Portfolio--Repo-6366F1?style=for-the-badge&logo=github" alt="Portfolio Repo" />
         </a>
       </td>
       <td width="50%">
-        <!-- Add your second most important project here -->
         <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 10px; padding: 20px; color: white; text-align: center;">
           <h3>🚀 Your Next Project</h3>
           <p>Coming Soon...</p>
@@ -214,7 +213,7 @@
   ### 🏅 GitHub Trophies & Achievements
   
   </div>
-  <img src="https://github-profile-trophy.vercel.app/?username=amarzeus&theme=tokyonight&no-frame=false&no-bg=true&margin-w=4" alt="GitHub Trophies" />
+  <img src="https://raw.githubusercontent.com/amarzeus/amarzeus/main/github-metrics-achievements.svg" alt="GitHub Achievements" width="100%" />
   
   <!-- Animated Achievement Badges -->
   <div>

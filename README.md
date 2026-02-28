@@ -242,11 +242,7 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=amarzeus&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=F85D7F&line=F8D866&point=73C0F4" alt="Activity Graph" />
   
   <!-- Snake Animation -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake.svg">
-  </picture>
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake.svg" width="100%">
 
   <!-- Enhanced Contribution Visualizations -->
   <img src="https://ghchart.rshah.org/6366F1/amarzeus" alt="GitHub Contribution Chart" width="80%" />

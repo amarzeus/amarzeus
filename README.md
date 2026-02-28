@@ -129,19 +129,20 @@
     <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,opencv,sklearn,jupyter,python,kafka" alt="AI/ML & Data Skills" />
   </p>
   
-  <!-- Interactive Skill Meter - Upgraded to dark modern style -->
+  <!-- SKILL-METER:START -->
   <details>
     <summary>🎯 <strong>Skill Proficiency Levels</strong></summary>
     <br>
     <table border="0">
-      <tr><td><b>JavaScript/TypeScript</b></td><td><img src="https://geps.dev/progress/100?color=6366F1" /></td></tr>
-      <tr><td><b>Python</b></td><td><img src="https://geps.dev/progress/90?color=EC4899" /></td></tr>
-      <tr><td><b>React/Next.js</b></td><td><img src="https://geps.dev/progress/95?color=22D3EE" /></td></tr>
-      <tr><td><b>AWS/Cloud</b></td><td><img src="https://geps.dev/progress/85?color=6366F1" /></td></tr>
-      <tr><td><b>Docker/K8s</b></td><td><img src="https://geps.dev/progress/85?color=EC4899" /></td></tr>
-      <tr><td><b>AI/ML</b></td><td><img src="https://geps.dev/progress/80?color=22D3EE" /></td></tr>
+      <tr><td><b>TypeScript</b></td><td><img src="https://geps.dev/progress/70?color=6366F1" /></td></tr>
+      <tr><td><b>Python</b></td><td><img src="https://geps.dev/progress/19?color=EC4899" /></td></tr>
+      <tr><td><b>HTML</b></td><td><img src="https://geps.dev/progress/3?color=22D3EE" /></td></tr>
+      <tr><td><b>JavaScript</b></td><td><img src="https://geps.dev/progress/2?color=F8D866" /></td></tr>
+      <tr><td><b>Kotlin</b></td><td><img src="https://geps.dev/progress/1?color=F85D7F" /></td></tr>
+      <tr><td><b>CSS</b></td><td><img src="https://geps.dev/progress/1?color=00D4AA" /></td></tr>
     </table>
   </details>
+  <!-- SKILL-METER:END -->
   
   <div align="center">
   
@@ -333,14 +334,15 @@
     <img src="https://img.shields.io/badge/💻%20Status-Coding%20Mode%20ON-green?style=for-the-badge&logo=visual-studio-code" alt="Coding Status">
   </p>
   
-  <!-- Live Data Section -->
+  <!-- LIVE-DATA:START -->
   <div align="center">
-    <p>🕐 Last Updated: 2/28/2026, 3:54:08 PM
+    <p>🕐 Last Updated: 2/28/2026, 4:41:14 PM</p>
     <p>💭 Quote: "First, solve the problem. Then, write the code."</p>
     <p>🎯 Current Focus: Building next-generation AI-powered development tools</p>
     <p>🚀 Active Projects: AI-Powered Development Tools, Cloud Architecture</p>
     <p>💡 Learning: Advanced ML Optimization, Distributed Systems</p>
   </div>
+  <!-- LIVE-DATA:END -->
 </div>
 
 ---

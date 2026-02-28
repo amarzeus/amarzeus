@@ -225,7 +225,9 @@
   ### 🏅 GitHub Trophies & Achievements
   
   </div>
-  <img src="https://raw.githubusercontent.com/amarzeus/amarzeus/main/github-metrics-achievements.svg" alt="GitHub Achievements" width="100%" />
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=amarzeus&theme=tokyonight&no-bg=true&margin-w=15" alt="GitHub Trophies" width="100%" />
+  </a>
   
   <!-- Animated Achievement Badges -->
   <div>

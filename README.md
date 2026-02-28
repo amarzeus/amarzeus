@@ -56,12 +56,13 @@
 </div>
 
 <div align="center">
-  <!-- Quick Stats Overview -->
+  <!-- QUICK-STATS:START -->
   <p>
-    <img src="https://img.shields.io/github/stars/amarzeus?style=for-the-badge&logo=github&logoColor=white&color=F8D866&labelColor=0D1117" alt="Total Stars">
-    <img src="https://img.shields.io/github/commit-activity/m/amarzeus/amarzeus?style=for-the-badge&logo=github&logoColor=white&color=73C0F4&labelColor=0D1117" alt="Monthly Commits">
-    <img src="https://img.shields.io/badge/Focus-Full%20Stack%20%26%20AI-F85D7F?style=for-the-badge&logoColor=white&labelColor=0D1117" alt="Current Focus">
+    <img src="https://img.shields.io/badge/Total%20Stars-12-F8D866?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Total Stars">
+    <img src="https://img.shields.io/badge/Yearly%20Commits-1387-73C0F4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Yearly Commits">
+    <img src="https://img.shields.io/badge/Focus-Building%20next-generation%20AI-powered%20development%20tools-F85D7F?style=for-the-badge&logoColor=white&labelColor=0D1117" alt="Current Focus">
   </p>
+  <!-- QUICK-STATS:END -->
   
   <table>
     <tr>
@@ -169,22 +170,32 @@
   <!-- Animated Project Showcase -->
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
   
-  <!-- Real Project Pins - Replace with your actual repositories -->
+  <!-- PROJECTS:START -->
   <table>
     <tr>
       <td width="50%">
-        <a href="https://github.com/amarzeus/amarzeus">
-          <img src="https://img.shields.io/badge/AmarZeus-Portfolio--Repo-6366F1?style=for-the-badge&logo=github" alt="Portfolio Repo" />
-        </a>
+        <div style="background: linear-gradient(135deg, #1e1e2e 0%, #2d2b55 100%); border-radius: 10px; padding: 20px; color: white;">
+          <h3><a href="https://github.com/amarzeus/careops-app" style="color: #6366F1; text-decoration: none;">📁 careops-app</a></h3>
+          <p style="font-size: 14px; min-height: 40px;">CareOps</p>
+          <div style="font-size: 13px; display: flex; justify-content: space-between;">
+            <span><span style='color: #3178c6;'>●</span> TypeScript</span>
+            <span>⭐ 1 &nbsp;&nbsp; 🍴 0</span>
+          </div>
+        </div>
       </td>
       <td width="50%">
-        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 10px; padding: 20px; color: white; text-align: center;">
-          <h3>🚀 Your Next Project</h3>
-          <p>Coming Soon...</p>
+        <div style="background: linear-gradient(135deg, #1e1e2e 0%, #2d2b55 100%); border-radius: 10px; padding: 20px; color: white;">
+          <h3><a href="https://github.com/amarzeus/gemini-skills" style="color: #6366F1; text-decoration: none;">📁 gemini-skills</a></h3>
+          <p style="font-size: 14px; min-height: 40px;">Skills for the Gemini API, SDK and model/agent interactions</p>
+          <div style="font-size: 13px; display: flex; justify-content: space-between;">
+            <span></span>
+            <span>⭐ 0 &nbsp;&nbsp; 🍴 0</span>
+          </div>
         </div>
       </td>
     </tr>
   </table>
+  <!-- PROJECTS:END -->
   
   <!-- Interactive Project Cards -->
   <details>
@@ -336,10 +347,10 @@
   
   <!-- LIVE-DATA:START -->
   <div align="center">
-    <p>🕐 Last Updated: 2/28/2026, 4:41:14 PM</p>
+    <p>🕐 Last Updated: 2/28/2026, 4:58:39 PM</p>
     <p>💭 Quote: "First, solve the problem. Then, write the code."</p>
     <p>🎯 Current Focus: Building next-generation AI-powered development tools</p>
-    <p>🚀 Active Projects: AI-Powered Development Tools, Cloud Architecture</p>
+    <p>🚀 Active Projects: careops-app, gemini-skills</p>
     <p>💡 Learning: Advanced ML Optimization, Distributed Systems</p>
   </div>
   <!-- LIVE-DATA:END -->
@@ -355,19 +366,20 @@
   
   </div>
   
-  <!-- Real-time Metrics -->
+  <!-- ADV-STATS:START -->
   <table>
     <tr>
-      <td><img src="https://img.shields.io/github/commit-activity/y/amarzeus/amarzeus?style=for-the-badge&logo=github&color=orange" /></td>
-      <td><img src="https://img.shields.io/github/last-commit/amarzeus/amarzeus?style=for-the-badge&logo=github&color=blue" /></td>
-      <td><img src="https://img.shields.io/github/stars/amarzeus?style=for-the-badge&logo=github&color=yellow" /></td>
+      <td><img src="https://img.shields.io/badge/Total%20Commits%20(Year)-1387-orange?style=for-the-badge&logo=github" alt="Commits" /></td>
+      <td><img src="https://img.shields.io/badge/Total%20Public%20Repos-42-blue?style=for-the-badge&logo=github" alt="Repos" /></td>
+      <td><img src="https://img.shields.io/badge/Total%20Stars%20Earned-12-yellow?style=for-the-badge&logo=github" alt="Stars" /></td>
     </tr>
     <tr>
-      <td><img src="https://img.shields.io/github/followers/amarzeus?style=for-the-badge&logo=github&color=green" /></td>
-      <td><img src="https://img.shields.io/github/repo-size/amarzeus/amarzeus?style=for-the-badge&logo=github&color=purple" /></td>
-      <td><img src="https://img.shields.io/github/languages/count/amarzeus/amarzeus?style=for-the-badge&logo=github&color=red" /></td>
+      <td><img src="https://img.shields.io/badge/GitHub%20Followers-1-green?style=for-the-badge&logo=github" alt="Followers" /></td>
+      <td><img src="https://img.shields.io/badge/Main%20Language-TypeScript-red?style=for-the-badge&logo=code" alt="Top Lang" /></td>
+      <td><img src="https://img.shields.io/badge/Top%20Project-careops-app-purple?style=for-the-badge&logo=github" alt="Top Project" /></td>
     </tr>
   </table>
+  <!-- ADV-STATS:END -->
   
   <!-- Live Visitor Map Fixed ID-->
   <div align="center">

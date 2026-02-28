@@ -5,12 +5,14 @@
   "scripts": {
     "dev": "vercel dev",
     "build": "vercel build",
-    "deploy": "vercel --prod"
+    "deploy": "vercel --prod",
+    "format": "prettier --write \"**/*.{html,j,css,md}\""
   },
   "dependencies": {
     "three": "^0.158.0"
   },
   "devDependencies": {
-    "@vercel/node": "^3.0.0"
+    "@vercel/node": "^5.6.9",
+    "prettier": "^3.0.0"
   }
 }

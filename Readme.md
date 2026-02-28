@@ -1,9 +1,9 @@
-<!-- 
-  Hello! Thanks for checking out my profile. 
+<!--
+  Hello! Thanks for checking out my profile.
   This README is a labor of love, designed to be a "world-class" showcase of my skills and projects.
   It's powered by GitHub Actions, dynamic markdown, and a bit of creative engineering.
   Feel free to take inspiration from it for your own profile!
-  
+
   - Amar Zeus
 -->
 
@@ -41,7 +41,6 @@
   
   <!-- Animated Rainbow Divider -->
   <img src="https://capsule-render.vercel.app/api?type=rect&color=timeGradient&height=2" width="100%">
-
 
 </div>
 
@@ -257,8 +256,6 @@
     <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake.svg">
   </picture>
 
-
-  
   <!-- Enhanced Contribution Visualizations -->
   <img src="https://ghchart.rshah.org/6366F1/amarzeus" alt="GitHub Contribution Chart" width="80%" />
   
@@ -267,7 +264,7 @@
     <summary>🕰️ <strong>Weekly Development Breakdown</strong></summary>
     <br>
     <img src="https://github-readme-stats.vercel.app/api/wakatime?username=amarzeus&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4&layout=compact&langs_count=8" alt="Wakatime Stats" />
-    
+
 
   </details>
 </div>
@@ -291,14 +288,16 @@
 <div align="center">
 
 <!-- BLOG-POST-LIST:START -->
+
 📝 **Latest Articles:**
+
 - 🚀 [Building Scalable Microservices with Node.js](https://dev.to/amarzeus)
 - 🤖 [AI-Powered Code Generation: The Future of Development](https://dev.to/amarzeus)
 - ☸️ [Mastering Kubernetes for Production Workloads](https://dev.to/amarzeus)
 - ⚛️ [Advanced React Patterns for Enterprise Applications](https://dev.to/amarzeus)
 - ☁️ [Cloud-Native Architecture Best Practices](https://dev.to/amarzeus)
-<!-- BLOG-POST-LIST:END -->
-*This section updates automatically. Stay tuned for new articles!*
+  <!-- BLOG-POST-LIST:END -->
+  _This section updates automatically. Stay tuned for new articles!_
 
 </div>
 
@@ -407,8 +406,6 @@
 </div>
 
 ---
-
-
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=9&height=150&section=footer" alt="Footer" />

@@ -58,8 +58,13 @@
 <div align="center">
   <!-- QUICK-STATS:START -->
   <p>
+<<<<<<< HEAD
     <img src="https://img.shields.io/badge/Total%20Stars-6-F8D866?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Total Stars">
     <img src="https://img.shields.io/badge/Yearly%20Commits-1396-73C0F4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Yearly Commits">
+=======
+    <img src="https://img.shields.io/badge/Total%20Stars-12-F8D866?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Total Stars">
+    <img src="https://img.shields.io/badge/Yearly%20Commits-1398-73C0F4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Yearly Commits">
+>>>>>>> 2440338 (fix(readme): implement strict cache busting for streak stats)
     <img src="https://img.shields.io/badge/Focus-Building%20next--generation%20AI--powered%20development%20tools-F85D7F?style=for-the-badge&logoColor=white&labelColor=0D1117" alt="Current Focus">
   </p>
   <!-- QUICK-STATS:END -->
@@ -70,7 +75,7 @@
         <img src="https://raw.githubusercontent.com/amarzeus/amarzeus/main/github-metrics-base.svg" alt="GitHub Stats" />
       </td>
       <td width="50%">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=amarzeus&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=amarzeus&theme=tokyonight&hide_border=true&cb=1772351494" alt="GitHub Streak" />
       </td>
     </tr>
     <tr>
@@ -342,7 +347,11 @@ _No recent articles found. Stay tuned for upcoming posts!_
   
   <!-- LIVE-DATA:START -->
   <div align="center">
+<<<<<<< HEAD
     <p>🕐 Last Updated: 3/1/2026, 12:17:58 PM
+=======
+    <p>🕐 Last Updated: 3/1/2026, 1:21:34 PM</p>
+>>>>>>> 2440338 (fix(readme): implement strict cache busting for streak stats)
     <p>💭 Quote: "First, solve the problem. Then, write the code."</p>
     <p>🎯 Current Focus: Building next-generation AI-powered development tools</p>
     <p>🚀 Active Projects: careops-app, gemini-skills</p>
@@ -364,9 +373,9 @@ _No recent articles found. Stay tuned for upcoming posts!_
   <!-- ADV-STATS:START -->
   <table>
     <tr>
-      <td><img src="https://img.shields.io/badge/Total%20Commits%20(Year)-1396-orange?style=for-the-badge&logo=github" alt="Commits" /></td>
-      <td><img src="https://img.shields.io/badge/Total%20Public%20Repos-23-blue?style=for-the-badge&logo=github" alt="Repos" /></td>
-      <td><img src="https://img.shields.io/badge/Total%20Stars%20Earned-6-yellow?style=for-the-badge&logo=github" alt="Stars" /></td>
+      <td><img src="https://img.shields.io/badge/Total%20Commits%20(Year)-1398-orange?style=for-the-badge&logo=github" alt="Commits" /></td>
+      <td><img src="https://img.shields.io/badge/Total%20Public%20Repos-42-blue?style=for-the-badge&logo=github" alt="Repos" /></td>
+      <td><img src="https://img.shields.io/badge/Total%20Stars%20Earned-12-yellow?style=for-the-badge&logo=github" alt="Stars" /></td>
     </tr>
     <tr>
       <td><img src="https://img.shields.io/badge/GitHub%20Followers-1-green?style=for-the-badge&logo=github" alt="Followers" /></td>

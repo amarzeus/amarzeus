@@ -245,6 +245,12 @@ def update_readme(live_data):
                         f'{adv_stats_start}\n{adv_stats}\n  {adv_stats_end}', 
                         content, flags=re.DOTALL)
 
+    # 6. Bust Cache on Streak Stats
+    now_ts = int(datetime.now().timestamp())
+    content = re.sub(r'https://github-readme-streak-stats\.herokuapp\.com/\?user=amarzeus&theme=tokyonight&hide_border=true(?:&cb=\d+)?', 
+                     f'https://github-readme-streak-stats.herokuapp.com/?user=amarzeus&theme=tokyonight&hide_border=true&cb={now_ts}', 
+                     content)
+
     with open(README_PATH, 'w') as f:
         f.write(content)
 

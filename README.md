@@ -15,11 +15,11 @@
   
   <!-- Subtitle: Enhanced Typing Animation -->
   <a href="https://github.com/amarzeus">
-    <img src="https://readme-typing-svg.demolab.com/?lines=🚀+Senior+Software+Engineer+%26+Cloud+Architect;🤖+AI%2FML+Developer+%26+Data+Scientist;🌟+Open-Source+Contributor+%26+Innovator;⚡+Building+Scalable+LLM+Pipelines;💡+Passionate+About+Distributed+Systems;🔥+Available+for+Exciting+Projects&font=Fira+Code&center=true&width=900&height=50&color=6366F1&vCenter=true&pause=1000&size=28&repeat=true&duration=4000" alt="Animated Typing Subtitle">
+    <img src="https://readme-typing-svg.demolab.com/?lines=%F0%9F%9A%80+Senior+Software+Engineer+%26+Cloud+Architect;%F0%9F%A4%96+AI%2FML+Developer+%26+Data+Scientist;%F0%9F%8C%9F+Open-Source+Contributor+%26+Innovator;%E2%9A%A1+Building+Scalable+LLM+Pipelines;%F0%9F%92%A1+Passionate+About+Distributed+Systems;%F0%9F%94%A5+Available+for+Exciting+Projects&font=Fira+Code&center=true&width=900&height=50&color=6366F1&vCenter=true&pause=1000&size=28&repeat=true&duration=4000" alt="Animated Typing Subtitle">
   </a>
-  
+
   <!-- Plain-text SEO Bio -->
-  <p align="center">
+<p align="center">
     <b>Senior Software Engineer | AI Researcher | Full-Stack Architect</b><br>
     Specializing in scalable cloud architectures, intelligent systems, and next-generation development tools using TypeScript, Python, and modern open-source technologies.
   </p>
@@ -69,7 +69,7 @@
   <!-- QUICK-STATS:START -->
   <p align="center">
     <a href="https://github.com/amarzeus?tab=repositories"><img src="https://img.shields.io/badge/Total%20Stars-12-F8D866?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Total Stars"></a>
-    <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Yearly%20Commits-1409-73C0F4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Yearly Commits"></a>
+    <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Yearly%20Commits-1411-73C0F4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Yearly Commits"></a>
     <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Focus-Building%20next--generation%20AI--powered%20development%20tools-F85D7F?style=for-the-badge&logoColor=white&labelColor=0D1117" alt="Current Focus"></a>
   </p>
   <!-- QUICK-STATS:END -->
@@ -148,7 +148,7 @@
 
 ---
 
-<div align="center">
+<div align="center" id="-featured-projects--achievements">
 
 ## 🏆 Featured Projects & Achievements
 
@@ -231,7 +231,6 @@
 ## 📈 Contribution Graph & Activity
 
 </div>
-
 <!-- Animated Coding GIF -->
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="500" alt="Coding Animation">
@@ -357,12 +356,12 @@
   
   <!-- ADV-STATS:START -->
   <p align="center">
-    <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Total%20Commits%20(Year)-1409-orange?style=for-the-badge&logo=github" alt="Commits" /></a>
+    <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Total%20Commits%20(Year)-1411-orange?style=for-the-badge&logo=github" alt="Commits" /></a>
     <a href="https://github.com/amarzeus?tab=repositories"><img src="https://img.shields.io/badge/Total%20Public%20Repos-42-blue?style=for-the-badge&logo=github" alt="Repos" /></a>
     <a href="https://github.com/amarzeus?tab=repositories"><img src="https://img.shields.io/badge/Total%20Stars%20Earned-12-yellow?style=for-the-badge&logo=github" alt="Stars" /></a>
     <a href="https://github.com/amarzeus?tab=followers"><img src="https://img.shields.io/badge/GitHub%20Followers-1-green?style=for-the-badge&logo=github" alt="Followers" /></a>
     <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Main%20Language-TypeScript-red?style=for-the-badge&logo=code" alt="Top Lang" /></a>
-    <a href="https://github.com/amarzeus/careops--app"><img src="https://img.shields.io/badge/Top%20Project-careops--app-purple?style=for-the-badge&logo=github" alt="Top Project" /></a>
+    <a href="https://github.com/amarzeus/careops-app"><img src="https://img.shields.io/badge/Top%20Project-careops--app-purple?style=for-the-badge&logo=github" alt="Top Project" /></a>
   </p>
   <!-- ADV-STATS:END -->
   

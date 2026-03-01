@@ -129,22 +129,20 @@ def get_live_data():
     sorted_langs = sorted(language_stats.items(), key=lambda x: x[1], reverse=True)
     total_size = sum(language_stats.values()) if language_stats else 1
     
-    top_langs = []
+    top_langs: list[tuple[str, int]] = []
     # Use enumerate to safely iterate the max top 6 instead of slicing dict views directly
     for i, (lang, size) in enumerate(sorted_langs):
         if i >= 6:
             break
-        percentage = (size / total_size) * 100
+        percentage: float = (float(size) / float(total_size)) * 100.0
         top_langs.append((lang, int(percentage)))
         
-    active_projects = []
+    active_projects: list[dict] = []
     # Safely build active projects without slicing a comprehension directly
-    count = 0
     for r in repos:
         if isinstance(r, dict) and r.get('name', '').lower() != GITHUB_USERNAME.lower():
             active_projects.append(r)
-            count += 1
-            if count >= 2:
+            if len(active_projects) >= 2:
                 break
     
     while len(active_projects) < 2:
@@ -354,7 +352,8 @@ def update_readme(live_data):
     adv_stats_start = "<!-- ADV-STATS:START -->"
     adv_stats_end = "<!-- ADV-STATS:END -->"
     best_lang = safe_shield_text(live_data['top_langs'][0][0]) if live_data['top_langs'] else 'None'
-    top_project = safe_shield_text(active_names.split(', ')[0]) if active_names else 'None'
+    raw_top_project = active_names.split(', ')[0] if active_names else 'None'
+    top_project_shield = safe_shield_text(raw_top_project)
 
     adv_stats = f"""  <p align="center">
     <a href="https://github.com/{GITHUB_USERNAME}"><img src="https://img.shields.io/badge/Total%20Commits%20(Year)-{stats['commits']}-orange?style=for-the-badge&logo=github" alt="Commits" /></a>
@@ -362,7 +361,7 @@ def update_readme(live_data):
     <a href="https://github.com/{GITHUB_USERNAME}?tab=repositories"><img src="https://img.shields.io/badge/Total%20Stars%20Earned-{stats['stars']}-yellow?style=for-the-badge&logo=github" alt="Stars" /></a>
     <a href="https://github.com/{GITHUB_USERNAME}?tab=followers"><img src="https://img.shields.io/badge/GitHub%20Followers-{stats['followers']}-green?style=for-the-badge&logo=github" alt="Followers" /></a>
     <a href="https://github.com/{GITHUB_USERNAME}"><img src="https://img.shields.io/badge/Main%20Language-{urllib.parse.quote(best_lang)}-red?style=for-the-badge&logo=code" alt="Top Lang" /></a>
-    <a href="https://github.com/{GITHUB_USERNAME}/{urllib.parse.quote(top_project)}"><img src="https://img.shields.io/badge/Top%20Project-{urllib.parse.quote(top_project)}-purple?style=for-the-badge&logo=github" alt="Top Project" /></a>
+    <a href="https://github.com/{GITHUB_USERNAME}/{urllib.parse.quote(raw_top_project)}"><img src="https://img.shields.io/badge/Top%20Project-{urllib.parse.quote(top_project_shield)}-purple?style=for-the-badge&logo=github" alt="Top Project" /></a>
   </p>"""
 
     if adv_stats_start in content:
@@ -375,13 +374,13 @@ def update_readme(live_data):
     timeline_end = "<!-- TIMELINE:END -->"
     
     if isinstance(timeline, list) and timeline:
-        timeline_rows = []
+        timeline_rows: list[str] = []
         for item in timeline:
             if isinstance(item, dict):
-                desc_html = f" - {item.get('desc', '')}" if "desc" in item else ""
-                icon = str(item.get('icon', '💼'))
-                year = str(item.get('year', ''))
-                role = str(item.get('role', ''))
+                desc_html: str = f" - {item.get('desc', '')}" if "desc" in item else ""
+                icon: str = str(item.get('icon', '💼'))
+                year: str = str(item.get('year', ''))
+                role: str = str(item.get('role', ''))
                 timeline_rows.append(f"    <li>{icon} <strong>{year}</strong>: <i>{role}</i>{desc_html}</li>")
         
         timeline_html = "\n".join(timeline_rows)
@@ -404,7 +403,7 @@ def update_readme(live_data):
     
     color_map = ["6366F1", "EC4899", "22D3EE", "F8D866", "F85D7F", "00D4AA"]
     
-    skills_rows = []
+    skills_rows: list[str] = []
     for i, (lang, percentage) in enumerate(live_data['top_langs']):
       # map a color looping through the color map
       color = color_map[i % len(color_map)]

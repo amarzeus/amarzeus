@@ -59,3 +59,14 @@ jobs:
           plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
           plugin_wakatime_days: 7
           plugin_wakatime_sections: time, languages, editors, os
+
+      - name: Isocalendar Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics-calendar.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: amarzeus
+          template: classic
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year

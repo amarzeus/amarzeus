@@ -7,6 +7,8 @@
   - Amar Zeus
 -->
 
+<h1 align="center" style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border-width: 0;">Amar Kumar - Senior Software Engineer & AI Researcher</h1>
+
 <div align="center">
   <!-- Header: Waving Animation and Title -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=9&height=300&section=header&text=Hey,%20I'm%20Amar%20Kumar!&fontSize=70&fontColor=fff&animation=twinkling&fontAlignY=38" alt="Header" />
@@ -65,24 +67,16 @@
   <!-- QUICK-STATS:START -->
   <p align="center">
     <a href="https://github.com/amarzeus?tab=repositories"><img src="https://img.shields.io/badge/Total%20Stars-12-F8D866?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Total Stars"></a>
-    <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Yearly%20Commits-1403-73C0F4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Yearly Commits"></a>
+    <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Yearly%20Commits-1404-73C0F4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Yearly Commits"></a>
     <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Focus-Building%20next--generation%20AI--powered%20development%20tools-F85D7F?style=for-the-badge&logoColor=white&labelColor=0D1117" alt="Current Focus"></a>
   </p>
   <!-- QUICK-STATS:END -->
   
   <p align="center">
     <a href="https://github.com/amarzeus"><img src="https://raw.githubusercontent.com/amarzeus/amarzeus/main/github-metrics-base.svg" alt="GitHub Stats" /></a>
-    <a href="https://github.com/amarzeus"><img src="https://github-readme-streak-stats.herokuapp.com/?user=amarzeus&theme=tokyonight&hide_border=true" alt="GitHub Streak" /></a>
   </p>
   <p align="center">
     <a href="https://github.com/amarzeus"><img src="https://raw.githubusercontent.com/amarzeus/amarzeus/main/github-metrics-langs.svg" alt="Top Languages" /></a>
-  </p>
-  <p align="center">
-    <a href="https://github.com/amarzeus"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=amarzeus&theme=tokyonight" alt="Profile Summary" /></a>
-  </p>
-  <p align="center">
-    <a href="https://github.com/amarzeus"><img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=amarzeus&theme=tokyonight&utc_offset=8" alt="Productive Time" /></a>
-    <a href="https://github.com/amarzeus"><img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=amarzeus&theme=tokyonight" alt="Repos per Language" /></a>
   </p>
 </div>
 
@@ -215,14 +209,9 @@
 </div>
 
 <div align="center">
-  <!-- Activity Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=amarzeus&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=F85D7F&line=F8D866&point=73C0F4" alt="Activity Graph" />
-  
   <!-- Snake Animation -->
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake.svg" width="100%">
 
-  <!-- Enhanced Contribution Visualizations -->
-  <img src="https://ghchart.rshah.org/6366F1/amarzeus" alt="GitHub Contribution Chart" width="80%" />
   
   <!-- Wakatime Stats -->
   <details>
@@ -339,7 +328,7 @@
   
   <!-- ADV-STATS:START -->
   <p align="center">
-    <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Total%20Commits%20(Year)-1403-orange?style=for-the-badge&logo=github" alt="Commits" /></a>
+    <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Total%20Commits%20(Year)-1404-orange?style=for-the-badge&logo=github" alt="Commits" /></a>
     <a href="https://github.com/amarzeus?tab=repositories"><img src="https://img.shields.io/badge/Total%20Public%20Repos-42-blue?style=for-the-badge&logo=github" alt="Repos" /></a>
     <a href="https://github.com/amarzeus?tab=repositories"><img src="https://img.shields.io/badge/Total%20Stars%20Earned-12-yellow?style=for-the-badge&logo=github" alt="Stars" /></a>
     <a href="https://github.com/amarzeus?tab=followers"><img src="https://img.shields.io/badge/GitHub%20Followers-1-green?style=for-the-badge&logo=github" alt="Followers" /></a>

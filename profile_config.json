@@ -1,5 +1,11 @@
 {
   "focus": "Building next-generation AI-powered development tools",
   "learning": "Advanced ML Optimization, Distributed Systems",
-  "quote": "First, solve the problem. Then, write the code."
+  "quote": "First, solve the problem. Then, write the code.",
+  "timeline": [
+    {"year": "2024 - Present", "icon": "💼", "role": "Architecting Scalable LLM Pipelines & AI Agents"},
+    {"year": "2022 - 2024", "icon": "🚀", "role": "Senior Full-Stack Engineer", "desc": "Developed high-availability Next.js & Python enterprise apps."},
+    {"year": "2020 - 2022", "icon": "🧠", "role": "AI/ML Developer", "desc": "Built predictive data models and automation workflows."},
+    {"year": "2019", "icon": "🎓", "role": "Computer Science Graduate", "desc": "Specialized in distributed systems and software engineering."}
+  ]
 }

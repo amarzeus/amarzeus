@@ -67,7 +67,7 @@
   <!-- QUICK-STATS:START -->
   <p align="center">
     <a href="https://github.com/amarzeus?tab=repositories"><img src="https://img.shields.io/badge/Total%20Stars-12-F8D866?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Total Stars"></a>
-    <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Yearly%20Commits-1406-73C0F4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Yearly Commits"></a>
+    <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Yearly%20Commits-1407-73C0F4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Yearly Commits"></a>
     <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Focus-Building%20next--generation%20AI--powered%20development%20tools-F85D7F?style=for-the-badge&logoColor=white&labelColor=0D1117" alt="Current Focus"></a>
   </p>
   <!-- QUICK-STATS:END -->
@@ -252,6 +252,7 @@
 
 </div>
 
+<!-- TIMELINE:START -->
 <details>
   <summary>⏳ <strong>View Career Timeline</strong></summary>
   <br>
@@ -262,6 +263,7 @@
     <li>🎓 <strong>2019</strong>: <i>Computer Science Graduate</i> - Specialized in distributed systems and software engineering.</li>
   </ul>
 </details>
+<!-- TIMELINE:END -->
 
 ---
 
@@ -311,10 +313,10 @@
   <!-- LIVE-DATA:START -->
   <div align="center">
     <p>🕐 Last Updated: 2026-03-01</p>
-    <p>💭 Quote: "The best error message is the one that never shows up."</p>
+    <p>💭 Quote: "First, solve the problem. Then, write the code."</p>
     <p>🎯 Current Focus: Building next-generation AI-powered development tools</p>
     <p>🚀 Active Projects: careops-app, gemini-skills</p>
-    <p>💡 Learning: Advanced System Design & AI</p>
+    <p>💡 Learning: Advanced ML Optimization, Distributed Systems</p>
   </div>
   <!-- LIVE-DATA:END -->
 </div>
@@ -331,7 +333,7 @@
   
   <!-- ADV-STATS:START -->
   <p align="center">
-    <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Total%20Commits%20(Year)-1406-orange?style=for-the-badge&logo=github" alt="Commits" /></a>
+    <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Total%20Commits%20(Year)-1407-orange?style=for-the-badge&logo=github" alt="Commits" /></a>
     <a href="https://github.com/amarzeus?tab=repositories"><img src="https://img.shields.io/badge/Total%20Public%20Repos-42-blue?style=for-the-badge&logo=github" alt="Repos" /></a>
     <a href="https://github.com/amarzeus?tab=repositories"><img src="https://img.shields.io/badge/Total%20Stars%20Earned-12-yellow?style=for-the-badge&logo=github" alt="Stars" /></a>
     <a href="https://github.com/amarzeus?tab=followers"><img src="https://img.shields.io/badge/GitHub%20Followers-1-green?style=for-the-badge&logo=github" alt="Followers" /></a>

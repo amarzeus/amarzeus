@@ -106,10 +106,10 @@ def get_live_data():
         "top_langs": top_langs,
         "active_projects_list": active_projects,
         "stats": {
-            "stars": total_stars,
-            "commits": total_commits_yr,
-            "followers": total_followers,
-            "repos": total_repos
+            "stars": int(total_stars),
+            "commits": int(total_commits_yr),
+            "followers": int(total_followers),
+            "repos": int(total_repos)
         }
     }
 
@@ -176,9 +176,23 @@ def get_latest_activity():
         return []
 
 def update_readme(live_data):
-    focus = "Building next-generation AI-powered development tools"
-    quote = "The best error message is the one that never shows up."
-    learning = "Advanced System Design & AI"
+    # Load configuration
+    config_path = os.path.join(os.path.dirname(__file__), '../profile_config.json')
+    try:
+        with open(config_path, 'r') as f:
+            config = json.load(f)
+    except FileNotFoundError:
+        config = {
+            "focus": "Building next-generation AI-powered development tools",
+            "learning": "Advanced System Design & AI",
+            "quote": "The best error message is the one that never shows up.",
+            "timeline": []
+        }
+    
+    focus = config.get("focus", "Building next-generation AI-powered development tools")
+    quote = config.get("quote", "The best error message is the one that never shows up.")
+    learning = config.get("learning", "Advanced System Design & AI")
+    timeline = config.get("timeline", [])
         
     with open(README_PATH, 'r') as f:
         content = f.read()
@@ -262,6 +276,31 @@ def update_readme(live_data):
         content = re.sub(f'{adv_stats_start}.*?{adv_stats_end}', 
                         f'{adv_stats_start}\n{adv_stats}\n  {adv_stats_end}', 
                         content, flags=re.DOTALL)
+                        
+    # 5.3 Replace Timeline section
+    timeline_start = "<!-- TIMELINE:START -->"
+    timeline_end = "<!-- TIMELINE:END -->"
+    
+    if isinstance(timeline, list) and timeline:
+        timeline_rows = []
+        for item in timeline:
+            if isinstance(item, dict):
+                desc_html = f" - {item.get('desc', '')}" if "desc" in item else ""
+                timeline_rows.append(f"    <li>{item.get('icon', '💼')} <strong>{item.get('year', '')}</strong>: <i>{item.get('role', '')}</i>{desc_html}</li>")
+        
+        timeline_html = "\n".join(timeline_rows)
+        timeline_block = f"""<details>
+  <summary>⏳ <strong>View Career Timeline</strong></summary>
+  <br>
+  <ul>
+{timeline_html}
+  </ul>
+</details>"""
+
+        if timeline_start in content:
+            content = re.sub(f'{timeline_start}.*?{timeline_end}', 
+                            f'{timeline_start}\n{timeline_block}\n{timeline_end}', 
+                            content, flags=re.DOTALL)
                         
     # 5.5 Update Language Proficiency Meters
     skill_meter_start = "<!-- SKILL-METER:START -->"

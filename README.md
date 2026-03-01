@@ -57,7 +57,7 @@
 ---
 
 <!-- Animated Section Header -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=9&height=3" width="100%">
 
 <div align="center">
 
@@ -69,7 +69,7 @@
   <!-- QUICK-STATS:START -->
   <p align="center">
     <a href="https://github.com/amarzeus?tab=repositories"><img src="https://img.shields.io/badge/Total%20Stars-12-F8D866?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Total Stars"></a>
-    <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Yearly%20Commits-1408-73C0F4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Yearly Commits"></a>
+    <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Yearly%20Commits-1409-73C0F4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Yearly Commits"></a>
     <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Focus-Building%20next--generation%20AI--powered%20development%20tools-F85D7F?style=for-the-badge&logoColor=white&labelColor=0D1117" alt="Current Focus"></a>
   </p>
   <!-- QUICK-STATS:END -->
@@ -85,7 +85,7 @@
 ---
 
 <!-- Animated Tech Stack Header -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=9&height=3" width="100%">
 
 <div align="center">
 
@@ -123,19 +123,19 @@
     <summary>🎯 <strong>Skill Proficiency Levels</strong> <i>(Auto-Updated)</i></summary>
     <br>
     <table border="0">
-      <tr><td><b>TypeScript</b></td><td><img src="https://geps.dev/progress/72?color=6366F1" /></td></tr>
-      <tr><td><b>Python</b></td><td><img src="https://geps.dev/progress/22?color=EC4899" /></td></tr>
-      <tr><td><b>CSS</b></td><td><img src="https://geps.dev/progress/1?color=22D3EE" /></td></tr>
-      <tr><td><b>JavaScript</b></td><td><img src="https://geps.dev/progress/1?color=F8D866" /></td></tr>
-      <tr><td><b>PHP</b></td><td><img src="https://geps.dev/progress/0?color=F85D7F" /></td></tr>
-      <tr><td><b>HTML</b></td><td><img src="https://geps.dev/progress/0?color=00D4AA" /></td></tr>
+      <tr><td><b>TypeScript</b></td><td><img src="https://geps.dev/progress/70?color=6366F1" /></td></tr>
+      <tr><td><b>Python</b></td><td><img src="https://geps.dev/progress/19?color=EC4899" /></td></tr>
+      <tr><td><b>HTML</b></td><td><img src="https://geps.dev/progress/3?color=22D3EE" /></td></tr>
+      <tr><td><b>JavaScript</b></td><td><img src="https://geps.dev/progress/2?color=F8D866" /></td></tr>
+      <tr><td><b>Kotlin</b></td><td><img src="https://geps.dev/progress/1?color=F85D7F" /></td></tr>
+      <tr><td><b>CSS</b></td><td><img src="https://geps.dev/progress/1?color=00D4AA" /></td></tr>
     </table>
   </details>
   <!-- SKILL-METER:END -->
   
   <div align="center">
   
-  ### Specializations
+### Specializations
   
   </div>
   <p>
@@ -156,12 +156,28 @@
 
 <div align="center">
   <!-- Animated Project Showcase -->
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=9&height=3" width="100%">
   
   <!-- PROJECTS:START -->
   <p align="center">
-    <a href="https://github.com/amarzeus/careops-app"><img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=careops-app&theme=tokyonight" alt="careops-app" /></a>
-    <a href="https://github.com/amarzeus/gemini-skills"><img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=gemini-skills&theme=tokyonight" alt="gemini-skills" /></a>
+
+    <a href="https://github.com/amarzeus/careops-app">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=careops-app&theme=tokyonight">
+        <source media="(prefers-color-scheme: light)" srcset="https://readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=careops-app&theme=default">
+        <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=careops-app&theme=tokyonight" alt="careops-app" />
+      </picture>
+    </a>
+    
+
+    <a href="https://github.com/amarzeus/gemini-skills">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=gemini-skills&theme=tokyonight">
+        <source media="(prefers-color-scheme: light)" srcset="https://readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=gemini-skills&theme=default">
+        <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=gemini-skills&theme=tokyonight" alt="gemini-skills" />
+      </picture>
+    </a>
+    
   </p>
   <!-- PROJECTS:END -->
   
@@ -176,12 +192,23 @@
     </ul>
   </details>
   
+  <br>
+
+  <!-- Published Articles -->
+  <div align="center">
+### 📝 Recent Articles & Posts
+  </div>
+  
+  <!-- ARTICLES:START -->
+<!-- No recent articles found. Published posts will automatically sync here. -->
+<!-- ARTICLES:END -->
+  
   <!-- Animated Separator -->
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=9&height=3" width="100%">
   
   <div align="center">
   
-  ### 🏅 GitHub Trophies & Achievements
+### 🏅 GitHub Trophies & Achievements
   
   </div>
   <a href="https://github.com/ryo-ma/github-profile-trophy">
@@ -197,7 +224,7 @@
 ---
 
 <!-- Animated Section Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=9&height=3" width="100%">
 
 <div align="center">
 
@@ -236,8 +263,8 @@
 <p>🚀 Push to [amarzeus](https://github.com/amarzeus/amarzeus) - 2026-03-01<br>
 🚀 Push to [careops-app](https://github.com/amarzeus/careops-app) - 2026-03-01<br>
 🚀 Push to [gemini-skills](https://github.com/amarzeus/gemini-skills) - 2026-02-13<br>
-🚀 Push to [ai-counsellor](https://github.com/amarzeus/ai-counsellor) - 2026-02-05<br>
-🚀 Push to [Whiteout-Survival-Discord-Bot](https://github.com/amarzeus/Whiteout-Survival-Discord-Bot) - 2026-02-04</p>
+🚀 Push to [english-bolo](https://github.com/amarzeus/english-bolo) - 2026-02-10<br>
+🚀 Push to [ai-counsellor](https://github.com/amarzeus/ai-counsellor) - 2026-02-05</p>
 </div>
   <!-- ACTIVITY:END -->
   </details>
@@ -294,7 +321,7 @@
 
   <div align="center">
   
-  ### ☕ Support My Open-Source Work
+### ☕ Support My Open-Source Work
   
   </div>
   <p>If you like what I do, consider supporting me. It helps me dedicate more time to open-source projects.</p>
@@ -329,13 +356,13 @@
 <div align="center">
   <div align="center">
   
-  ## 📊 Advanced Analytics Dashboard
+## 📊 Advanced Analytics Dashboard
   
   </div>
   
   <!-- ADV-STATS:START -->
   <p align="center">
-    <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Total%20Commits%20(Year)-1408-orange?style=for-the-badge&logo=github" alt="Commits" /></a>
+    <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Total%20Commits%20(Year)-1409-orange?style=for-the-badge&logo=github" alt="Commits" /></a>
     <a href="https://github.com/amarzeus?tab=repositories"><img src="https://img.shields.io/badge/Total%20Public%20Repos-42-blue?style=for-the-badge&logo=github" alt="Repos" /></a>
     <a href="https://github.com/amarzeus?tab=repositories"><img src="https://img.shields.io/badge/Total%20Stars%20Earned-12-yellow?style=for-the-badge&logo=github" alt="Stars" /></a>
     <a href="https://github.com/amarzeus?tab=followers"><img src="https://img.shields.io/badge/GitHub%20Followers-1-green?style=for-the-badge&logo=github" alt="Followers" /></a>
@@ -347,7 +374,7 @@
   <!-- Live Visitor Map Fixed ID-->
   <div align="center">
   
-  ### 🌍 Global Reach
+### 🌍 Global Reach
   
   </div>
   <a href="https://clustrmaps.com/site/1o4lqs77qHtJhHsozhz0hLQWzRhlhFSI2_nIYUCS7X4" title="Visit tracker">
@@ -361,7 +388,7 @@
 <div align="center">
   <div align="center">
   
-  ## 🏙️ 3D Contributions City
+## 🏙️ 3D Contributions City
   
   </div>
   <a href="https://github.com/amarzeus"><img src="https://raw.githubusercontent.com/amarzeus/amarzeus/main/profile-3d-contrib/profile-night-rainbow.svg" alt="GitHub 3D City" width="100%" /></a>

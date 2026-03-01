@@ -7,6 +7,54 @@ import urllib.parse
 import urllib.request
 
 GITHUB_USERNAME = "amarzeus"
+
+def get_github_stats_image(username, title):
+    """
+    Constructs a responsive <picture> element that natively adapts to the user's GitHub theme preference.
+    """
+    dark_url = f"https://github-readme-stats-eight-theta.vercel.app/api?username={username}&show_icons=true&theme=tokyonight&hide_border=true&title_color=6366F1&icon_color=EC4899"
+    light_url = f"https://github-readme-stats-eight-theta.vercel.app/api?username={username}&show_icons=true&theme=default&hide_border=true&title_color=6366F1&icon_color=EC4899"
+    
+    return f'''
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="{dark_url}">
+      <source media="(prefers-color-scheme: light)" srcset="{light_url}">
+      <img src="{dark_url}" alt="{title}" />
+    </picture>
+    '''
+
+def get_top_langs_image(username):
+    """
+    Constructs a responsive <picture> element for top languages.
+    """
+    dark_url = f"https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username={username}&layout=compact&theme=tokyonight&hide_border=true&title_color=6366F1"
+    light_url = f"https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username={username}&layout=compact&theme=default&hide_border=true&title_color=6366F1"
+    
+    return f'''
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="{dark_url}">
+      <source media="(prefers-color-scheme: light)" srcset="{light_url}">
+      <img src="{dark_url}" alt="Top Languages" />
+    </picture>
+    '''
+
+def get_project_card_image(username, repo):
+    """
+    Constructs a responsive <picture> element for specific pinned project hover cards.
+    """
+    dark_url = f"https://github-readme-stats-eight-theta.vercel.app/api/pin/?username={username}&repo={urllib.parse.quote(repo)}&theme=tokyonight"
+    light_url = f"https://readme-stats-eight-theta.vercel.app/api/pin/?username={username}&repo={urllib.parse.quote(repo)}&theme=default"
+    
+    return f'''
+    <a href="https://github.com/{username}/{urllib.parse.quote(repo)}">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="{dark_url}">
+        <source media="(prefers-color-scheme: light)" srcset="{light_url}">
+        <img src="{dark_url}" alt="{repo}" />
+      </picture>
+    </a>
+    '''
+
 README_PATH = "README.md"
 CONFIG_PATH = "profile_config.json"
 
@@ -119,10 +167,40 @@ def generate_project_cards(projects):
         name = proj['name']
         if name == 'More Coming Soon':
             continue
-        # Use reliable Vercel mirror to avoid HTTP 503 from the main instance
-        html += f'    <a href="{proj["url"]}"><img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username={GITHUB_USERNAME}&repo={urllib.parse.quote(name)}&theme=tokyonight" alt="{name}" /></a>\n'
+        # Use reliable Vercel mirror to avoid HTTP 503 from the main instance with native theme adaptive picture tags
+        html += get_project_card_image(GITHUB_USERNAME, name) + '\n'
     html += '  </p>'
     return html
+
+def fetch_latest_articles():
+    """
+    Fetches the latest 3 articles from Dev.to API natively.
+    """
+    try:
+        req = urllib.request.Request(
+            'https://dev.to/api/articles?username=amarzeus&per_page=3',
+            headers={'User-Agent': 'Mozilla/5.0'}
+        )
+        with urllib.request.urlopen(req, timeout=10) as response:
+            articles = json.loads(response.read().decode())
+        
+        if not articles:
+            return "<!-- No recent articles found. Published posts will automatically sync here. -->"
+            
+        html = '<div align="left">\n<ul>\n'
+        for article in articles:
+            # Reformat Dev.to ISO date
+            published_date = datetime.strptime(article['published_at'], "%Y-%m-%dT%H:%M:%SZ").strftime("%b %d, %Y")
+            title = article['title']
+            link = article['url']
+            
+            html += f'  <li>📝 <a href="{link}"><strong>{title}</strong></a> - <i>{published_date}</i></li>\n'
+            
+        html += '</ul>\n</div>'
+        return html
+    except Exception as e:
+        print(f"Warning: Failed to fetch articles from dev.to API: {e}")
+        return "<!-- Article sync failed during current run. -->"
 
 def safe_shield_text(text):
     return text.replace('-', '--').replace('_', '__')
@@ -167,13 +245,20 @@ def get_latest_activity():
     try:
         data = json.loads(output)
         repos = data['data']['user']['repositories']['nodes']
-        activity = []
+        
+        # Define explicitly to satisfy pyre limits
+        activity_strs = []
         for repo in repos:
             date_str = repo['pushedAt'][:10]
-            activity.append(f"Push to [{repo['name']}]({repo['url']}) - {date_str}")
-        return activity
+            activity_strs.append(f"Push to [{repo['name']}]({repo['url']}) - {date_str}")
+        return activity_strs
     except:
         return []
+
+def replace_section(content, section_name, new_content):
+    start_tag = f"<!-- {section_name}:START -->"
+    end_tag = f"<!-- {section_name}:END -->"
+    return re.sub(f'{start_tag}.*?{end_tag}', f'{start_tag}\n{new_content}\n{end_tag}', content, flags=re.DOTALL)
 
 def update_readme(live_data):
     # Load configuration
@@ -197,6 +282,11 @@ def update_readme(live_data):
     with open(README_PATH, 'r') as f:
         content = f.read()
     
+    # Generate interactive sections natively
+    # timeline_html = generate_timeline(config.get('experience', [])) # Assuming generate_timeline exists elsewhere or is a placeholder
+    # projects_html = generate_project_cards(config.get('projects', [])) # This line seems to be a placeholder for a different structure
+    articles_html = fetch_latest_articles()
+
     # 1. Update Skill Meter
     skill_meter_start = "<!-- SKILL-METER:START -->"
     skill_meter_end = "<!-- SKILL-METER:END -->"
@@ -239,6 +329,9 @@ def update_readme(live_data):
         content = re.sub(f'{projects_start}.*?{projects_end}', 
                         f'{projects_start}\n{project_cards_html}\n  {projects_end}', 
                         content, flags=re.DOTALL)
+    
+    # Update Articles section
+    content = replace_section(content, 'ARTICLES', articles_html)
                         
     # 4. Update Quick Stats Overview badges
     stats = live_data['stats']
@@ -286,7 +379,10 @@ def update_readme(live_data):
         for item in timeline:
             if isinstance(item, dict):
                 desc_html = f" - {item.get('desc', '')}" if "desc" in item else ""
-                timeline_rows.append(f"    <li>{item.get('icon', '💼')} <strong>{item.get('year', '')}</strong>: <i>{item.get('role', '')}</i>{desc_html}</li>")
+                icon = str(item.get('icon', '💼'))
+                year = str(item.get('year', ''))
+                role = str(item.get('role', ''))
+                timeline_rows.append(f"    <li>{icon} <strong>{year}</strong>: <i>{role}</i>{desc_html}</li>")
         
         timeline_html = "\n".join(timeline_rows)
         timeline_block = f"""<details>

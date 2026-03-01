@@ -209,6 +209,9 @@
 </div>
 
 <div align="center">
+  <!-- IsoCalendar Tracking -->
+  <img alt="GitHub 3D Calendar" src="https://raw.githubusercontent.com/amarzeus/amarzeus/main/github-metrics-calendar.svg" width="100%">
+
   <!-- Snake Animation -->
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake.svg" width="100%">
 

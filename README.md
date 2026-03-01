@@ -148,7 +148,12 @@
 
 ---
 
+<div align="center">
+<a name="-featured-projects--achievements"></a>
 
+## 🏆 Featured Projects & Achievements
+
+</div>
 
 <div align="center">
   <!-- Animated Project Showcase -->

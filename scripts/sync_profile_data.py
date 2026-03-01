@@ -82,11 +82,22 @@ def get_live_data():
     total_size = sum(language_stats.values()) if language_stats else 1
     
     top_langs = []
-    for lang, size in sorted_langs[:6]:
+    # Use enumerate to safely iterate the max top 6 instead of slicing dict views directly
+    for i, (lang, size) in enumerate(sorted_langs):
+        if i >= 6:
+            break
         percentage = (size / total_size) * 100
         top_langs.append((lang, int(percentage)))
         
-    active_projects = [r for r in repos if r['name'].lower() != GITHUB_USERNAME.lower()][:2]
+    active_projects = []
+    # Safely build active projects without slicing a comprehension directly
+    count = 0
+    for r in repos:
+        if isinstance(r, dict) and r.get('name', '').lower() != GITHUB_USERNAME.lower():
+            active_projects.append(r)
+            count += 1
+            if count >= 2:
+                break
     
     while len(active_projects) < 2:
         active_projects.append({"name": "More Coming Soon", "description": "Working on new projects...", "url": f"https://github.com/{GITHUB_USERNAME}", "stargazerCount": 0, "forkCount": 0, "primaryLanguage": None})
@@ -251,6 +262,33 @@ def update_readme(live_data):
         content = re.sub(f'{adv_stats_start}.*?{adv_stats_end}', 
                         f'{adv_stats_start}\n{adv_stats}\n  {adv_stats_end}', 
                         content, flags=re.DOTALL)
+                        
+    # 5.5 Update Language Proficiency Meters
+    skill_meter_start = "<!-- SKILL-METER:START -->"
+    skill_meter_end = "<!-- SKILL-METER:END -->"
+    
+    color_map = ["6366F1", "EC4899", "22D3EE", "F8D866", "F85D7F", "00D4AA"]
+    
+    skills_rows = []
+    for i, (lang, percentage) in enumerate(live_data['top_langs']):
+      # map a color looping through the color map
+      color = color_map[i % len(color_map)]
+      skills_rows.append(f"      <tr><td><b>{lang}</b></td><td><img src=\"https://geps.dev/progress/{int(percentage)}?color={color}\" /></td></tr>")
+      
+    skills_html = "\n".join(skills_rows)
+    
+    skill_block = f"""  <details>
+    <summary>🎯 <strong>Skill Proficiency Levels</strong> <i>(Auto-Updated)</i></summary>
+    <br>
+    <table border="0">
+{skills_html}
+    </table>
+  </details>"""
+  
+    if skill_meter_start in content:
+        content = re.sub(f'{skill_meter_start}.*?{skill_meter_end}', 
+                        f'{skill_meter_start}\n{skill_block}\n  {skill_meter_end}', 
+                        content, flags=re.DOTALL)
 
     # 6. Hide Blog Section if empty
     blog_section_start = "<!-- BLOG-SECTION:START -->"
@@ -262,13 +300,13 @@ def update_readme(live_data):
     # The README.md has a static placeholder for blog posts right now, let's wrap it and hide it using regex locally.
     pass # Blog Section hides will be handled via README native markdown deletion since no blog logic exists in python yet
 
-    # 6. Bust Cache on Streak Stats
+    # 7. Bust Cache on Streak Stats
     # We remove the random timestamp to prevent unnecessary daily commits if stats haven't changed.
     content = re.sub(r'https://github-readme-streak-stats\.herokuapp\.com/\?user=amarzeus&theme=tokyonight&hide_border=true(?:&cb=\d+)?', 
                      f'https://github-readme-streak-stats.herokuapp.com/?user=amarzeus&theme=tokyonight&hide_border=true', 
                      content)
 
-    # 7. Update Recent Activity
+    # 8. Update Recent Activity
     activity_start = "<!-- ACTIVITY:START -->"
     activity_end = "<!-- ACTIVITY:END -->"
     

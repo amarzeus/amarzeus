@@ -15,13 +15,11 @@ def get_github_stats_image(username, title):
     dark_url = f"https://github-readme-stats-eight-theta.vercel.app/api?username={username}&show_icons=true&theme=tokyonight&hide_border=true&title_color=6366F1&icon_color=EC4899"
     light_url = f"https://github-readme-stats-eight-theta.vercel.app/api?username={username}&show_icons=true&theme=default&hide_border=true&title_color=6366F1&icon_color=EC4899"
     
-    return f'''
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="{dark_url}">
-      <source media="(prefers-color-scheme: light)" srcset="{light_url}">
-      <img src="{dark_url}" alt="{title}" />
-    </picture>
-    '''
+    return f'''<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="{dark_url}">
+  <source media="(prefers-color-scheme: light)" srcset="{light_url}">
+  <img src="{dark_url}" alt="{title}" />
+</picture>'''
 
 def get_top_langs_image(username):
     """
@@ -30,13 +28,11 @@ def get_top_langs_image(username):
     dark_url = f"https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username={username}&layout=compact&theme=tokyonight&hide_border=true&title_color=6366F1"
     light_url = f"https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username={username}&layout=compact&theme=default&hide_border=true&title_color=6366F1"
     
-    return f'''
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="{dark_url}">
-      <source media="(prefers-color-scheme: light)" srcset="{light_url}">
-      <img src="{dark_url}" alt="Top Languages" />
-    </picture>
-    '''
+    return f'''<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="{dark_url}">
+  <source media="(prefers-color-scheme: light)" srcset="{light_url}">
+  <img src="{dark_url}" alt="Top Languages" />
+</picture>'''
 
 def get_project_card_image(username, repo):
     """
@@ -45,15 +41,13 @@ def get_project_card_image(username, repo):
     dark_url = f"https://github-readme-stats-eight-theta.vercel.app/api/pin/?username={username}&repo={urllib.parse.quote(repo)}&theme=tokyonight"
     light_url = f"https://readme-stats-eight-theta.vercel.app/api/pin/?username={username}&repo={urllib.parse.quote(repo)}&theme=default"
     
-    return f'''
-    <a href="https://github.com/{username}/{urllib.parse.quote(repo)}">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="{dark_url}">
-        <source media="(prefers-color-scheme: light)" srcset="{light_url}">
-        <img src="{dark_url}" alt="{repo}" />
-      </picture>
-    </a>
-    '''
+    return f'''<a href="https://github.com/{username}/{urllib.parse.quote(repo)}">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="{dark_url}">
+    <source media="(prefers-color-scheme: light)" srcset="{light_url}">
+    <img src="{dark_url}" alt="{repo}" />
+  </picture>
+</a>'''
 
 README_PATH = "README.md"
 CONFIG_PATH = "profile_config.json"
@@ -160,7 +154,7 @@ def get_live_data():
     }
 
 def generate_project_cards(projects):
-    html = '  <p align="center">\n'
+    html = '<p align="center">\n'
     for proj in projects:
         name = proj['name']
         if name == 'More Coming Soon':

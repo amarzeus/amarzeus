@@ -69,7 +69,7 @@
   <!-- QUICK-STATS:START -->
   <p align="center">
     <a href="https://github.com/amarzeus?tab=repositories"><img src="https://img.shields.io/badge/Total%20Stars-12-F8D866?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Total Stars"></a>
-    <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Yearly%20Commits-1411-73C0F4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Yearly Commits"></a>
+    <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Yearly%20Commits-1412-73C0F4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Yearly Commits"></a>
     <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Focus-Building%20next--generation%20AI--powered%20development%20tools-F85D7F?style=for-the-badge&logoColor=white&labelColor=0D1117" alt="Current Focus"></a>
   </p>
   <!-- QUICK-STATS:END -->
@@ -148,36 +148,28 @@
 
 ---
 
-<div align="center" id="-featured-projects--achievements">
 
-## 🏆 Featured Projects & Achievements
-
-</div>
 
 <div align="center">
   <!-- Animated Project Showcase -->
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=9&height=3" width="100%">
   
   <!-- PROJECTS:START -->
-  <p align="center">
-
-    <a href="https://github.com/amarzeus/careops-app">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=careops-app&theme=tokyonight">
-        <source media="(prefers-color-scheme: light)" srcset="https://readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=careops-app&theme=default">
-        <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=careops-app&theme=tokyonight" alt="careops-app" />
-      </picture>
-    </a>
-    
-
-    <a href="https://github.com/amarzeus/gemini-skills">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=gemini-skills&theme=tokyonight">
-        <source media="(prefers-color-scheme: light)" srcset="https://readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=gemini-skills&theme=default">
-        <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=gemini-skills&theme=tokyonight" alt="gemini-skills" />
-      </picture>
-    </a>
-    
+<p align="center">
+<a href="https://github.com/amarzeus/careops-app">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=careops-app&theme=tokyonight">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=careops-app&theme=default">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=careops-app&theme=tokyonight" alt="careops-app" />
+  </picture>
+</a>
+<a href="https://github.com/amarzeus/gemini-skills">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=gemini-skills&theme=tokyonight">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=gemini-skills&theme=default">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=gemini-skills&theme=tokyonight" alt="gemini-skills" />
+  </picture>
+</a>
   </p>
   <!-- PROJECTS:END -->
   
@@ -335,7 +327,7 @@
   
   <!-- LIVE-DATA:START -->
   <div align="center">
-    <p>🕐 Last Updated: 2026-03-01</p>
+    <p>🕐 Last Updated: 2026-03-02</p>
     <p>💭 Quote: "First, solve the problem. Then, write the code."</p>
     <p>🎯 Current Focus: Building next-generation AI-powered development tools</p>
     <p>🚀 Active Projects: careops-app, gemini-skills</p>
@@ -356,7 +348,7 @@
   
   <!-- ADV-STATS:START -->
   <p align="center">
-    <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Total%20Commits%20(Year)-1411-orange?style=for-the-badge&logo=github" alt="Commits" /></a>
+    <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Total%20Commits%20(Year)-1412-orange?style=for-the-badge&logo=github" alt="Commits" /></a>
     <a href="https://github.com/amarzeus?tab=repositories"><img src="https://img.shields.io/badge/Total%20Public%20Repos-42-blue?style=for-the-badge&logo=github" alt="Repos" /></a>
     <a href="https://github.com/amarzeus?tab=repositories"><img src="https://img.shields.io/badge/Total%20Stars%20Earned-12-yellow?style=for-the-badge&logo=github" alt="Stars" /></a>
     <a href="https://github.com/amarzeus?tab=followers"><img src="https://img.shields.io/badge/GitHub%20Followers-1-green?style=for-the-badge&logo=github" alt="Followers" /></a>

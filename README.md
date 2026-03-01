@@ -66,8 +66,8 @@
 <div align="center">
   <!-- QUICK-STATS:START -->
   <p align="center">
-    <a href="https://github.com/amarzeus?tab=repositories"><img src="https://img.shields.io/badge/Total%20Stars-12-F8D866?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Total Stars"></a>
-    <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Yearly%20Commits-1407-73C0F4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Yearly Commits"></a>
+    <a href="https://github.com/amarzeus?tab=repositories"><img src="https://img.shields.io/badge/Total%20Stars-6-F8D866?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Total Stars"></a>
+    <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Yearly%20Commits-1408-73C0F4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Yearly Commits"></a>
     <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Focus-Building%20next--generation%20AI--powered%20development%20tools-F85D7F?style=for-the-badge&logoColor=white&labelColor=0D1117" alt="Current Focus"></a>
   </p>
   <!-- QUICK-STATS:END -->
@@ -121,12 +121,12 @@
     <summary>🎯 <strong>Skill Proficiency Levels</strong> <i>(Auto-Updated)</i></summary>
     <br>
     <table border="0">
-      <tr><td><b>TypeScript</b></td><td><img src="https://geps.dev/progress/70?color=6366F1" /></td></tr>
-      <tr><td><b>Python</b></td><td><img src="https://geps.dev/progress/19?color=EC4899" /></td></tr>
-      <tr><td><b>HTML</b></td><td><img src="https://geps.dev/progress/3?color=22D3EE" /></td></tr>
-      <tr><td><b>JavaScript</b></td><td><img src="https://geps.dev/progress/2?color=F8D866" /></td></tr>
-      <tr><td><b>Kotlin</b></td><td><img src="https://geps.dev/progress/1?color=F85D7F" /></td></tr>
-      <tr><td><b>CSS</b></td><td><img src="https://geps.dev/progress/1?color=00D4AA" /></td></tr>
+      <tr><td><b>TypeScript</b></td><td><img src="https://geps.dev/progress/72?color=6366F1" /></td></tr>
+      <tr><td><b>Python</b></td><td><img src="https://geps.dev/progress/22?color=EC4899" /></td></tr>
+      <tr><td><b>CSS</b></td><td><img src="https://geps.dev/progress/1?color=22D3EE" /></td></tr>
+      <tr><td><b>JavaScript</b></td><td><img src="https://geps.dev/progress/1?color=F8D866" /></td></tr>
+      <tr><td><b>PHP</b></td><td><img src="https://geps.dev/progress/0?color=F85D7F" /></td></tr>
+      <tr><td><b>HTML</b></td><td><img src="https://geps.dev/progress/0?color=00D4AA" /></td></tr>
     </table>
   </details>
   <!-- SKILL-METER:END -->
@@ -234,8 +234,8 @@
 <p>🚀 Push to [amarzeus](https://github.com/amarzeus/amarzeus) - 2026-03-01<br>
 🚀 Push to [careops-app](https://github.com/amarzeus/careops-app) - 2026-03-01<br>
 🚀 Push to [gemini-skills](https://github.com/amarzeus/gemini-skills) - 2026-02-13<br>
-🚀 Push to [english-bolo](https://github.com/amarzeus/english-bolo) - 2026-02-10<br>
-🚀 Push to [ai-counsellor](https://github.com/amarzeus/ai-counsellor) - 2026-02-05</p>
+🚀 Push to [ai-counsellor](https://github.com/amarzeus/ai-counsellor) - 2026-02-05<br>
+🚀 Push to [Whiteout-Survival-Discord-Bot](https://github.com/amarzeus/Whiteout-Survival-Discord-Bot) - 2026-02-04</p>
 </div>
   <!-- ACTIVITY:END -->
   </details>
@@ -333,9 +333,9 @@
   
   <!-- ADV-STATS:START -->
   <p align="center">
-    <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Total%20Commits%20(Year)-1407-orange?style=for-the-badge&logo=github" alt="Commits" /></a>
-    <a href="https://github.com/amarzeus?tab=repositories"><img src="https://img.shields.io/badge/Total%20Public%20Repos-42-blue?style=for-the-badge&logo=github" alt="Repos" /></a>
-    <a href="https://github.com/amarzeus?tab=repositories"><img src="https://img.shields.io/badge/Total%20Stars%20Earned-12-yellow?style=for-the-badge&logo=github" alt="Stars" /></a>
+    <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Total%20Commits%20(Year)-1408-orange?style=for-the-badge&logo=github" alt="Commits" /></a>
+    <a href="https://github.com/amarzeus?tab=repositories"><img src="https://img.shields.io/badge/Total%20Public%20Repos-23-blue?style=for-the-badge&logo=github" alt="Repos" /></a>
+    <a href="https://github.com/amarzeus?tab=repositories"><img src="https://img.shields.io/badge/Total%20Stars%20Earned-6-yellow?style=for-the-badge&logo=github" alt="Stars" /></a>
     <a href="https://github.com/amarzeus?tab=followers"><img src="https://img.shields.io/badge/GitHub%20Followers-1-green?style=for-the-badge&logo=github" alt="Followers" /></a>
     <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Main%20Language-TypeScript-red?style=for-the-badge&logo=code" alt="Top Lang" /></a>
     <a href="https://github.com/amarzeus/careops--app"><img src="https://img.shields.io/badge/Top%20Project-careops--app-purple?style=for-the-badge&logo=github" alt="Top Project" /></a>

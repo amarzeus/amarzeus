@@ -1,6 +1,6 @@
 name: Metrics
 on:
-  schedule: [{cron: "0 0 * * *"}]
+  schedule: [{cron: "0 */6 * * *"}]
   workflow_dispatch:
   push: {branches: ["master", "main"]}
 jobs:
@@ -17,7 +17,9 @@ jobs:
           user: amarzeus
           template: classic
           base: header, activity, community, repositories, metadata
+          repositories_affiliations: owner, collaborator
           config_timezone: Asia/Kolkata
+          config_order: base.header, base.activity, base.community, base.repositories, base.metadata
 
       - name: Language Metrics
         uses: lowlighter/metrics@latest

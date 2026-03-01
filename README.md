@@ -15,7 +15,7 @@
   
   <!-- Subtitle: Enhanced Typing Animation -->
   <a href="https://github.com/amarzeus">
-    <img src="https://readme-typing-svg.herokuapp.com/?lines=🚀+Full-Stack+Developer+%26+Cloud+Architect;🤖+AI%2FML+Engineer+%26+Data+Scientist;🌟+Open-Source+Contributor+%26+Mentor;⚡+Building+the+Future+One+Commit+at+a+Time;💡+Passionate+Problem+Solver+%26+Innovator;🔥+Available+for+Exciting+Projects&font=Fira+Code&center=true&width=900&height=50&color=6366F1&vCenter=true&pause=800&size=28&repeat=true&duration=4000" alt="Animated Typing Subtitle">
+    <img src="https://readme-typing-svg.demolab.com/?lines=🚀+Senior+Software+Engineer+%26+Cloud+Architect;🤖+AI%2FML+Developer+%26+Data+Scientist;🌟+Open-Source+Contributor+%26+Innovator;⚡+Building+Scalable+LLM+Pipelines;💡+Passionate+About+Distributed+Systems;🔥+Available+for+Exciting+Projects&font=Fira+Code&center=true&width=900&height=50&color=6366F1&vCenter=true&pause=1000&size=28&repeat=true&duration=4000" alt="Animated Typing Subtitle">
   </a>
   
   <!-- Plain-text SEO Bio -->
@@ -29,7 +29,9 @@
     <a href="https://www.linkedin.com/in/amarmahakal/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="LinkedIn"></a>
     <a href="https://x.com/its_meAmar"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=000000" alt="X (Twitter)"></a>
     <a href="https://github.com/sponsors/amarzeus"><img src="https://img.shields.io/badge/Sponsor-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white&labelColor=EA4AAA&message=Support%20My%20Work" alt="GitHub Sponsors"></a>
-    <a href="https://ko-fi.com/amarkumar"><img src="https://img.shields.io/badge/Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white&labelColor=FF5E5B&message=Buy%20Me%20Coffee" alt="Ko-fi"></a>
+  </p>
+  <p>
+    <a href="https://ko-fi.com/amarkumar"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Ko-fi" height="40"></a>
   </p>
   <p>
     <a href="mailto:amarmahakal92@gmail.com?subject=Opportunity%20Discussion&body=Hi%20Amar,%20I%20saw%20your%20GitHub%20profile..."><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335&message=Let's%20Talk" alt="Email"></a>
@@ -66,7 +68,7 @@
 <div align="center">
   <!-- QUICK-STATS:START -->
   <p align="center">
-    <a href="https://github.com/amarzeus?tab=repositories"><img src="https://img.shields.io/badge/Total%20Stars-6-F8D866?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Total Stars"></a>
+    <a href="https://github.com/amarzeus?tab=repositories"><img src="https://img.shields.io/badge/Total%20Stars-12-F8D866?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Total Stars"></a>
     <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Yearly%20Commits-1408-73C0F4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Yearly Commits"></a>
     <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Focus-Building%20next--generation%20AI--powered%20development%20tools-F85D7F?style=for-the-badge&logoColor=white&labelColor=0D1117" alt="Current Focus"></a>
   </p>
@@ -158,8 +160,8 @@
   
   <!-- PROJECTS:START -->
   <p align="center">
-    <a href="https://github.com/amarzeus/careops-app"><img src="https://opengraph.githubassets.com/1/amarzeus/careops-app" alt="careops-app" width="400"/></a>
-    <a href="https://github.com/amarzeus/gemini-skills"><img src="https://opengraph.githubassets.com/1/amarzeus/gemini-skills" alt="gemini-skills" width="400"/></a>
+    <a href="https://github.com/amarzeus/careops-app"><img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=careops-app&theme=tokyonight" alt="careops-app" /></a>
+    <a href="https://github.com/amarzeus/gemini-skills"><img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=gemini-skills&theme=tokyonight" alt="gemini-skills" /></a>
   </p>
   <!-- PROJECTS:END -->
   
@@ -209,8 +211,8 @@
 </div>
 
 <div align="center">
-  <!-- IsoCalendar Tracking -->
-  <img alt="GitHub 3D Calendar" src="https://raw.githubusercontent.com/amarzeus/amarzeus/main/github-metrics-calendar.svg" width="100%">
+  <!-- Galaxy Visualization (3D Rotating Contribs) -->
+  <img alt="GitHub 3D Calendar" src="https://raw.githubusercontent.com/amarzeus/amarzeus/main/profile-3d-contrib/profile-season-animate.svg" width="100%">
 
   <!-- Snake Animation -->
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake.svg" width="100%">
@@ -334,8 +336,8 @@
   <!-- ADV-STATS:START -->
   <p align="center">
     <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Total%20Commits%20(Year)-1408-orange?style=for-the-badge&logo=github" alt="Commits" /></a>
-    <a href="https://github.com/amarzeus?tab=repositories"><img src="https://img.shields.io/badge/Total%20Public%20Repos-23-blue?style=for-the-badge&logo=github" alt="Repos" /></a>
-    <a href="https://github.com/amarzeus?tab=repositories"><img src="https://img.shields.io/badge/Total%20Stars%20Earned-6-yellow?style=for-the-badge&logo=github" alt="Stars" /></a>
+    <a href="https://github.com/amarzeus?tab=repositories"><img src="https://img.shields.io/badge/Total%20Public%20Repos-42-blue?style=for-the-badge&logo=github" alt="Repos" /></a>
+    <a href="https://github.com/amarzeus?tab=repositories"><img src="https://img.shields.io/badge/Total%20Stars%20Earned-12-yellow?style=for-the-badge&logo=github" alt="Stars" /></a>
     <a href="https://github.com/amarzeus?tab=followers"><img src="https://img.shields.io/badge/GitHub%20Followers-1-green?style=for-the-badge&logo=github" alt="Followers" /></a>
     <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Main%20Language-TypeScript-red?style=for-the-badge&logo=code" alt="Top Lang" /></a>
     <a href="https://github.com/amarzeus/careops--app"><img src="https://img.shields.io/badge/Top%20Project-careops--app-purple?style=for-the-badge&logo=github" alt="Top Project" /></a>

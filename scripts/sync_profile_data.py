@@ -119,8 +119,8 @@ def generate_project_cards(projects):
         name = proj['name']
         if name == 'More Coming Soon':
             continue
-        # Use GitHub's official OpenGraph image as a reliable, high-quality repository card since github-readme-stats is down
-        html += f'    <a href="{proj["url"]}"><img src="https://opengraph.githubassets.com/1/{GITHUB_USERNAME}/{urllib.parse.quote(name)}" alt="{name}" width="400"/></a>\n'
+        # Use reliable Vercel mirror to avoid HTTP 503 from the main instance
+        html += f'    <a href="{proj["url"]}"><img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username={GITHUB_USERNAME}&repo={urllib.parse.quote(name)}&theme=tokyonight" alt="{name}" /></a>\n'
     html += '  </p>'
     return html
 

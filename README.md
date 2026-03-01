@@ -12,10 +12,8 @@
 <div align="center">
   <!-- Header: Waving Animation and Title -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=9&height=300&section=header&text=Hey,%20I'm%20Amar%20Kumar!&fontSize=70&fontColor=fff&animation=twinkling&fontAlignY=38" alt="Header" />
-  
-  <!-- Subtitle: Enhanced Typing Animation -->
   <a href="https://github.com/amarzeus">
-    <img src="https://readme-typing-svg.demolab.com/?lines=%F0%9F%9A%80+Senior+Software+Engineer+%26+Cloud+Architect;%F0%9F%A4%96+AI%2FML+Developer+%26+Data+Scientist;%F0%9F%8C%9F+Open-Source+Contributor+%26+Innovator;%E2%9A%A1+Building+Scalable+LLM+Pipelines;%F0%9F%92%A1+Passionate+About+Distributed+Systems;%F0%9F%94%A5+Available+for+Exciting+Projects&font=Fira+Code&center=true&width=900&height=50&color=6366F1&vCenter=true&pause=1000&size=28&repeat=true&duration=4000" alt="Animated Typing Subtitle">
+    <img src="https://readme-typing-svg.demolab.com/?lines=%F0%9F%9A%80+Senior+Software+Engineer+%26+Cloud+Architect;%F0%9F%A4%96+AI%2FML+Developer+%26+Data+Scientist;%F0%9F%8C%9F+Open-Source+Contributor+%26+Innovator;%E2%9A%A1+Building+Scalable+LLM+Pipelines;%F0%9F%92%A1+Passionate+About+Distributed+Systems;%F0%9F%94%A5+Available+for+Exciting+Projects&font=Fira+Code&center=true&width=900&height=50&color=6366F1&vCenter=true&pause=1000&size=28&repeat=true&duration=4000" alt="Animated Typing Subtitle" />
   </a>
 
   <!-- Plain-text SEO Bio -->
@@ -69,7 +67,7 @@
   <!-- QUICK-STATS:START -->
   <p align="center">
     <a href="https://github.com/amarzeus?tab=repositories"><img src="https://img.shields.io/badge/Total%20Stars-12-F8D866?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Total Stars"></a>
-    <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Yearly%20Commits-1412-73C0F4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Yearly Commits"></a>
+    <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Yearly%20Commits-1414-73C0F4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Yearly Commits"></a>
     <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Focus-Building%20next--generation%20AI--powered%20development%20tools-F85D7F?style=for-the-badge&logoColor=white&labelColor=0D1117" alt="Current Focus"></a>
   </p>
   <!-- QUICK-STATS:END -->
@@ -119,30 +117,26 @@
   </p>
   
   <!-- SKILL-METER:START -->
-  <details>
-    <summary>🎯 <strong>Skill Proficiency Levels</strong> <i>(Auto-Updated)</i></summary>
-    <br>
-    <table border="0">
+<details>
+<summary>🎯 <strong>Skill Proficiency Levels</strong> <i>(Auto-Updated)</i></summary>
+<br>
+<table border="0">
       <tr><td><b>TypeScript</b></td><td><img src="https://geps.dev/progress/70?color=6366F1" /></td></tr>
       <tr><td><b>Python</b></td><td><img src="https://geps.dev/progress/19?color=EC4899" /></td></tr>
       <tr><td><b>HTML</b></td><td><img src="https://geps.dev/progress/3?color=22D3EE" /></td></tr>
       <tr><td><b>JavaScript</b></td><td><img src="https://geps.dev/progress/2?color=F8D866" /></td></tr>
       <tr><td><b>Kotlin</b></td><td><img src="https://geps.dev/progress/1?color=F85D7F" /></td></tr>
       <tr><td><b>CSS</b></td><td><img src="https://geps.dev/progress/1?color=00D4AA" /></td></tr>
-    </table>
-  </details>
+</table>
+</details>
   <!-- SKILL-METER:END -->
   
-  <div align="center">
-  
-### Specializations
-  
-  </div>
-  <p>
-    <img src="https://img.shields.io/badge/Microservices-Architecture-FF6B6B?style=for-the-badge&logo=microgenetics&logoColor=white" />
-    <img src="https://img.shields.io/badge/Event--Driven-Systems-4ECDC4?style=for-the-badge&logo=apache-kafka&logoColor=white" />
-    <img src="https://img.shields.io/badge/Serverless-Computing-45B7D1?style=for-the-badge&logo=aws-lambda&logoColor=white" />
-    <img src="https://img.shields.io/badge/AI/ML-Integration-FFEAA7?style=for-the-badge&logo=tensorflow&logoColor=black" />
+  <h3 align="center">Specializations</h3>
+  <p align="center">
+    <img src="https://img.shields.io/badge/Microservices-Architecture-FF6B6B?style=for-the-badge&logo=microgenetics&logoColor=white" alt="Microservices" />
+    <img src="https://img.shields.io/badge/Event--Driven-Systems-4ECDC4?style=for-the-badge&logo=apache-kafka&logoColor=white" alt="Event Driven" />
+    <img src="https://img.shields.io/badge/Serverless-Computing-45B7D1?style=for-the-badge&logo=aws-lambda&logoColor=white" alt="Serverless" />
+    <img src="https://img.shields.io/badge/AI/ML-Integration-FFEAA7?style=for-the-badge&logo=tensorflow&logoColor=black" alt="AI/ML" />
   </p>
 </div>
 
@@ -192,9 +186,7 @@
   <br>
 
   <!-- Published Articles -->
-  <div align="center">
-### 📝 Recent Articles & Posts
-  </div>
+  <h3 align="center">📝 Recent Articles & Posts</h3>
   
   <!-- ARTICLES:START -->
 <!-- No recent articles found. Published posts will automatically sync here. -->
@@ -203,17 +195,11 @@
   <!-- Animated Separator -->
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=9&height=3" width="100%">
   
-  <div align="center">
-  
-### 🏅 GitHub Trophies & Achievements
-  
-  </div>
+  <h3 align="center">🏅 GitHub Trophies & Achievements</h3>
   <a href="https://github.com/ryo-ma/github-profile-trophy">
     <img src="https://github-profile-trophy.vercel.app/?username=amarzeus&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15" alt="GitHub Trophies" width="80%" />
   </a>
-  
-  <!-- Animated Achievement Badges -->
-  <div>
+  <div align="center">
     🏆 🔥 ⭐ 🚀
   </div>
 </div>
@@ -233,9 +219,8 @@
   <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="500" alt="Coding Animation">
 </div>
   <!-- Snake Animation -->
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake.svg" width="100%">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake.svg" width="100%" />
 
-  
   <!-- Wakatime Stats -->
   <details>
     <summary>🕰️ <strong>Weekly Development Breakdown</strong></summary>
@@ -257,7 +242,7 @@
 🚀 Push to [english-bolo](https://github.com/amarzeus/english-bolo) - 2026-02-10<br>
 🚀 Push to [ai-counsellor](https://github.com/amarzeus/ai-counsellor) - 2026-02-05</p>
 </div>
-  <!-- ACTIVITY:END -->
+<!-- ACTIVITY:END -->
   </details>
 </div>
 
@@ -274,14 +259,14 @@
 
 <!-- TIMELINE:START -->
 <details>
-  <summary>⏳ <strong>View Career Timeline</strong></summary>
-  <br>
-  <ul>
+<summary>⏳ <strong>View Career Timeline</strong></summary>
+<br>
+<ul>
     <li>💼 <strong>2024 - Present</strong>: <i>Architecting Scalable LLM Pipelines & AI Agents</i></li>
     <li>🚀 <strong>2022 - 2024</strong>: <i>Senior Full-Stack Engineer</i> - Developed high-availability Next.js & Python enterprise apps.</li>
     <li>🧠 <strong>2020 - 2022</strong>: <i>AI/ML Developer</i> - Built predictive data models and automation workflows.</li>
     <li>🎓 <strong>2019</strong>: <i>Computer Science Graduate</i> - Specialized in distributed systems and software engineering.</li>
-  </ul>
+</ul>
 </details>
 <!-- TIMELINE:END -->
 
@@ -310,15 +295,11 @@
     <a href="https://x.com/its_meAmar"><img src="https://img.shields.io/badge/X-Follow%20Me-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
   </p>
 
-  <div align="center">
-  
-### ☕ Support My Open-Source Work
-  
-  </div>
-  <p>If you like what I do, consider supporting me. It helps me dedicate more time to open-source projects.</p>
-  <p>
-    <a href="https://github.com/sponsors/amarzeus"><img src="https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white" /></a>
-    <a href="https://ko-fi.com/amarkumar"><img src="https://img.shields.io/badge/Ko--fi-Buy%20me%20a%20coffee-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" /></a>
+  <h3 align="center">☕ Support My Open-Source Work</h3>
+  <p align="center">If you like what I do, consider supporting me. It helps me dedicate more time to open-source projects.</p>
+  <p align="center">
+    <a href="https://github.com/sponsors/amarzeus"><img src="https://img.shields.io/badge/GitHub-Sponsor-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="GitHub Sponsor" /></a>
+    <a href="https://ko-fi.com/amarkumar"><img src="https://img.shields.io/badge/Ko--fi-Buy%20me%20a%20coffee-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white" alt="Ko-fi" /></a>
   </p>
   
   <!-- Dynamic Quote & Time Zone -->
@@ -344,16 +325,11 @@
 ---
 
 <!-- Advanced Analytics Dashboard -->
-<div align="center">
-  <div align="center">
-  
-## 📊 Advanced Analytics Dashboard
-  
-  </div>
+  <h2 align="center">📊 Advanced Analytics Dashboard</h2>
   
   <!-- ADV-STATS:START -->
   <p align="center">
-    <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Total%20Commits%20(Year)-1412-orange?style=for-the-badge&logo=github" alt="Commits" /></a>
+    <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Total%20Commits%20(Year)-1414-orange?style=for-the-badge&logo=github" alt="Commits" /></a>
     <a href="https://github.com/amarzeus?tab=repositories"><img src="https://img.shields.io/badge/Total%20Public%20Repos-42-blue?style=for-the-badge&logo=github" alt="Repos" /></a>
     <a href="https://github.com/amarzeus?tab=repositories"><img src="https://img.shields.io/badge/Total%20Stars%20Earned-12-yellow?style=for-the-badge&logo=github" alt="Stars" /></a>
     <a href="https://github.com/amarzeus?tab=followers"><img src="https://img.shields.io/badge/GitHub%20Followers-1-green?style=for-the-badge&logo=github" alt="Followers" /></a>
@@ -376,21 +352,15 @@
 ---
 
 <!-- GitHub 3D Contributions -->
-<div align="center">
-  <div align="center">
-  
-## 🏙️ 3D Contributions City
-  
-  </div>
+  <h2 align="center">🏙️ 3D Contributions City</h2>
   <a href="https://github.com/amarzeus"><img src="https://raw.githubusercontent.com/amarzeus/amarzeus/main/profile-3d-contrib/profile-night-rainbow.svg" alt="GitHub 3D City" width="100%" /></a>
 </div>
 
 ---
 
-<div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=9&height=150&section=footer" alt="Footer" />
-  <p><i>"Innovation distinguishes between a leader and a follower. Building the future, one commit at a time."</i></p>
-  <p><b>Made with ❤️ and ☕</b></p>
-  <br><br>
-  <sub>⭐ Star my repositories if you find them useful! ⭐</sub>
+  <p align="center"><i>"Innovation distinguishes between a leader and a follower. Building the future, one commit at a time."</i></p>
+  <p align="center"><b>Made with ❤️ and ☕</b></p>
+  <br />
+  <p align="center"><sub>⭐ Star my repositories if you find them useful! ⭐</sub></p>
 </div>

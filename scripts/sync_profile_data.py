@@ -379,11 +379,11 @@ def update_readme(live_data):
         
         timeline_html = "\n".join(timeline_rows)
         timeline_block = f"""<details>
-  <summary>⏳ <strong>View Career Timeline</strong></summary>
-  <br>
-  <ul>
+<summary>⏳ <strong>View Career Timeline</strong></summary>
+<br>
+<ul>
 {timeline_html}
-  </ul>
+</ul>
 </details>"""
 
         if timeline_start in content:
@@ -405,13 +405,13 @@ def update_readme(live_data):
       
     skills_html = "\n".join(skills_rows)
     
-    skill_block = f"""  <details>
-    <summary>🎯 <strong>Skill Proficiency Levels</strong> <i>(Auto-Updated)</i></summary>
-    <br>
-    <table border="0">
+    skill_block = f"""<details>
+<summary>🎯 <strong>Skill Proficiency Levels</strong> <i>(Auto-Updated)</i></summary>
+<br>
+<table border="0">
 {skills_html}
-    </table>
-  </details>"""
+</table>
+</details>"""
   
     if skill_meter_start in content:
         content = re.sub(f'{skill_meter_start}.*?{skill_meter_end}', 
@@ -443,7 +443,7 @@ def update_readme(live_data):
     
     if activity_start in content:
         content = re.sub(f'{activity_start}.*?{activity_end}', 
-                        f'{activity_start}\n<div align="left">\n<p>{act_str}</p>\n</div>\n  {activity_end}', 
+                        f'{activity_start}\n<div align="left">\n<p>{act_str}</p>\n</div>\n{activity_end}', 
                         content, flags=re.DOTALL)
 
     with open(README_PATH, 'w') as f:

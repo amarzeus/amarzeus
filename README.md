@@ -236,11 +236,6 @@
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="500" alt="Coding Animation">
 </div>
-
-<div align="center">
-  <!-- Galaxy Visualization (3D Rotating Contribs) -->
-  <img alt="GitHub 3D Calendar" src="https://raw.githubusercontent.com/amarzeus/amarzeus/main/profile-3d-contrib/profile-season-animate.svg" width="100%">
-
   <!-- Snake Animation -->
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/amarzeus/amarzeus/output/github-contribution-grid-snake.svg" width="100%">
 

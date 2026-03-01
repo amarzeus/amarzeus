@@ -222,9 +222,9 @@ def update_readme(live_data):
     
     encoded_focus = urllib.parse.quote(safe_shield_text(focus))
     quick_stats = f"""  <p align="center">
-    <img src="https://img.shields.io/badge/Total%20Stars-{stats['stars']}-F8D866?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Total Stars">
-    <img src="https://img.shields.io/badge/Yearly%20Commits-{stats['commits']}-73C0F4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Yearly Commits">
-    <img src="https://img.shields.io/badge/Focus-{encoded_focus}-F85D7F?style=for-the-badge&logoColor=white&labelColor=0D1117" alt="Current Focus">
+    <a href="https://github.com/{GITHUB_USERNAME}?tab=repositories"><img src="https://img.shields.io/badge/Total%20Stars-{stats['stars']}-F8D866?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Total Stars"></a>
+    <a href="https://github.com/{GITHUB_USERNAME}"><img src="https://img.shields.io/badge/Yearly%20Commits-{stats['commits']}-73C0F4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Yearly Commits"></a>
+    <a href="https://github.com/{GITHUB_USERNAME}"><img src="https://img.shields.io/badge/Focus-{encoded_focus}-F85D7F?style=for-the-badge&logoColor=white&labelColor=0D1117" alt="Current Focus"></a>
   </p>"""
 
     if quick_stats_start in content:
@@ -239,12 +239,12 @@ def update_readme(live_data):
     top_project = safe_shield_text(active_names.split(', ')[0]) if active_names else 'None'
 
     adv_stats = f"""  <p align="center">
-    <img src="https://img.shields.io/badge/Total%20Commits%20(Year)-{stats['commits']}-orange?style=for-the-badge&logo=github" alt="Commits" />
-    <img src="https://img.shields.io/badge/Total%20Public%20Repos-{stats['repos']}-blue?style=for-the-badge&logo=github" alt="Repos" />
-    <img src="https://img.shields.io/badge/Total%20Stars%20Earned-{stats['stars']}-yellow?style=for-the-badge&logo=github" alt="Stars" />
-    <img src="https://img.shields.io/badge/GitHub%20Followers-{stats['followers']}-green?style=for-the-badge&logo=github" alt="Followers" />
-    <img src="https://img.shields.io/badge/Main%20Language-{urllib.parse.quote(best_lang)}-red?style=for-the-badge&logo=code" alt="Top Lang" />
-    <img src="https://img.shields.io/badge/Top%20Project-{urllib.parse.quote(top_project)}-purple?style=for-the-badge&logo=github" alt="Top Project" />
+    <a href="https://github.com/{GITHUB_USERNAME}"><img src="https://img.shields.io/badge/Total%20Commits%20(Year)-{stats['commits']}-orange?style=for-the-badge&logo=github" alt="Commits" /></a>
+    <a href="https://github.com/{GITHUB_USERNAME}?tab=repositories"><img src="https://img.shields.io/badge/Total%20Public%20Repos-{stats['repos']}-blue?style=for-the-badge&logo=github" alt="Repos" /></a>
+    <a href="https://github.com/{GITHUB_USERNAME}?tab=repositories"><img src="https://img.shields.io/badge/Total%20Stars%20Earned-{stats['stars']}-yellow?style=for-the-badge&logo=github" alt="Stars" /></a>
+    <a href="https://github.com/{GITHUB_USERNAME}?tab=followers"><img src="https://img.shields.io/badge/GitHub%20Followers-{stats['followers']}-green?style=for-the-badge&logo=github" alt="Followers" /></a>
+    <a href="https://github.com/{GITHUB_USERNAME}"><img src="https://img.shields.io/badge/Main%20Language-{urllib.parse.quote(best_lang)}-red?style=for-the-badge&logo=code" alt="Top Lang" /></a>
+    <a href="https://github.com/{GITHUB_USERNAME}/{urllib.parse.quote(top_project)}"><img src="https://img.shields.io/badge/Top%20Project-{urllib.parse.quote(top_project)}-purple?style=for-the-badge&logo=github" alt="Top Project" /></a>
   </p>"""
 
     if adv_stats_start in content:

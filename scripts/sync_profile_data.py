@@ -108,7 +108,8 @@ def generate_project_cards(projects):
         name = proj['name']
         if name == 'More Coming Soon':
             continue
-        html += f'    <a href="{proj["url"]}"><img src="https://github-readme-stats.vercel.app/api/pin/?username={GITHUB_USERNAME}&repo={urllib.parse.quote(name)}&theme=tokyonight" alt="{name}" /></a>\n'
+        # Use GitHub's official OpenGraph image as a reliable, high-quality repository card since github-readme-stats is down
+        html += f'    <a href="{proj["url"]}"><img src="https://opengraph.githubassets.com/1/{GITHUB_USERNAME}/{urllib.parse.quote(name)}" alt="{name}" width="400"/></a>\n'
     html += '  </p>'
     return html
 
@@ -164,25 +165,8 @@ def get_latest_activity():
         return []
 
 def update_readme(live_data):
-    insights = [
-        "Building next-generation AI-powered development tools",
-        "Exploring quantum computing applications",
-        "Researching advanced ML optimization techniques",
-        "Building next-gen distributed systems",
-        "Developing autonomous code generation tools",
-        "Optimizing real-time data processing pipelines"
-    ]
-    
-    quotes = [
-        "Code is poetry written in logic.",
-        "Innovation distinguishes between a leader and a follower.",
-        "First, solve the problem. Then, write the code.",
-        "The best error message is the one that never shows up.",
-        "Building the future, one commit at a time."
-    ]
-
-    focus = random.choice(insights)
-    quote = random.choice(quotes)
+    focus = "Building next-generation AI-powered development tools"
+    quote = "The best error message is the one that never shows up."
     learning = "Advanced System Design & AI"
         
     with open(README_PATH, 'r') as f:
@@ -207,7 +191,7 @@ def update_readme(live_data):
     live_data_start = "<!-- LIVE-DATA:START -->"
     live_data_end = "<!-- LIVE-DATA:END -->"
     
-    now = datetime.now().strftime("%-m/%-d/%Y, %-I:%M:%S %p")
+    now = datetime.now().strftime("%Y-%m-%d")
     active_names = ", ".join([p['name'] for p in live_data['active_projects_list'] if p['name'] != 'More Coming Soon'])
     
     live_section = f"""  <div align="center">
@@ -279,9 +263,9 @@ def update_readme(live_data):
     pass # Blog Section hides will be handled via README native markdown deletion since no blog logic exists in python yet
 
     # 6. Bust Cache on Streak Stats
-    now_ts = int(datetime.now().timestamp())
+    # We remove the random timestamp to prevent unnecessary daily commits if stats haven't changed.
     content = re.sub(r'https://github-readme-streak-stats\.herokuapp\.com/\?user=amarzeus&theme=tokyonight&hide_border=true(?:&cb=\d+)?', 
-                     f'https://github-readme-streak-stats.herokuapp.com/?user=amarzeus&theme=tokyonight&hide_border=true&cb={now_ts}', 
+                     f'https://github-readme-streak-stats.herokuapp.com/?user=amarzeus&theme=tokyonight&hide_border=true', 
                      content)
 
     # 7. Update Recent Activity

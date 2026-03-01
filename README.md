@@ -31,7 +31,7 @@
   </p>
   <p>
     <a href="mailto:amarmahakal92@gmail.com?subject=Opportunity%20Discussion&body=Hi%20Amar,%20I%20saw%20your%20GitHub%20profile..."><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335&message=Let's%20Talk" alt="Email"></a>
-    <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000&message=Visit%20Site" alt="Portfolio"></a>
+    <a href="https://amarzeus.github.io/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000&message=Visit%20Site" alt="Portfolio"></a>
   </p>
   <p>
     <img src="https://komarev.com/ghpvc/?username=amarzeus&style=for-the-badge&color=6366F1&label=PROFILE+VIEWS" alt="Profile Views">
@@ -41,8 +41,8 @@
   
   <!-- Real-time Coding Stats -->
   <p>
-    <img src="https://img.shields.io/github/commit-activity/y/amarzeus/amarzeus?style=for-the-badge&color=F8D866&labelColor=0D1117&label=Commits%20This%20Year" alt="Commits This Year">
-    <img src="https://img.shields.io/badge/Current%20Streak-🔥%20Active-F85D7F?style=for-the-badge&labelColor=0D1117" alt="Current Streak">
+    <img src="https://img.shields.io/badge/Code-Quality%20First-F8D866?style=for-the-badge&labelColor=0D1117&logo=github" alt="Code Quality First">
+    <img src="https://img.shields.io/badge/Status-Building%20the%20future-F85D7F?style=for-the-badge&labelColor=0D1117&logo=rocket" alt="Status">
   </p>
   
   <!-- Animated Rainbow Divider -->
@@ -65,14 +65,14 @@
   <!-- QUICK-STATS:START -->
   <p align="center">
     <img src="https://img.shields.io/badge/Total%20Stars-12-F8D866?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Total Stars">
-    <img src="https://img.shields.io/badge/Yearly%20Commits-1401-73C0F4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Yearly Commits">
+    <img src="https://img.shields.io/badge/Yearly%20Commits-1402-73C0F4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Yearly Commits">
     <img src="https://img.shields.io/badge/Focus-Building%20next--generation%20AI--powered%20development%20tools-F85D7F?style=for-the-badge&logoColor=white&labelColor=0D1117" alt="Current Focus">
   </p>
   <!-- QUICK-STATS:END -->
   
   <p align="center">
     <img src="https://raw.githubusercontent.com/amarzeus/amarzeus/main/github-metrics-base.svg" alt="GitHub Stats" />
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=amarzeus&theme=tokyonight&hide_border=true&cb=1772352881" alt="GitHub Streak" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=amarzeus&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
   </p>
   <p align="center">
     <img src="https://raw.githubusercontent.com/amarzeus/amarzeus/main/github-metrics-langs.svg" alt="Top Languages" />
@@ -164,8 +164,8 @@
   
   <!-- PROJECTS:START -->
   <p align="center">
-    <a href="https://github.com/amarzeus/careops-app"><img src="https://github-readme-stats.vercel.app/api/pin/?username=amarzeus&repo=careops-app&theme=tokyonight" alt="careops-app" /></a>
-    <a href="https://github.com/amarzeus/gemini-skills"><img src="https://github-readme-stats.vercel.app/api/pin/?username=amarzeus&repo=gemini-skills&theme=tokyonight" alt="gemini-skills" /></a>
+    <a href="https://github.com/amarzeus/careops-app"><img src="https://opengraph.githubassets.com/1/amarzeus/careops-app" alt="careops-app" width="400"/></a>
+    <a href="https://github.com/amarzeus/gemini-skills"><img src="https://opengraph.githubassets.com/1/amarzeus/gemini-skills" alt="gemini-skills" width="400"/></a>
   </p>
   <!-- PROJECTS:END -->
   
@@ -188,8 +188,8 @@
   ### 🏅 GitHub Trophies & Achievements
   
   </div>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api?username=amarzeus&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" width="80%" />
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=amarzeus&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15" alt="GitHub Trophies" width="80%" />
   </a>
   
   <!-- Animated Achievement Badges -->
@@ -228,7 +228,7 @@
   <details>
     <summary>🕰️ <strong>Weekly Development Breakdown</strong></summary>
     <br>
-    <img src="https://github-readme-stats.vercel.app/api/wakatime?username=amarzeus&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4&layout=compact&langs_count=8" alt="Wakatime Stats" />
+    <img src="https://raw.githubusercontent.com/amarzeus/amarzeus/main/github-metrics-wakatime.svg" alt="Wakatime Stats" />
 
   </details>
   
@@ -318,7 +318,7 @@
   
   <!-- LIVE-DATA:START -->
   <div align="center">
-    <p>🕐 Last Updated: 3/1/2026, 1:44:41 PM</p>
+    <p>🕐 Last Updated: 2026-03-01</p>
     <p>💭 Quote: "The best error message is the one that never shows up."</p>
     <p>🎯 Current Focus: Building next-generation AI-powered development tools</p>
     <p>🚀 Active Projects: careops-app, gemini-skills</p>
@@ -339,7 +339,7 @@
   
   <!-- ADV-STATS:START -->
   <p align="center">
-    <img src="https://img.shields.io/badge/Total%20Commits%20(Year)-1401-orange?style=for-the-badge&logo=github" alt="Commits" />
+    <img src="https://img.shields.io/badge/Total%20Commits%20(Year)-1402-orange?style=for-the-badge&logo=github" alt="Commits" />
     <img src="https://img.shields.io/badge/Total%20Public%20Repos-42-blue?style=for-the-badge&logo=github" alt="Repos" />
     <img src="https://img.shields.io/badge/Total%20Stars%20Earned-12-yellow?style=for-the-badge&logo=github" alt="Stars" />
     <img src="https://img.shields.io/badge/GitHub%20Followers-1-green?style=for-the-badge&logo=github" alt="Followers" />

@@ -147,16 +147,59 @@ def download_svg(url, filename):
     except Exception as e:
         print(f"Failed to download {filename}: {e}")
 
-def update_readme(live_data):
-    try:
-        with open(CONFIG_PATH, 'r') as f:
-            config = json.load(f)
-    except:
-        config = {
-            "focus": "Building next-generation applications",
-            "learning": "Advanced System Design",
-            "quote": "Keep shipping."
+import random
+
+def get_latest_activity():
+    query = """
+    query {
+      user(login: "%s") {
+        repositories(first: 5, orderBy: {field: PUSHED_AT, direction: DESC}) {
+          nodes {
+            name
+            url
+            pushedAt
+          }
         }
+      }
+    }
+    """ % GITHUB_USERNAME
+    
+    output = run_command(f"gh api graphql -f query='{query}'")
+    if not output:
+        return []
+    
+    try:
+        data = json.loads(output)
+        repos = data['data']['user']['repositories']['nodes']
+        activity = []
+        for repo in repos:
+            date_str = repo['pushedAt'][:10]
+            activity.append(f"Push to [{repo['name']}]({repo['url']}) - {date_str}")
+        return activity
+    except:
+        return []
+
+def update_readme(live_data):
+    insights = [
+        "Building next-generation AI-powered development tools",
+        "Exploring quantum computing applications",
+        "Researching advanced ML optimization techniques",
+        "Building next-gen distributed systems",
+        "Developing autonomous code generation tools",
+        "Optimizing real-time data processing pipelines"
+    ]
+    
+    quotes = [
+        "Code is poetry written in logic.",
+        "Innovation distinguishes between a leader and a follower.",
+        "First, solve the problem. Then, write the code.",
+        "The best error message is the one that never shows up.",
+        "Building the future, one commit at a time."
+    ]
+
+    focus = random.choice(insights)
+    quote = random.choice(quotes)
+    learning = "Advanced System Design & AI"
         
     with open(README_PATH, 'r') as f:
         content = f.read()
@@ -185,10 +228,10 @@ def update_readme(live_data):
     
     live_section = f"""  <div align="center">
     <p>🕐 Last Updated: {now}</p>
-    <p>💭 Quote: "{config['quote']}"</p>
-    <p>🎯 Current Focus: {config['focus']}</p>
+    <p>💭 Quote: "{quote}"</p>
+    <p>🎯 Current Focus: {focus}</p>
     <p>🚀 Active Projects: {active_names}</p>
-    <p>💡 Learning: {config['learning']}</p>
+    <p>💡 Learning: {learning}</p>
   </div>"""
     
     content = re.sub(f'{live_data_start}.*?{live_data_end}', 
@@ -209,7 +252,7 @@ def update_readme(live_data):
     quick_stats_start = "<!-- QUICK-STATS:START -->"
     quick_stats_end = "<!-- QUICK-STATS:END -->"
     
-    encoded_focus = urllib.parse.quote(safe_shield_text(config['focus']))
+    encoded_focus = urllib.parse.quote(safe_shield_text(focus))
     quick_stats = f"""  <p>
     <img src="https://img.shields.io/badge/Total%20Stars-{stats['stars']}-F8D866?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Total Stars">
     <img src="https://img.shields.io/badge/Yearly%20Commits-{stats['commits']}-73C0F4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Yearly Commits">
@@ -250,6 +293,18 @@ def update_readme(live_data):
     content = re.sub(r'https://github-readme-streak-stats\.herokuapp\.com/\?user=amarzeus&theme=tokyonight&hide_border=true(?:&cb=\d+)?', 
                      f'https://github-readme-streak-stats.herokuapp.com/?user=amarzeus&theme=tokyonight&hide_border=true&cb={now_ts}', 
                      content)
+
+    # 7. Update Recent Activity
+    activity_start = "<!-- ACTIVITY:START -->"
+    activity_end = "<!-- ACTIVITY:END -->"
+    
+    activity = get_latest_activity()
+    act_str = "<br>\n".join(f"🚀 {a}" for a in activity) if activity else "_No recent activity found._"
+    
+    if activity_start in content:
+        content = re.sub(f'{activity_start}.*?{activity_end}', 
+                        f'{activity_start}\n<div align="left">\n<p>{act_str}</p>\n</div>\n  {activity_end}', 
+                        content, flags=re.DOTALL)
 
     with open(README_PATH, 'w') as f:
         f.write(content)

@@ -58,13 +58,8 @@
 <div align="center">
   <!-- QUICK-STATS:START -->
   <p>
-<<<<<<< HEAD
-    <img src="https://img.shields.io/badge/Total%20Stars-6-F8D866?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Total Stars">
-    <img src="https://img.shields.io/badge/Yearly%20Commits-1396-73C0F4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Yearly Commits">
-=======
     <img src="https://img.shields.io/badge/Total%20Stars-12-F8D866?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Total Stars">
-    <img src="https://img.shields.io/badge/Yearly%20Commits-1398-73C0F4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Yearly Commits">
->>>>>>> 2440338 (fix(readme): implement strict cache busting for streak stats)
+    <img src="https://img.shields.io/badge/Yearly%20Commits-1399-73C0F4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Yearly Commits">
     <img src="https://img.shields.io/badge/Focus-Building%20next--generation%20AI--powered%20development%20tools-F85D7F?style=for-the-badge&logoColor=white&labelColor=0D1117" alt="Current Focus">
   </p>
   <!-- QUICK-STATS:END -->
@@ -75,7 +70,7 @@
         <img src="https://raw.githubusercontent.com/amarzeus/amarzeus/main/github-metrics-base.svg" alt="GitHub Stats" />
       </td>
       <td width="50%">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=amarzeus&theme=tokyonight&hide_border=true&cb=1772351494" alt="GitHub Streak" />
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=amarzeus&theme=tokyonight&hide_border=true&cb=1772351762" alt="GitHub Streak" />
       </td>
     </tr>
     <tr>
@@ -140,12 +135,12 @@
     <summary>🎯 <strong>Skill Proficiency Levels</strong></summary>
     <br>
     <table border="0">
-      <tr><td><b>TypeScript</b></td><td><img src="https://geps.dev/progress/72?color=6366F1" /></td></tr>
-      <tr><td><b>Python</b></td><td><img src="https://geps.dev/progress/22?color=EC4899" /></td></tr>
-      <tr><td><b>CSS</b></td><td><img src="https://geps.dev/progress/1?color=22D3EE" /></td></tr>
-      <tr><td><b>JavaScript</b></td><td><img src="https://geps.dev/progress/1?color=F8D866" /></td></tr>
-      <tr><td><b>PHP</b></td><td><img src="https://geps.dev/progress/0?color=F85D7F" /></td></tr>
-      <tr><td><b>HTML</b></td><td><img src="https://geps.dev/progress/0?color=00D4AA" /></td></tr>
+      <tr><td><b>TypeScript</b></td><td><img src="https://geps.dev/progress/70?color=6366F1" /></td></tr>
+      <tr><td><b>Python</b></td><td><img src="https://geps.dev/progress/19?color=EC4899" /></td></tr>
+      <tr><td><b>HTML</b></td><td><img src="https://geps.dev/progress/3?color=22D3EE" /></td></tr>
+      <tr><td><b>JavaScript</b></td><td><img src="https://geps.dev/progress/2?color=F8D866" /></td></tr>
+      <tr><td><b>Kotlin</b></td><td><img src="https://geps.dev/progress/1?color=F85D7F" /></td></tr>
+      <tr><td><b>CSS</b></td><td><img src="https://geps.dev/progress/1?color=00D4AA" /></td></tr>
     </table>
   </details>
   <!-- SKILL-METER:END -->
@@ -273,6 +268,22 @@
     <img src="https://github-readme-stats.vercel.app/api/wakatime?username=amarzeus&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=73C0F4&layout=compact&langs_count=8" alt="Wakatime Stats" />
 
   </details>
+  
+  <br>
+  
+  <details>
+    <summary>⚡ <strong>Recent GitHub Activity</strong></summary>
+    <br>
+    <!-- ACTIVITY:START -->
+<div align="left">
+<p>🚀 Push to [amarzeus](https://github.com/amarzeus/amarzeus) - 2026-03-01<br>
+🚀 Push to [careops-app](https://github.com/amarzeus/careops-app) - 2026-03-01<br>
+🚀 Push to [gemini-skills](https://github.com/amarzeus/gemini-skills) - 2026-02-13<br>
+🚀 Push to [english-bolo](https://github.com/amarzeus/english-bolo) - 2026-02-10<br>
+🚀 Push to [ai-counsellor](https://github.com/amarzeus/ai-counsellor) - 2026-02-05</p>
+</div>
+  <!-- ACTIVITY:END -->
+  </details>
 </div>
 
 ---
@@ -347,15 +358,11 @@ _No recent articles found. Stay tuned for upcoming posts!_
   
   <!-- LIVE-DATA:START -->
   <div align="center">
-<<<<<<< HEAD
-    <p>🕐 Last Updated: 3/1/2026, 12:17:58 PM
-=======
-    <p>🕐 Last Updated: 3/1/2026, 1:21:34 PM</p>
->>>>>>> 2440338 (fix(readme): implement strict cache busting for streak stats)
-    <p>💭 Quote: "First, solve the problem. Then, write the code."</p>
+    <p>🕐 Last Updated: 3/1/2026, 1:26:02 PM</p>
+    <p>💭 Quote: "The best error message is the one that never shows up."</p>
     <p>🎯 Current Focus: Building next-generation AI-powered development tools</p>
     <p>🚀 Active Projects: careops-app, gemini-skills</p>
-    <p>💡 Learning: Advanced ML Optimization, Distributed Systems</p>
+    <p>💡 Learning: Advanced System Design & AI</p>
   </div>
   <!-- LIVE-DATA:END -->
 </div>
@@ -373,7 +380,7 @@ _No recent articles found. Stay tuned for upcoming posts!_
   <!-- ADV-STATS:START -->
   <table>
     <tr>
-      <td><img src="https://img.shields.io/badge/Total%20Commits%20(Year)-1398-orange?style=for-the-badge&logo=github" alt="Commits" /></td>
+      <td><img src="https://img.shields.io/badge/Total%20Commits%20(Year)-1399-orange?style=for-the-badge&logo=github" alt="Commits" /></td>
       <td><img src="https://img.shields.io/badge/Total%20Public%20Repos-42-blue?style=for-the-badge&logo=github" alt="Repos" /></td>
       <td><img src="https://img.shields.io/badge/Total%20Stars%20Earned-12-yellow?style=for-the-badge&logo=github" alt="Stars" /></td>
     </tr>

@@ -103,29 +103,13 @@ def get_live_data():
     }
 
 def generate_project_cards(projects):
-    html = "  <table>\n    <tr>\n"
+    html = '  <p align="center">\n'
     for proj in projects:
         name = proj['name']
-        desc = proj['description'] or "A cool project."
-        url = proj['url']
-        stars = proj.get('stargazerCount', 0)
-        forks = proj.get('forkCount', 0)
-        lang = proj.get('primaryLanguage')
-        lang_str = ""
-        if lang:
-            lang_str = f"<span style='color: {lang['color']};'>●</span> {lang['name']}"
-            
-        html += f"""      <td width="50%">
-        <div style="background: linear-gradient(135deg, #1e1e2e 0%, #2d2b55 100%); border-radius: 10px; padding: 20px; color: white;">
-          <h3><a href="{url}" style="color: #6366F1; text-decoration: none;">📁 {name}</a></h3>
-          <p style="font-size: 14px; min-height: 40px;">{desc}</p>
-          <div style="font-size: 13px; display: flex; justify-content: space-between;">
-            <span>{lang_str}</span>
-            <span>⭐ {stars} &nbsp;&nbsp; 🍴 {forks}</span>
-          </div>
-        </div>
-      </td>\n"""
-    html += "    </tr>\n  </table>"
+        if name == 'More Coming Soon':
+            continue
+        html += f'    <a href="{proj["url"]}"><img src="https://github-readme-stats.vercel.app/api/pin/?username={GITHUB_USERNAME}&repo={urllib.parse.quote(name)}&theme=tokyonight" alt="{name}" /></a>\n'
+    html += '  </p>'
     return html
 
 def safe_shield_text(text):
@@ -253,7 +237,7 @@ def update_readme(live_data):
     quick_stats_end = "<!-- QUICK-STATS:END -->"
     
     encoded_focus = urllib.parse.quote(safe_shield_text(focus))
-    quick_stats = f"""  <p>
+    quick_stats = f"""  <p align="center">
     <img src="https://img.shields.io/badge/Total%20Stars-{stats['stars']}-F8D866?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Total Stars">
     <img src="https://img.shields.io/badge/Yearly%20Commits-{stats['commits']}-73C0F4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Yearly Commits">
     <img src="https://img.shields.io/badge/Focus-{encoded_focus}-F85D7F?style=for-the-badge&logoColor=white&labelColor=0D1117" alt="Current Focus">
@@ -270,23 +254,29 @@ def update_readme(live_data):
     best_lang = safe_shield_text(live_data['top_langs'][0][0]) if live_data['top_langs'] else 'None'
     top_project = safe_shield_text(active_names.split(', ')[0]) if active_names else 'None'
 
-    adv_stats = f"""  <table>
-    <tr>
-      <td><img src="https://img.shields.io/badge/Total%20Commits%20(Year)-{stats['commits']}-orange?style=for-the-badge&logo=github" alt="Commits" /></td>
-      <td><img src="https://img.shields.io/badge/Total%20Public%20Repos-{stats['repos']}-blue?style=for-the-badge&logo=github" alt="Repos" /></td>
-      <td><img src="https://img.shields.io/badge/Total%20Stars%20Earned-{stats['stars']}-yellow?style=for-the-badge&logo=github" alt="Stars" /></td>
-    </tr>
-    <tr>
-      <td><img src="https://img.shields.io/badge/GitHub%20Followers-{stats['followers']}-green?style=for-the-badge&logo=github" alt="Followers" /></td>
-      <td><img src="https://img.shields.io/badge/Main%20Language-{urllib.parse.quote(best_lang)}-red?style=for-the-badge&logo=code" alt="Top Lang" /></td>
-      <td><img src="https://img.shields.io/badge/Top%20Project-{urllib.parse.quote(top_project)}-purple?style=for-the-badge&logo=github" alt="Top Project" /></td>
-    </tr>
-  </table>"""
+    adv_stats = f"""  <p align="center">
+    <img src="https://img.shields.io/badge/Total%20Commits%20(Year)-{stats['commits']}-orange?style=for-the-badge&logo=github" alt="Commits" />
+    <img src="https://img.shields.io/badge/Total%20Public%20Repos-{stats['repos']}-blue?style=for-the-badge&logo=github" alt="Repos" />
+    <img src="https://img.shields.io/badge/Total%20Stars%20Earned-{stats['stars']}-yellow?style=for-the-badge&logo=github" alt="Stars" />
+    <img src="https://img.shields.io/badge/GitHub%20Followers-{stats['followers']}-green?style=for-the-badge&logo=github" alt="Followers" />
+    <img src="https://img.shields.io/badge/Main%20Language-{urllib.parse.quote(best_lang)}-red?style=for-the-badge&logo=code" alt="Top Lang" />
+    <img src="https://img.shields.io/badge/Top%20Project-{urllib.parse.quote(top_project)}-purple?style=for-the-badge&logo=github" alt="Top Project" />
+  </p>"""
 
     if adv_stats_start in content:
         content = re.sub(f'{adv_stats_start}.*?{adv_stats_end}', 
                         f'{adv_stats_start}\n{adv_stats}\n  {adv_stats_end}', 
                         content, flags=re.DOTALL)
+
+    # 6. Hide Blog Section if empty
+    blog_section_start = "<!-- BLOG-SECTION:START -->"
+    blog_section_end = "<!-- BLOG-SECTION:END -->"
+    blog_content_start = "<!-- BLOG-POST-LIST:START -->"
+    blog_content_end = "<!-- BLOG-POST-LIST:END -->"
+    
+    # We'll just check if the posts string is empty. Currently it's a fixed placeholder on README
+    # The README.md has a static placeholder for blog posts right now, let's wrap it and hide it using regex locally.
+    pass # Blog Section hides will be handled via README native markdown deletion since no blog logic exists in python yet
 
     # 6. Bust Cache on Streak Stats
     now_ts = int(datetime.now().timestamp())

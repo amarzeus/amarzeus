@@ -15,6 +15,12 @@
   <a href="https://github.com/amarzeus">
     <img src="https://readme-typing-svg.herokuapp.com/?lines=🚀+Full-Stack+Developer+%26+Cloud+Architect;🤖+AI%2FML+Engineer+%26+Data+Scientist;🌟+Open-Source+Contributor+%26+Mentor;⚡+Building+the+Future+One+Commit+at+a+Time;💡+Passionate+Problem+Solver+%26+Innovator;🔥+Available+for+Exciting+Projects&font=Fira+Code&center=true&width=900&height=50&color=6366F1&vCenter=true&pause=800&size=28&repeat=true&duration=4000" alt="Animated Typing Subtitle">
   </a>
+  
+  <!-- Plain-text SEO Bio -->
+  <p align="center">
+    <b>Senior Software Engineer | AI Researcher | Full-Stack Architect</b><br>
+    Specializing in scalable cloud architectures, intelligent systems, and next-generation development tools using TypeScript, Python, and modern open-source technologies.
+  </p>
 
   <!-- Enhanced Social & Stats Badges -->
   <p>
@@ -24,7 +30,7 @@
     <a href="https://ko-fi.com/amarkumar"><img src="https://img.shields.io/badge/Ko--fi-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white&labelColor=FF5E5B&message=Buy%20Me%20Coffee" alt="Ko-fi"></a>
   </p>
   <p>
-    <a href="mailto:amarmahakal92@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335&message=Let's%20Talk" alt="Email"></a>
+    <a href="mailto:amarmahakal92@gmail.com?subject=Opportunity%20Discussion&body=Hi%20Amar,%20I%20saw%20your%20GitHub%20profile..."><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335&message=Let's%20Talk" alt="Email"></a>
     <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000&message=Visit%20Site" alt="Portfolio"></a>
   </p>
   <p>
@@ -57,41 +63,27 @@
 
 <div align="center">
   <!-- QUICK-STATS:START -->
-  <p>
+  <p align="center">
     <img src="https://img.shields.io/badge/Total%20Stars-12-F8D866?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Total Stars">
-    <img src="https://img.shields.io/badge/Yearly%20Commits-1399-73C0F4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Yearly Commits">
+    <img src="https://img.shields.io/badge/Yearly%20Commits-1401-73C0F4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Yearly Commits">
     <img src="https://img.shields.io/badge/Focus-Building%20next--generation%20AI--powered%20development%20tools-F85D7F?style=for-the-badge&logoColor=white&labelColor=0D1117" alt="Current Focus">
   </p>
   <!-- QUICK-STATS:END -->
   
-  <table>
-    <tr>
-      <td width="50%">
-        <img src="https://raw.githubusercontent.com/amarzeus/amarzeus/main/github-metrics-base.svg" alt="GitHub Stats" />
-      </td>
-      <td width="50%">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=amarzeus&theme=tokyonight&hide_border=true&cb=1772351762" alt="GitHub Streak" />
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2">
-        <img src="https://raw.githubusercontent.com/amarzeus/amarzeus/main/github-metrics-langs.svg" alt="Top Languages" width="100%" />
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=amarzeus&theme=tokyonight" alt="Profile Summary" width="100%" />
-      </td>
-    </tr>
-    <tr>
-      <td width="50%">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=amarzeus&theme=tokyonight&utc_offset=8" alt="Productive Time" />
-      </td>
-      <td width="50%">
-        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=amarzeus&theme=tokyonight" alt="Repos per Language" />
-      </td>
-    </tr>
-  </table>
+  <p align="center">
+    <img src="https://raw.githubusercontent.com/amarzeus/amarzeus/main/github-metrics-base.svg" alt="GitHub Stats" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=amarzeus&theme=tokyonight&hide_border=true&cb=1772352881" alt="GitHub Streak" />
+  </p>
+  <p align="center">
+    <img src="https://raw.githubusercontent.com/amarzeus/amarzeus/main/github-metrics-langs.svg" alt="Top Languages" />
+  </p>
+  <p align="center">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=amarzeus&theme=tokyonight" alt="Profile Summary" />
+  </p>
+  <p align="center">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=amarzeus&theme=tokyonight&utc_offset=8" alt="Productive Time" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=amarzeus&theme=tokyonight" alt="Repos per Language" />
+  </p>
 </div>
 
 ---
@@ -171,50 +163,21 @@
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
   
   <!-- PROJECTS:START -->
-  <table>
-    <tr>
-      <td width="50%">
-        <div style="background: linear-gradient(135deg, #1e1e2e 0%, #2d2b55 100%); border-radius: 10px; padding: 20px; color: white;">
-          <h3><a href="https://github.com/amarzeus/careops-app" style="color: #6366F1; text-decoration: none;">📁 careops-app</a></h3>
-          <p style="font-size: 14px; min-height: 40px;">CareOps</p>
-          <div style="font-size: 13px; display: flex; justify-content: space-between;">
-            <span><span style='color: #3178c6;'>●</span> TypeScript</span>
-            <span>⭐ 1 &nbsp;&nbsp; 🍴 0</span>
-          </div>
-        </div>
-      </td>
-      <td width="50%">
-        <div style="background: linear-gradient(135deg, #1e1e2e 0%, #2d2b55 100%); border-radius: 10px; padding: 20px; color: white;">
-          <h3><a href="https://github.com/amarzeus/gemini-skills" style="color: #6366F1; text-decoration: none;">📁 gemini-skills</a></h3>
-          <p style="font-size: 14px; min-height: 40px;">Skills for the Gemini API, SDK and model/agent interactions</p>
-          <div style="font-size: 13px; display: flex; justify-content: space-between;">
-            <span></span>
-            <span>⭐ 0 &nbsp;&nbsp; 🍴 0</span>
-          </div>
-        </div>
-      </td>
-    </tr>
-  </table>
+  <p align="center">
+    <a href="https://github.com/amarzeus/careops-app"><img src="https://github-readme-stats.vercel.app/api/pin/?username=amarzeus&repo=careops-app&theme=tokyonight" alt="careops-app" /></a>
+    <a href="https://github.com/amarzeus/gemini-skills"><img src="https://github-readme-stats.vercel.app/api/pin/?username=amarzeus&repo=gemini-skills&theme=tokyonight" alt="gemini-skills" /></a>
+  </p>
   <!-- PROJECTS:END -->
   
   <!-- Interactive Project Cards -->
   <details>
     <summary>🔍 <strong>View More Projects</strong></summary>
     <br>
-    <table>
-      <tr>
-        <td>🌐 <strong>Web Development</strong></td>
-        <td>⚡ React, Next.js, Vue.js applications</td>
-      </tr>
-      <tr>
-        <td>🤖 <strong>AI/ML Projects</strong></td>
-        <td>🧠 TensorFlow, PyTorch implementations</td>
-      </tr>
-      <tr>
-        <td>☁️ <strong>Cloud Solutions</strong></td>
-        <td>🏗️ AWS, Docker, Kubernetes deployments</td>
-      </tr>
-    </table>
+    <ul align="left">
+      <li>🌐 <strong>Web Development:</strong> ⚡ React, Next.js, Vue.js applications</li>
+      <li>🤖 <strong>AI/ML Projects:</strong> 🧠 TensorFlow, PyTorch implementations</li>
+      <li>☁️ <strong>Cloud Solutions:</strong> 🏗️ AWS, Docker, Kubernetes deployments</li>
+    </ul>
   </details>
   
   <!-- Animated Separator -->
@@ -288,28 +251,25 @@
 
 ---
 
-<!-- Blog Section Header -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<!-- Experience Timeline Section Header -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider">
 
 <div align="center">
 
-## ✍️ Recent Blog Posts
+## 💼 Experience & Timeline
 
 </div>
 
-<!-- Animated Writing GIF -->
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="400" alt="Coding Animation">
-</div>
-
-<div align="center">
-
-<!-- BLOG-POST-LIST:START -->
-_No recent articles found. Stay tuned for upcoming posts!_
-<!-- BLOG-POST-LIST:END -->
-  _This section updates automatically. Stay tuned for new articles!_
-
-</div>
+<details>
+  <summary>⏳ <strong>View Career Timeline</strong></summary>
+  <br>
+  <ul>
+    <li>💼 <strong>2024 - Present</strong>: <i>Architecting Scalable LLM Pipelines & AI Agents</i></li>
+    <li>🚀 <strong>2022 - 2024</strong>: <i>Senior Full-Stack Engineer</i> - Developed high-availability Next.js & Python enterprise apps.</li>
+    <li>🧠 <strong>2020 - 2022</strong>: <i>AI/ML Developer</i> - Built predictive data models and automation workflows.</li>
+    <li>🎓 <strong>2019</strong>: <i>Computer Science Graduate</i> - Specialized in distributed systems and software engineering.</li>
+  </ul>
+</details>
 
 ---
 
@@ -332,7 +292,7 @@ _No recent articles found. Stay tuned for upcoming posts!_
   
   <p>
     <a href="https://www.linkedin.com/in/amarmahakal/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-    <a href="mailto:amarmahakal92@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+    <a href="mailto:amarmahakal92@gmail.com?subject=Opportunity%20Discussion&body=Hi%20Amar,%20I%20saw%20your%20GitHub%20profile..."><img src="https://img.shields.io/badge/Email-Say%20Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
     <a href="https://x.com/its_meAmar"><img src="https://img.shields.io/badge/X-Follow%20Me-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
   </p>
 
@@ -358,7 +318,7 @@ _No recent articles found. Stay tuned for upcoming posts!_
   
   <!-- LIVE-DATA:START -->
   <div align="center">
-    <p>🕐 Last Updated: 3/1/2026, 1:26:02 PM</p>
+    <p>🕐 Last Updated: 3/1/2026, 1:44:41 PM</p>
     <p>💭 Quote: "The best error message is the one that never shows up."</p>
     <p>🎯 Current Focus: Building next-generation AI-powered development tools</p>
     <p>🚀 Active Projects: careops-app, gemini-skills</p>
@@ -378,18 +338,14 @@ _No recent articles found. Stay tuned for upcoming posts!_
   </div>
   
   <!-- ADV-STATS:START -->
-  <table>
-    <tr>
-      <td><img src="https://img.shields.io/badge/Total%20Commits%20(Year)-1399-orange?style=for-the-badge&logo=github" alt="Commits" /></td>
-      <td><img src="https://img.shields.io/badge/Total%20Public%20Repos-42-blue?style=for-the-badge&logo=github" alt="Repos" /></td>
-      <td><img src="https://img.shields.io/badge/Total%20Stars%20Earned-12-yellow?style=for-the-badge&logo=github" alt="Stars" /></td>
-    </tr>
-    <tr>
-      <td><img src="https://img.shields.io/badge/GitHub%20Followers-1-green?style=for-the-badge&logo=github" alt="Followers" /></td>
-      <td><img src="https://img.shields.io/badge/Main%20Language-TypeScript-red?style=for-the-badge&logo=code" alt="Top Lang" /></td>
-      <td><img src="https://img.shields.io/badge/Top%20Project-careops--app-purple?style=for-the-badge&logo=github" alt="Top Project" /></td>
-    </tr>
-  </table>
+  <p align="center">
+    <img src="https://img.shields.io/badge/Total%20Commits%20(Year)-1401-orange?style=for-the-badge&logo=github" alt="Commits" />
+    <img src="https://img.shields.io/badge/Total%20Public%20Repos-42-blue?style=for-the-badge&logo=github" alt="Repos" />
+    <img src="https://img.shields.io/badge/Total%20Stars%20Earned-12-yellow?style=for-the-badge&logo=github" alt="Stars" />
+    <img src="https://img.shields.io/badge/GitHub%20Followers-1-green?style=for-the-badge&logo=github" alt="Followers" />
+    <img src="https://img.shields.io/badge/Main%20Language-TypeScript-red?style=for-the-badge&logo=code" alt="Top Lang" />
+    <img src="https://img.shields.io/badge/Top%20Project-careops--app-purple?style=for-the-badge&logo=github" alt="Top Project" />
+  </p>
   <!-- ADV-STATS:END -->
   
   <!-- Live Visitor Map Fixed ID-->
@@ -399,7 +355,7 @@ _No recent articles found. Stay tuned for upcoming posts!_
   
   </div>
   <a href="https://clustrmaps.com/site/1o4lqs77qHtJhHsozhz0hLQWzRhlhFSI2_nIYUCS7X4" title="Visit tracker">
-    <img src="https://clustrmaps.com/map_v2.png?d=1o4lqs77qHtJhHsozhz0hLQWzRhlhFSI2_nIYUCS7X4&cl=080808&w=a&t=tt&co=ffffff&ct=808080" alt="Visitor Map" />
+    <img src="https://clustrmaps.com/map_v2.png?d=1o4lqs77qHtJhHsozhz0hLQWzRhlhFSI2_nIYUCS7X4&cl=6366F1&w=a&t=tt&co=0D1117&ct=1e1e2e" alt="Visitor Map" />
   </a>
 </div>
 

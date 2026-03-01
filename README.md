@@ -67,7 +67,7 @@
   <!-- QUICK-STATS:START -->
   <p align="center">
     <a href="https://github.com/amarzeus?tab=repositories"><img src="https://img.shields.io/badge/Total%20Stars-12-F8D866?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Total Stars"></a>
-    <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Yearly%20Commits-1414-73C0F4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Yearly Commits"></a>
+    <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Yearly%20Commits-1416-73C0F4?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117" alt="Yearly Commits"></a>
     <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Focus-Building%20next--generation%20AI--powered%20development%20tools-F85D7F?style=for-the-badge&logoColor=white&labelColor=0D1117" alt="Current Focus"></a>
   </p>
   <!-- QUICK-STATS:END -->
@@ -162,11 +162,39 @@
     <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=careops-app&theme=tokyonight" alt="careops-app" />
   </picture>
 </a>
-<a href="https://github.com/amarzeus/gemini-skills">
+<a href="https://github.com/amarzeus/ai-counsellor">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=gemini-skills&theme=tokyonight">
-    <source media="(prefers-color-scheme: light)" srcset="https://readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=gemini-skills&theme=default">
-    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=gemini-skills&theme=tokyonight" alt="gemini-skills" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=ai-counsellor&theme=tokyonight">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=ai-counsellor&theme=default">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=ai-counsellor&theme=tokyonight" alt="ai-counsellor" />
+  </picture>
+</a>
+<a href="https://github.com/amarzeus/collaborative-task-manager">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=collaborative-task-manager&theme=tokyonight">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=collaborative-task-manager&theme=default">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=collaborative-task-manager&theme=tokyonight" alt="collaborative-task-manager" />
+  </picture>
+</a>
+<a href="https://github.com/amarzeus/Biasbuster">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=Biasbuster&theme=tokyonight">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=Biasbuster&theme=default">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=Biasbuster&theme=tokyonight" alt="Biasbuster" />
+  </picture>
+</a>
+<a href="https://github.com/amarzeus/AI-Data-Agent">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=AI-Data-Agent&theme=tokyonight">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=AI-Data-Agent&theme=default">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=AI-Data-Agent&theme=tokyonight" alt="AI-Data-Agent" />
+  </picture>
+</a>
+<a href="https://github.com/amarzeus/github-stats-cli">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=github-stats-cli&theme=tokyonight">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=github-stats-cli&theme=default">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=amarzeus&repo=github-stats-cli&theme=tokyonight" alt="github-stats-cli" />
   </picture>
 </a>
   </p>
@@ -196,10 +224,11 @@
   <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=9&height=3" width="100%">
   
   <h3 align="center">🏅 GitHub Trophies & Achievements</h3>
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=amarzeus&theme=tokyonight&no-frame=true&no-bg=true&margin-w=15" alt="GitHub Trophies" width="80%" />
-  </a>
   <div align="center">
+    <a href="https://github.com/ryo-ma/github-profile-trophy">
+      <img src="https://github-profile-trophy.vercel.app/?username=amarzeus&theme=tokyonight&margin-w=15&no-frame=true" alt="GitHub Trophies" width="90%" />
+    </a>
+    <br />
     🏆 🔥 ⭐ 🚀
   </div>
 </div>
@@ -316,7 +345,7 @@
     <p>🕐 Last Updated: 2026-03-02</p>
     <p>💭 Quote: "First, solve the problem. Then, write the code."</p>
     <p>🎯 Current Focus: Building next-generation AI-powered development tools</p>
-    <p>🚀 Active Projects: careops-app, gemini-skills</p>
+    <p>🚀 Active Projects: careops-app, ai-counsellor, collaborative-task-manager, Biasbuster, AI-Data-Agent, github-stats-cli</p>
     <p>💡 Learning: Advanced ML Optimization, Distributed Systems</p>
   </div>
   <!-- LIVE-DATA:END -->
@@ -329,7 +358,7 @@
   
   <!-- ADV-STATS:START -->
   <p align="center">
-    <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Total%20Commits%20(Year)-1414-orange?style=for-the-badge&logo=github" alt="Commits" /></a>
+    <a href="https://github.com/amarzeus"><img src="https://img.shields.io/badge/Total%20Commits%20(Year)-1416-orange?style=for-the-badge&logo=github" alt="Commits" /></a>
     <a href="https://github.com/amarzeus?tab=repositories"><img src="https://img.shields.io/badge/Total%20Public%20Repos-42-blue?style=for-the-badge&logo=github" alt="Repos" /></a>
     <a href="https://github.com/amarzeus?tab=repositories"><img src="https://img.shields.io/badge/Total%20Stars%20Earned-12-yellow?style=for-the-badge&logo=github" alt="Stars" /></a>
     <a href="https://github.com/amarzeus?tab=followers"><img src="https://img.shields.io/badge/GitHub%20Followers-1-green?style=for-the-badge&logo=github" alt="Followers" /></a>
@@ -338,15 +367,13 @@
   </p>
   <!-- ADV-STATS:END -->
   
-  <!-- Live Visitor Map Fixed ID-->
   <div align="center">
-  
-### 🌍 Global Reach
-  
+    <a name="-global-reach"></a>
+    <h3 align="center">🌍 Global Reach</h3>
+    <a href="https://clustrmaps.com/site/1o4lqs77qHtJhHsozhz0hLQWzRhlhFSI2_nIYUCS7X4" title="Visit tracker">
+      <img src="https://clustrmaps.com/map_v2.png?d=1o4lqs77qHtJhHsozhz0hLQWzRhlhFSI2_nIYUCS7X4&cl=6366F1&w=a&t=tt&co=0D1117&ct=1e1e2e" alt="Visitor Map" />
+    </a>
   </div>
-  <a href="https://clustrmaps.com/site/1o4lqs77qHtJhHsozhz0hLQWzRhlhFSI2_nIYUCS7X4" title="Visit tracker">
-    <img src="https://clustrmaps.com/map_v2.png?d=1o4lqs77qHtJhHsozhz0hLQWzRhlhFSI2_nIYUCS7X4&cl=6366F1&w=a&t=tt&co=0D1117&ct=1e1e2e" alt="Visitor Map" />
-  </a>
 </div>
 
 ---

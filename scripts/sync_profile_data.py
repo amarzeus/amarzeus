@@ -131,12 +131,15 @@ def get_live_data():
         percentage: float = (float(size) / float(total_size)) * 100.0
         top_langs.append((lang, int(percentage)))
         
+    # Sort by stars to ensure "Featured Projects" show the most impressive ones
+    repos_by_stars = sorted(repos, key=lambda r: r.get('stargazerCount', 0), reverse=True)
+    
     active_projects: list[dict] = []
     # Safely build active projects without slicing a comprehension directly
-    for r in repos:
+    for r in repos_by_stars:
         if isinstance(r, dict) and r.get('name', '').lower() != GITHUB_USERNAME.lower():
             active_projects.append(r)
-            if len(active_projects) >= 2:
+            if len(active_projects) >= 6: # Show more projects if available
                 break
     
     while len(active_projects) < 2:

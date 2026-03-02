@@ -25,20 +25,20 @@
   <!-- Enhanced Social & Stats Badges -->
   <p>
     <a href="https://www.linkedin.com/in/amarmahakal/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="LinkedIn"></a>
-    <a href="https://x.com/its_meAmar"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=000000" alt="X (Twitter)"></a>
+    <a href="https://twitter.com/amarzeus"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=000000" alt="X (Twitter)"></a>
     <a href="https://github.com/sponsors/amarzeus"><img src="https://img.shields.io/badge/Sponsor-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white&labelColor=EA4AAA&message=Support%20My%20Work" alt="GitHub Sponsors"></a>
   </p>
   <p>
     <a href="https://ko-fi.com/amarkumar"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Ko-fi" height="40"></a>
   </p>
   <p>
-    <a href="mailto:amarmahakal92@gmail.com?subject=Opportunity%20Discussion&body=Hi%20Amar,%20I%20saw%20your%20GitHub%20profile..."><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335&message=Let's%20Talk" alt="Email"></a>
-    <a href="https://amarzeus.github.io/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000&message=Visit%20Site" alt="Portfolio"></a>
+    <a href="mailto:contact@amarzeus.dev?subject=Opportunity%20Discussion&body=Hi%20Amar,%20I%20saw%20your%20GitHub%20profile..."><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335&message=Let's%20Talk" alt="Email"></a>
+    <a href="https://amarzeus.dev"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000&message=Visit%20Site" alt="Portfolio"></a>
   </p>
   <p>
     <a href="https://github.com/amarzeus"><img src="https://komarev.com/ghpvc/?username=amarzeus&style=for-the-badge&color=6366F1&label=PROFILE+VIEWS" alt="Profile Views"></a>
     <a href="https://github.com/amarzeus?tab=followers"><img src="https://img.shields.io/github/followers/amarzeus?style=for-the-badge&logo=github&logoColor=white&color=EC4899" alt="Followers"></a>
-    <a href="mailto:amarmahakal92@gmail.com"><img src="https://img.shields.io/badge/AVAILABLE-FOR%20HIRE-00D4AA?style=for-the-badge&logo=handshake&logoColor=white" alt="Available for Hire"></a>
+    <a href="mailto:contact@amarzeus.dev"><img src="https://img.shields.io/badge/AVAILABLE-FOR%20HIRE-00D4AA?style=for-the-badge&logo=handshake&logoColor=white" alt="Available for Hire"></a>
   </p>
   
   <!-- Real-time Coding Stats -->
@@ -320,8 +320,8 @@
   
   <p>
     <a href="https://www.linkedin.com/in/amarmahakal/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-    <a href="mailto:amarmahakal92@gmail.com?subject=Opportunity%20Discussion&body=Hi%20Amar,%20I%20saw%20your%20GitHub%20profile..."><img src="https://img.shields.io/badge/Email-Say%20Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-    <a href="https://x.com/its_meAmar"><img src="https://img.shields.io/badge/X-Follow%20Me-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
+    <a href="mailto:contact@amarzeus.dev?subject=Opportunity%20Discussion&body=Hi%20Amar,%20I%20saw%20your%20GitHub%20profile..."><img src="https://img.shields.io/badge/Email-Say%20Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+    <a href="https://twitter.com/amarzeus"><img src="https://img.shields.io/badge/X-Follow%20Me-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
   </p>
 
   <h3 align="center">☕ Support My Open-Source Work</h3>
